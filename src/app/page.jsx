@@ -1,4 +1,4 @@
-import { Card } from "../components/card";
+import { Card } from "../components/Card";
 import styles from "./page.module.css";
 import { Header } from "../components/header";
 import HeroSection from "../components/HeroSection";
