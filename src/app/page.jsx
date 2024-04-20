@@ -1,7 +1,7 @@
-import { Card } from "@dubai/components/card";
+import { Card } from "../components/card";
 import styles from "./page.module.css";
-import { Header } from "@dubai/components/header";
-import HeroSection from "@dubai/components/HeroSection";
+import { Header } from "../components/header";
+import HeroSection from "../components/HeroSection";
 
 export default function Home() {
   return (
