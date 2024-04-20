@@ -123,6 +123,101 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section style={{ paddingBlock: "66px", background: "#fcfcfc" }}>
+        <div className="px-md-4 px-3 d-flex flex-column gap-50">
+          <div className="d-flex flex-column text-center gap-27">
+            <div
+              style={{ color: "#333", fontSize: "24px" }}
+              className="fw-bold"
+            >
+              Our Clients
+            </div>
+            <div className="h2 mx-auto" style={{ maxWidth: "752px" }}>
+              At Dubai OTC, our clients are at the forefront of everything we
+              do.
+            </div>
+          </div>
+
+          <div className="row g-4 justify-content-center align-items-center">
+            <div className="col-md-6">
+              <img src="images/map.png" className="img-fluid" />
+            </div>
+            <div className="col-md-6">
+              <div className="d-flex gap-3 justify-content-center flex-wrap">
+                <div className="clients-card ">Individual Investor</div>
+                <div className="clients-card ">SME Business</div>
+                <div className="clients-card ">Crypto Traders</div>
+                <div className="clients-card ">High net worth individual</div>
+                <div className="clients-card ">Property Buyers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ background: "#f9fafd", paddingBlock: "150px" }}>
+        <div className="px-md-5 px-3 mx-auto" style={{ maxWidth: "1551px" }}>
+          <div className="row g-5 align-items-center justify-content-center">
+            <div className="col-md-5">
+              <div className="d-flex gap-28 flex-column">
+                <div className="h1">
+                  Thrilled with Dubai OTC's Exceptional Service: Clients
+                  Testimonial
+                </div>
+                <div className="d-flex gap-50">
+                  <div>
+                    <img src="images/google.png" width={"145"} />
+                    <div className="fw-bold">
+                      <span style={{ color: "#3172F3" }}>120 Reviews</span>{" "}
+                      <span style={{ color: "#FDB002" }}>5.0/5.0</span>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="images/trustpilot.png" width={"145"} />
+                    <div className="fw-bold" style={{ color: "#00B77B" }}>
+                      68 Reviews 5.0/5.0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7">
+              <div className="d-flex flex-column flex-md-row">
+                <div
+                  className="bg-white d-flex w-100 ps-5 pe-3 justify-content-center flex-column gap-9 "
+                  style={{ maxWidth: "427px" }}
+                >
+                  <div className="d-flex py-3">
+                    <i className="fa fa-star fs-4"></i>
+                    <i className="fa fa-star fs-4"></i>
+                    <i className="fa fa-star fs-4"></i>
+                    <i className="fa fa-star fs-4"></i>
+                    <i className="fa fa-star fs-4"></i>
+                  </div>
+                  <div
+                    className="fw-semibold"
+                    style={{ fontSize: "20px", color: "#1a1a1a" }}
+                  >
+                    Lorem ipsum dolor sit amet consectetur. Consequat auctor
+                    consectetur nunc vitae dolor blandit. Elit enim massa etiam
+                    neque laoreet lorem sed.
+                  </div>
+                  <div className="d-flex flex-column">
+                    <div className="fw-bold fs-5">Anthony Bahringer</div>
+                    <div className="fs-6 fw-light text-secondary">
+                      Senior Research Manager
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <img src="images/testimonial.png" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

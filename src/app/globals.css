@@ -295,3 +295,25 @@
   font-weight: 700 !important;
   color: #0d0d2b;
 }
+
+.clients-card {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px;
+  text-align: center;
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  border-radius: 16px;
+  font-weight: 500;
+  background-color: white;
+  box-shadow: 2px 0px 13px 2px rgb(0, 0, 0, 0.06);
+  transition: all 0.3s;
+}
+
+.clients-card:hover {
+  background-color: #5761d7;
+  color: white;
+}
