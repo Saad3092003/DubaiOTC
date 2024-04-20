@@ -162,7 +162,7 @@ export default function Home() {
             <div className="col-md-5">
               <div className="d-flex gap-28 flex-column">
                 <div className="h1">
-                  Thrilled with Dubai OTC's Exceptional Service: Clients
+                  Thrilled with Dubai OTC&apos;s Exceptional Service: Clients
                   Testimonial
                 </div>
                 <div className="d-flex gap-50">
