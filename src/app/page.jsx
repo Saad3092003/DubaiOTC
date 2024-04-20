@@ -75,8 +75,8 @@ export default function Home() {
               className="h2 text-center mx-auto"
               style={{ maxWidth: "907px" }}
             >
-              "Experience Seamless Crypto Transactions with Dubai OTC's Premier
-              Services"``
+              &quot;Experience Seamless Crypto Transactions with Dubai
+              OTC&apos;s Premier Services&quot;
             </div>
             <div className="d-flex justify-content-center align-items-center gap-45">
               <div className="service-card">
