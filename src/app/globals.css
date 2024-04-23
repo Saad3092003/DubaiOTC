@@ -15,6 +15,13 @@
   color: #ffffff;
 }
 
+.cryptoCard {
+  transition: all 0.3s;
+}
+
+.cryptoCard:hover {
+  scale: 1.07;
+}
 .gap-5 {
   gap: 5px !important;
 }
@@ -316,4 +323,13 @@
 .clients-card:hover {
   background-color: #5761d7;
   color: white;
+}
+
+.footer-social {
+  width: 104px;
+  height: 85px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background-color: #e0e0e025;
 }
