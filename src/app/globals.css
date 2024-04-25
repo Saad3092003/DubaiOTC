@@ -18,7 +18,9 @@
 .cryptoCard {
   transition: all 0.3s;
 }
-
+html {
+  zoom: 0.8;
+}
 .cryptoCard:hover {
   scale: 1.07;
 }
