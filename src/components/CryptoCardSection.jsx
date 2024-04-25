@@ -10,10 +10,10 @@ const Huobi = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title">
+          <div className="third-section-title Heading01">
             Now you can trade with us using your favourite P2P exchnage securely
           </div>
-          <p className="third-section-para mb-0">
+          <p className="third-section-para Paragraph mb-0">
             We’re DubaiOTC, one of the fastest-growing digital currency trading
             desks, headquartered in Dubai. We offer safe and secure
             over-the-counter (OTC) trading to verified users with the support of
@@ -38,6 +38,37 @@ const Binance = () => {
     <div className="row g-5 align-items-center">
       <div className="col-md-5">
         <Card image={"images/binanceV.png"} text1={"lorem ipsum dolor"} />
+      </div>
+      <div className="col-md-7">
+        <div className="d-flex flex-column gap-32">
+          <div className="third-section-title">
+            Now you can trade with us using your favourite P2P exchnage securely
+          </div>
+          <p className="third-section-para mb-0">
+            We’re DubaiOTC, one of the fastest-growing digital currency trading
+            desks, headquartered in Dubai. We offer safe and secure
+            over-the-counter (OTC) trading to verified users with the support of
+            peer-to-peer (P2P) topmost exchanges like Binance, Kucoin, Huobi,
+            and OKX.
+          </p>
+          <div className="gap-10 d-flex">
+            <button className="btn btn-purple">Personalized Experience</button>
+            <button className="btn btn-purple">Trusted</button>
+            <button className="btn btn-purple">
+              Reliable & Verified crypto OTC in Dubai
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Bidget = () => {
+  return (
+    <div className="row g-5 align-items-center">
+      <div className="col-md-5">
+        <Card image={"images/BitgetV.png"} text1={"lorem ipsum dolor"} />
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
@@ -138,6 +169,8 @@ export const CryptoCardSection = () => {
           ) : active === 1 ? (
             <Binance />
           ) : active === 2 ? (
+            <Bidget />
+          ) : active === 3 ? (
             <Okk />
           ) : (
             <Kucoin />
@@ -159,10 +192,16 @@ export const CryptoCardSection = () => {
               onClick={() => setActive(2)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
-              src="images/okk.png"
+              src="images/bitget.png"
             />
             <img
               onClick={() => setActive(3)}
+              style={{ cursor: "pointer" }}
+              className="cryptoCard"
+              src="images/okk.png"
+            />
+            <img
+              onClick={() => setActive(4)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/ku.png"

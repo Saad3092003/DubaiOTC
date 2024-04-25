@@ -335,3 +335,55 @@ html {
   border-radius: 10px;
   background-color: #e0e0e025;
 }
+
+.Paragraph {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 30px !important;
+}
+.Heading01 {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 129% !important;
+}
+.heading02 {
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  line-height: 150% !important;
+}
+.Heading03 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 150% !important;
+}
+.Heading04 {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 120% !important;
+}
+.Paragraphlarge {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+  line-height: 136% !important;
+}
+.heading05 {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+.Largetext {
+  font-size: 84px !important;
+  line-height: 120% !important;
+}
+.Paragraphmd {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 50px !important;
+}
+.Smallheading {
+  font-size: 14px !important;
+  line-height: 30px !important;
+}
+.smallheading {
+  font-size: 12px !important;
+  line-height: 30% !important;
+}

@@ -1,5 +1,3 @@
-import { Card } from "../components/Card";
-import styles from "./page.module.css";
 import { Header } from "../components/header";
 import HeroSection from "../components/HeroSection";
 import { CryptoCardSection } from "@dubai/components/CryptoCardSection";
@@ -16,13 +14,13 @@ export default function Home() {
         <section className="bg-telegram">
           <div className="container">
             <div
-              className="d-flex flex-column gap-21 align-items-center"
+              className="d-flex flex-column  align-items-center"
               style={{ paddingTop: "145px", paddingBottom: "358px" }}
             >
               <div>
                 <img src="images/telegram.png" width={"125"} />
               </div>
-              <div className="tele-text">
+              <div className="Heading01">
                 Stay ahead of the curve with real-time rate updates!
               </div>
             </div>
@@ -35,7 +33,7 @@ export default function Home() {
           <div className="container">
             <div className="d-flex flex-column" style={{ gap: "64px" }}>
               <div
-                className="h2 text-center mx-auto"
+                className="heading02 text-center mx-auto"
                 style={{ maxWidth: "907px" }}
               >
                 &quot;Experience Seamless Crypto Transactions with Dubai
@@ -47,8 +45,8 @@ export default function Home() {
                     <img src="images/service2.png" width={50} />
                   </div>
                   <div className="d-flex flex-column gap-13">
-                    <div className="h3 text-center">Crypto OTC Desk</div>
-                    <p className="mb-0 text-center ps">
+                    <div className="Heading03 text-center">Crypto OTC Desk</div>
+                    <p className="mb-0 text-center Paragraph">
                       Lorem ipsum dolor sit amet consectetur. Hendrerit fusce in
                       tempus nulla ultrices
                     </p>
@@ -59,10 +57,10 @@ export default function Home() {
                     <img src="images/service1.png" width={50} />
                   </div>
                   <div className="d-flex flex-column gap-13">
-                    <div className="h3 text-center">
+                    <div className="Heading03 text-center">
                       Local Bank <br /> Transfer
                     </div>
-                    <p className="mb-0 text-center ps">
+                    <p className="mb-0 text-center Paragraph">
                       Lorem ipsum dolor sit amet consectetur. Hendrerit fusce in
                       tempus nulla ultrices
                     </p>
@@ -73,10 +71,10 @@ export default function Home() {
                     <img src="images/service3.png" width={50} />
                   </div>
                   <div className="d-flex flex-column gap-13">
-                    <div className="h3 text-center">
+                    <div className="Heading03 text-center">
                       Payment Solution <br /> for Business
                     </div>
-                    <p className="mb-0 text-center ps">
+                    <p className="mb-0 text-center Paragraph">
                       Lorem ipsum dolor sit amet consectetur. Hendrerit fusce in
                       tempus nulla ultrices
                     </p>
@@ -90,13 +88,10 @@ export default function Home() {
         <section style={{ paddingBlock: "66px", background: "#fcfcfc" }}>
           <div className="px-md-4 px-3 d-flex flex-column gap-50">
             <div className="d-flex flex-column text-center gap-27">
-              <div
-                style={{ color: "#333", fontSize: "24px" }}
-                className="fw-bold"
-              >
+              <div style={{ color: "#333" }} className="Heading04">
                 Our Clients
               </div>
-              <div className="h2 mx-auto" style={{ maxWidth: "752px" }}>
+              <div className="heading02 mx-auto" style={{ maxWidth: "752px" }}>
                 At Dubai OTC, our clients are at the forefront of everything we
                 do.
               </div>
@@ -124,7 +119,7 @@ export default function Home() {
             <div className="row g-5 align-items-center justify-content-center">
               <div className="col-md-5">
                 <div className="d-flex gap-28 flex-column">
-                  <div className="h1">
+                  <div className="Heading01">
                     Thrilled with Dubai OTC&apos;s Exceptional Service: Clients
                     Testimonial
                   </div>
@@ -159,18 +154,18 @@ export default function Home() {
                       <i className="fa fa-star fs-4"></i>
                     </div>
                     <div
-                      className="fw-semibold"
-                      style={{ fontSize: "20px", color: "#1a1a1a" }}
+                      className="Paragraphlarge"
+                      style={{ color: "#1a1a1a" }}
                     >
                       Lorem ipsum dolor sit amet consectetur. Consequat auctor
                       consectetur nunc vitae dolor blandit. Elit enim massa
                       etiam neque laoreet lorem sed.
                     </div>
-                    <div className="d-flex flex-column">
-                      <div className="fw-bold fs-5">Anthony Bahringer</div>
-                      <div className="fs-6 fw-light text-secondary">
+                    <div className="d-flex flex-column mt-3">
+                      <div className="heading05">Anthony Bahringer</div>
+                      {/* <div className="fs-6 fw-light text-secondary">
                         Senior Research Manager
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div>
@@ -185,9 +180,9 @@ export default function Home() {
         <section>
           <img src="images/bgtoppartner.png" className="img-fluid w-100" />
           <div className="text-center">
-            <h1 className="fw-bold" style={{ marginTop: "-80px" }}>
-              Our <span className="text-primary">Partners</span>
-            </h1>
+            <div className="Heading01" style={{ marginTop: "-80px" }}>
+              Our <span style={{ color: "#2982CC" }}>Partners</span>
+            </div>
             <div style={{ marginTop: "70px" }}>
               <PartnersSlider />
             </div>
@@ -209,14 +204,10 @@ export default function Home() {
               </div>
               <div className="col-md-6">
                 <div className="d-flex flex-column gap-32">
-                  <div
-                    style={{
-                      fontSize: "48px",
-                      color: "#1a1a1a",
-                      fontWeight: 600,
-                    }}
-                  >
-                    Why Choose <span className="#2982CC">Dubai OTC</span>
+                  <div className="Heading01">
+                    {" "}
+                    Why Choose{" "}
+                    <span style={{ color: "#2982CC" }}>Dubai OTC</span>
                   </div>
                   <div className="d-flex flex-column gap-33">
                     <div className="d-flex gap-18 align-items-center">
@@ -224,9 +215,8 @@ export default function Home() {
                       <div
                         style={{
                           color: "#797979",
-                          fontSize: "24px",
-                          fontWeight: 400,
                         }}
+                        className="Paragraphlarge"
                       >
                         Personalized Approach.
                       </div>
@@ -236,9 +226,8 @@ export default function Home() {
                       <div
                         style={{
                           color: "#797979",
-                          fontSize: "24px",
-                          fontWeight: 400,
                         }}
+                        className="Paragraphlarge"
                       >
                         247 Support
                       </div>
@@ -248,9 +237,8 @@ export default function Home() {
                       <div
                         style={{
                           color: "#797979",
-                          fontSize: "24px",
-                          fontWeight: 400,
                         }}
+                        className="Paragraphlarge"
                       >
                         Dubai OTC offers wide range of Payment Solutions to
                         Individuals, HNIS & Businesses to move money without
@@ -262,9 +250,8 @@ export default function Home() {
                       <div
                         style={{
                           color: "#797979",
-                          fontSize: "24px",
-                          fontWeight: 400,
                         }}
+                        className="Paragraphlarge"
                       >
                         We&apos;ve helped more than 10,000 Individuals & too
                         soot Businessy to Fulfil their Payeed Q. & many C&ypto
@@ -285,10 +272,9 @@ export default function Home() {
                 <div
                   style={{
                     color: "#2982CC",
-                    fontSize: "24px",
                     textAlign: "center",
-                    fontWeight: "500",
                   }}
+                  className="Heading04"
                 >
                   How to start Trading with us
                 </div>
@@ -296,10 +282,8 @@ export default function Home() {
                   style={{
                     color: "#4C4448",
                     textAlign: "center",
-                    fontSize: "84px",
-                    lineHeight: "120%",
-                    fontWeight: "600",
                   }}
+                  className="heading02"
                 >
                   Quick Steps for Buying & Selling Cryptocurrency Directly from
                   us.
@@ -316,10 +300,8 @@ export default function Home() {
                       <div
                         style={{
                           color: "#1A1A1A",
-                          fontSize: "31.707px",
-                          fontWeight: "700",
-                          lineHeight: "31.134px",
                         }}
+                        className="Heading03"
                       >
                         Get Verified
                       </div>
@@ -345,12 +327,10 @@ export default function Home() {
                       <div
                         style={{
                           color: "#1A1A1A",
-                          fontSize: "31.707px",
-                          fontWeight: "700",
-                          lineHeight: "31.134px",
                         }}
+                        className="Heading03"
                       >
-                        Get Verified
+                        Use our interactive calculator
                       </div>
                       <div
                         style={{
@@ -359,7 +339,7 @@ export default function Home() {
                           fontWeight: " 400",
                         }}
                       >
-                        Registration or Create an Account
+                        Powered By AI
                       </div>
                     </div>
                   </div>
@@ -374,12 +354,10 @@ export default function Home() {
                       <div
                         style={{
                           color: "#1A1A1A",
-                          fontSize: "31.707px",
-                          fontWeight: "700",
-                          lineHeight: "31.134px",
                         }}
+                        className="Heading03"
                       >
-                        Get Verified
+                        Get in touch with us
                       </div>
                       <div
                         style={{
@@ -388,7 +366,7 @@ export default function Home() {
                           fontWeight: " 400",
                         }}
                       >
-                        Registration or Create an Account
+                        Contact us via Live Support / Telegram
                       </div>
                     </div>
                   </div>
@@ -423,21 +401,16 @@ export default function Home() {
           >
             <div className="text-white">
               <div
+                className="Heading01"
                 style={{
-                  fontSize: "42.667px",
-                  fontWeight: "700",
-                  lineHeight: "150%",
                   maxWidth: "898px",
                 }}
               >
                 Connect with Us on Telegram for Official Customer Support
               </div>
               <div
-                className="text-light"
+                className="text-light Paragraphlarge"
                 style={{
-                  fontSize: "21.333px",
-                  fontWeight: "400",
-                  lineHeight: "37.333px",
                   maxWidth: "700px",
                 }}
               >
@@ -492,7 +465,7 @@ export default function Home() {
                     <div>
                       <img src="images/logo-white.png" width={200} />
                     </div>
-                    <p>
+                    <p className="Paragraph">
                       Lorem ipsum dolor sit amet consectetur. Tristique
                       vulputate odio condimentum at tortor aenean iaculis
                       mattis. Consectetur tellus tristique aliquam dolor
@@ -503,39 +476,41 @@ export default function Home() {
                 </div>
                 <div className="col-md-2">
                   <div className="d-flex flex-column gap-32">
-                    <h4>Exchange Type</h4>
+                    <div className="Heading03">Exchange Type</div>
                     <div className="d-flex text-light flex-column gap-20">
-                      <div className="fs-5">P2P</div>
-                      <div className="fs-5">BINANCE</div>
-                      <div className="fs-5">OKX</div>
-                      <div className="fs-5">BYBIT</div>
-                      <div className="fs-5">HTX</div>
-                      <div className="fs-5">KUCOIN</div>
-                      <div className="fs-5">BITGET</div>
-                      <div className="fs-5">Managers Cheque (UAE) </div>
+                      <div className="Paragraphmd">P2P</div>
+                      <div className="Paragraphmd">BINANCE</div>
+                      <div className="Paragraphmd">OKX</div>
+                      <div className="Paragraphmd">BYBIT</div>
+                      <div className="Paragraphmd">HTX</div>
+                      <div className="Paragraphmd">KUCOIN</div>
+                      <div className="Paragraphmd">BITGET</div>
+                      <div className="Paragraphmd">Managers Cheque (UAE) </div>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-3">
                   <div className="d-flex flex-column gap-32">
-                    <h4>Payments</h4>
+                    <div className="Heading03">Payments</div>
                     <div className="d-flex text-light flex-column gap-20">
                       <div className="fs-5">
                         Indian Bank Transfer NEFT,RTGS,IMPS
                       </div>
-                      <div className="fs-5">UAE Local bank transfer </div>
-                      <div className="fs-5">International SWIFT</div>
-                      <div className="fs-5">EUR SEPA</div>
-                      <div className="fs-5">AED CASH</div>
-                      <div className="fs-5">INR CASH</div>
-                      <div className="fs-5">USD CASH</div>
-                      <div className="fs-5">EUR CASH</div>
+                      <div className="Paragraphmd">
+                        UAE Local bank transfer{" "}
+                      </div>
+                      <div className="Paragraphmd">International SWIFT</div>
+                      <div className="Paragraphmd">EUR SEPA</div>
+                      <div className="Paragraphmd">AED CASH</div>
+                      <div className="Paragraphmd">INR CASH</div>
+                      <div className="Paragraphmd">USD CASH</div>
+                      <div className="Paragraphmd">EUR CASH</div>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-3">
                   <div className="d-flex flex-column gap-50">
-                    <h1>Get in touch with us now</h1>
+                    <div className="Heading01">Get in touch with us now</div>
                   </div>
                   <div className="d-flex flex-wrap justify-content-center gap-17">
                     <div className="footer-social">
@@ -570,11 +545,11 @@ export default function Home() {
               </div>
             </div>
             <div className="d-flex w-100 justify-content-between flex-wrap gap-3 fs-4">
-              <div>© All rights reserved</div>
+              <div className="Paragraphmd">© All rights reserved</div>
               <div className="d-flex gap-32">
-                <div>Terms & Condition</div>
-                <div>Privacy Policy</div>
-                <div>AML Policy</div>
+                <div className="Paragraphmd">Terms & Condition</div>
+                <div className="Paragraphmd">Privacy Policy</div>
+                <div className="Paragraphmd">AML Policy</div>
               </div>
             </div>
           </div>

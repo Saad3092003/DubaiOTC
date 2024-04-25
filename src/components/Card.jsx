@@ -6,6 +6,7 @@ export const Card = ({ image, text1, text2 }) => {
         maxWidth: "485px",
         borderRadius: "12px",
         background: "white",
+        minHeight: "340px",
         paddingTop: "25px",
         paddingBottom: "43px",
       }}

@@ -3,9 +3,9 @@ export default function HeroSection() {
     <div className="container p-3 ">
       <div className="row align-items-center">
         <div className="col-md-6">
-          <div className="hero-text mx-auto">
+          <h1 className="hero-text mx-auto">
             Unlocking the Future: Explore the World of Cryptocurrency
-          </div>
+          </h1>
         </div>
         <div className="col-md-6">
           <img src="images/V.png" className="img-fluid p-5" />

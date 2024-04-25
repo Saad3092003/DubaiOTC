@@ -33,27 +33,31 @@ export const Header = () => {
             className="navbar-nav ms-auto mb-2 mb-lg-0"
           >
             <li className="nav-item p-0">
-              <a className="nav-link p-0 active" aria-current="page" href="#">
+              <a
+                className="nav-link Paragraph p-0 active"
+                aria-current="page"
+                href="#"
+              >
                 Home
               </a>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link p-0" href="#">
+              <a className="nav-link Paragraph p-0" href="#">
                 Features
               </a>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link p-0" href="#">
+              <a className="nav-link Paragraph p-0" href="#">
                 Company
               </a>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link p-0" href="#">
+              <a className="nav-link Paragraph p-0" href="#">
                 Knowledge
               </a>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link p-0" href="#">
+              <a className="nav-link Paragraph p-0" href="#">
                 Support
               </a>
             </li>
