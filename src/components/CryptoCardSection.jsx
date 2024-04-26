@@ -10,10 +10,10 @@ const Huobi = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title Heading01">
+          <div className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
           </div>
-          <p className="third-section-para Paragraph mb-0">
+          <p className="third-section-para Paragraph mb-0" data-aos="fade-up">
             We’re DubaiOTC, one of the fastest-growing digital currency trading
             desks, headquartered in Dubai. We offer safe and secure
             over-the-counter (OTC) trading to verified users with the support of
@@ -21,9 +21,21 @@ const Huobi = () => {
             and OKX.
           </p>
           <div className="gap-10 d-flex">
-            <button className="btn btn-purple">Personalized Experience</button>
-            <button className="btn btn-purple">Trusted</button>
-            <button className="btn btn-purple">
+            <button className="btn btn-purple" data-aos="fade-left">
+              Personalized Experience
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="300"
+              data-aos="fade-left"
+            >
+              Trusted
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="700"
+              data-aos="fade-left"
+            >
               Reliable & Verified crypto OTC in Dubai
             </button>
           </div>
@@ -41,10 +53,13 @@ const Binance = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title">
+          <div className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
           </div>
-          <p className="third-section-para mb-0">
+          <p
+            className="third-section-para Paragraph mb-0"
+            data-aos="fade-right"
+          >
             We’re DubaiOTC, one of the fastest-growing digital currency trading
             desks, headquartered in Dubai. We offer safe and secure
             over-the-counter (OTC) trading to verified users with the support of
@@ -52,9 +67,21 @@ const Binance = () => {
             and OKX.
           </p>
           <div className="gap-10 d-flex">
-            <button className="btn btn-purple">Personalized Experience</button>
-            <button className="btn btn-purple">Trusted</button>
-            <button className="btn btn-purple">
+            <button className="btn btn-purple" data-aos="fade-left">
+              Personalized Experience
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="300"
+              data-aos="fade-left"
+            >
+              Trusted
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="700"
+              data-aos="fade-left"
+            >
               Reliable & Verified crypto OTC in Dubai
             </button>
           </div>
@@ -72,10 +99,13 @@ const Bidget = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title">
+          <div className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
           </div>
-          <p className="third-section-para mb-0">
+          <p
+            className="third-section-para Paragraph mb-0"
+            data-aos="fade-right"
+          >
             We’re DubaiOTC, one of the fastest-growing digital currency trading
             desks, headquartered in Dubai. We offer safe and secure
             over-the-counter (OTC) trading to verified users with the support of
@@ -83,9 +113,21 @@ const Bidget = () => {
             and OKX.
           </p>
           <div className="gap-10 d-flex">
-            <button className="btn btn-purple">Personalized Experience</button>
-            <button className="btn btn-purple">Trusted</button>
-            <button className="btn btn-purple">
+            <button className="btn btn-purple" data-aos="fade-left">
+              Personalized Experience
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="300"
+              data-aos="fade-left"
+            >
+              Trusted
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="700"
+              data-aos="fade-left"
+            >
               Reliable & Verified crypto OTC in Dubai
             </button>
           </div>
@@ -103,10 +145,13 @@ const Okk = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title">
+          <div className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
           </div>
-          <p className="third-section-para mb-0">
+          <p
+            className="third-section-para Paragraph mb-0"
+            data-aos="fade-right"
+          >
             We’re DubaiOTC, one of the fastest-growing digital currency trading
             desks, headquartered in Dubai. We offer safe and secure
             over-the-counter (OTC) trading to verified users with the support of
@@ -114,9 +159,21 @@ const Okk = () => {
             and OKX.
           </p>
           <div className="gap-10 d-flex">
-            <button className="btn btn-purple">Personalized Experience</button>
-            <button className="btn btn-purple">Trusted</button>
-            <button className="btn btn-purple">
+            <button className="btn btn-purple" data-aos="fade-left">
+              Personalized Experience
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="300"
+              data-aos="fade-left"
+            >
+              Trusted
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="700"
+              data-aos="fade-left"
+            >
               Reliable & Verified crypto OTC in Dubai
             </button>
           </div>
@@ -134,10 +191,13 @@ const Kucoin = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title">
+          <div className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
           </div>
-          <p className="third-section-para mb-0">
+          <p
+            className="third-section-para Paragraph mb-0"
+            data-aos="fade-right"
+          >
             We’re DubaiOTC, one of the fastest-growing digital currency trading
             desks, headquartered in Dubai. We offer safe and secure
             over-the-counter (OTC) trading to verified users with the support of
@@ -145,9 +205,21 @@ const Kucoin = () => {
             and OKX.
           </p>
           <div className="gap-10 d-flex">
-            <button className="btn btn-purple">Personalized Experience</button>
-            <button className="btn btn-purple">Trusted</button>
-            <button className="btn btn-purple">
+            <button className="btn btn-purple" data-aos="fade-left">
+              Personalized Experience
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="300"
+              data-aos="fade-left"
+            >
+              Trusted
+            </button>
+            <button
+              className="btn btn-purple"
+              data-aos-delay="700"
+              data-aos="fade-left"
+            >
               Reliable & Verified crypto OTC in Dubai
             </button>
           </div>

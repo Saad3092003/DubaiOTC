@@ -10,6 +10,7 @@ export const Card = ({ image, text1, text2 }) => {
         paddingTop: "25px",
         paddingBottom: "43px",
       }}
+      data-aos="fade-up"
     >
       <div className="d-flex gap-21 flex-column">
         <img src={image} />
