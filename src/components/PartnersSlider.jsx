@@ -14,20 +14,42 @@ export default function PartnersSlider() {
     slidesToShow: 3,
     centerMode: true,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          centerPadding: "20px",
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "10px",
+        },
+      },
+    ],
   };
   return (
     <Slider {...settings}>
       <div>
-        <img src="images/euOTC.png" className="img-fluid" alt="" />
+        <img src="images/euOTC.png" className="img-fluid " alt="" />
       </div>
       <div>
-        <img src="images/amlBot.png" className="img-fluid" alt="" />
+        <img src="images/amlBot.png" className="img-fluid " alt="" />
       </div>
       <div>
-        <img src="images/okk.png" className="img-fluid" alt="" />
+        <img src="images/okk.png" className="img-fluid " alt="" />
       </div>
       <div>
-        <img src="images/ledger.png" className="img-fluid" alt="" />
+        <img src="images/ledger.png" className="img-fluid " alt="" />
       </div>
     </Slider>
   );

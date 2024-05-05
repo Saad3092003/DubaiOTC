@@ -2,6 +2,13 @@
   background: linear-gradient(180deg, #2551dd 0%, #aa73e3 42%);
 }
 
+.conpany-section {
+  background: url("../../public/images/company-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .bg-accent {
   background-color: #3671e9;
 }
@@ -18,9 +25,7 @@
 .cryptoCard {
   transition: all 0.3s;
 }
-html {
-  zoom: 0.8;
-}
+
 .cryptoCard:hover {
   scale: 1.07;
 }
@@ -226,6 +231,19 @@ html {
   background-position: center;
   background-size: cover;
 }
+.bg-wave {
+  background-image: url("../../public/images/wave.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.bg-bottom-wave {
+  background-image: url("../../public/images/bottom-wave.png");
+  background-repeat: no-repeat;
+  background-position: top !important;
+  background-size: contain;
+}
 
 .card-text {
   color: #797979;
@@ -386,4 +404,47 @@ html {
 .smallheading {
   font-size: 12px !important;
   line-height: 30% !important;
+}
+
+.text-paragraph {
+  color: #666d80;
+}
+
+.text-base-primary {
+  color: #0179ff;
+}
+
+.icon-button-heart {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  padding: 7px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+  border-radius: 890.625px;
+  background: #5761d7;
+  box-shadow: 0px 0.891px 1.781px 0px rgba(13, 13, 18, 0.06);
+}
+.company-tab {
+  border-radius: 17.813px;
+  border: 1px solid #dfe1e7;
+  padding: 17.813px 21.375px;
+}
+.company-tab.active {
+  border-radius: 17.813px;
+  border: none;
+  background: #dcdffb;
+}
+.icon-square-button {
+  display: flex;
+  width: 44.531px;
+  height: 44.531px;
+  padding: 8.906px;
+  justify-content: center;
+  align-items: center;
+  gap: 8.906px;
+  border-radius: 10.688px;
+  background: #5761d7;
 }

@@ -1,17 +1,22 @@
 "use client";
+import Link from "next/link";
 import { useEffect } from "react";
 
-export const Header = () => {
+export const Header = ({ type }) => {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
 
   return (
-    <nav className="navbar navbar-dark navbar-expand-lg">
+    <nav
+      className={`navbar ${
+        type === "plain" ? "navbar-light" : "navbar-dark"
+      } navbar-expand-lg`}
+    >
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="/">
           <img src="images/logo.png" width={"208"} />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -47,9 +52,9 @@ export const Header = () => {
               </a>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link Paragraph p-0" href="#">
+              <Link className="nav-link Paragraph p-0" href="company">
                 Company
-              </a>
+              </Link>
             </li>
             <li className="nav-item p-0">
               <a className="nav-link Paragraph p-0" href="#">

@@ -1,19 +1,18 @@
 "use client";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { CryptoCardSection } from "./CryptoCardSection";
-import { Header } from "./header";
+import { Header } from "./Header";
 import HeroSection from "./HeroSection";
 import PartnersSlider from "./PartnersSlider";
-import AOS from "aos";
-import "aos/dist/aos.css"; // Import CSS
-
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 export const Temp = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1000,
+  //     once: true,
+  //   });
+  // }, []);
 
   return (
     <div className="overflow-hidden">

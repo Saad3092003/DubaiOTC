@@ -1,13 +1,13 @@
-import { Temp } from "@dubai/components/Temp";
-import { Header } from "../components/header";
-import HeroSection from "../components/HeroSection";
-import { CryptoCardSection } from "@dubai/components/CryptoCardSection";
-import PartnersSlider from "@dubai/components/PartnersSlider";
+import { Temp } from "../components/Temp";
 
 export default function Home() {
   return (
-    <>
+    <div
+      style={{
+        zoom: "0.8",
+      }}
+    >
       <Temp />
-    </>
+    </div>
   );
 }
