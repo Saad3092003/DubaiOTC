@@ -447,6 +447,17 @@
     transparent 20px
   );
 }
+.timeline_xs {
+  width: 2px; /* Set the width of the line */
+  height: 370px; /* Set the height of the line */
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #5761d7,
+    #5761d7 15px,
+    transparent 15px,
+    transparent 20px
+  );
+}
 .company-tab {
   border-radius: 17.813px;
   border: 1px solid #dfe1e7;

@@ -53,25 +53,25 @@ const Company = () => {
                   <div className="timepoint Paragraph">1</div>
                 </div>
                 <div>
-                  <div className="timeline"></div>
+                  <div className="timeline_xs"></div>
                 </div>
                 <div>
                   <div className="timepoint Paragraph">2</div>
                 </div>
                 <div>
-                  <div className="timeline"></div>
+                  <div className="timeline_xs"></div>
                 </div>
                 <div>
                   <div className="timepoint Paragraph">3</div>
                 </div>
                 <div>
-                  <div className="timeline"></div>
+                  <div className="timeline_xs"></div>
                 </div>
                 <div>
                   <div className="timepoint Paragraph">4</div>
                 </div>
                 <div>
-                  <div className="timeline"></div>
+                  <div className="timeline_xs"></div>
                 </div>
                 <div>
                   <div className="timepoint Paragraph">5</div>
