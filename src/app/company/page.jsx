@@ -23,7 +23,7 @@ const Company = () => {
                 fontWeight: "400",
               }}
             >
-              Company - DubauOTC
+              Company - DubaiOTC
             </div>
             <div className="hero-text mt-3">Company</div>
           </div>
@@ -42,10 +42,156 @@ const Company = () => {
             Cryptocurrency Trade
           </div>
         </div>
-        <div className="container">
-          <div className="d-flex">
-            <div>
-              <img src="" alt="" />
+        <div className="container mt-5">
+          <div className="row">
+            <div className="col-3 d-lg-none justify-content-center align-items-center d-flex">
+              <div
+                className="d-flex flex-column justify-content-center align-items-center"
+                style={{ height: "853px" }}
+              >
+                <div>
+                  <div className="timepoint Paragraph">1</div>
+                </div>
+                <div>
+                  <div className="timeline"></div>
+                </div>
+                <div>
+                  <div className="timepoint Paragraph">2</div>
+                </div>
+                <div>
+                  <div className="timeline"></div>
+                </div>
+                <div>
+                  <div className="timepoint Paragraph">3</div>
+                </div>
+                <div>
+                  <div className="timeline"></div>
+                </div>
+                <div>
+                  <div className="timepoint Paragraph">4</div>
+                </div>
+                <div>
+                  <div className="timeline"></div>
+                </div>
+                <div>
+                  <div className="timepoint Paragraph">5</div>
+                </div>
+              </div>
+            </div>
+            <div className="col-9 col-lg-12">
+              <div className="row">
+                <div className="col-lg-5 text-start text-lg-end">
+                  <div className="d-flex flex-column align-items-start align-items-lg-end">
+                    <div style={{ marginBottom: "93px" }}>
+                      <img src="/images/1.png" alt="" />
+                    </div>
+                    <div
+                      style={{ marginBottom: "70px" }}
+                      className="d-flex gap-19 flex-column"
+                    >
+                      <div className="Paragraph">
+                        Easily convert your Cryptocurrency into AED
+                      </div>
+                      <div className="Paragraph">
+                        Risk Free & Fast Cryptocurrency Transactions
+                      </div>
+                    </div>
+                    <div style={{ marginBottom: "73px" }}>
+                      <img src="/images/3.png" alt="" />
+                    </div>
+                    <div
+                      className="d-flex gap-19 flex-column"
+                      style={{ marginBottom: "33px" }}
+                    >
+                      <div className="Paragraph">
+                        Secure and Safe Trader Data (Book keeping, Accounting,
+                        Regular Auditing)
+                      </div>
+                      <div className="Paragraph">
+                        Dedicated Customer Service 24/7 Via WhatsApp, Telegrams,
+                        Emails, Phone Calls
+                      </div>
+                    </div>
+                    <div>
+                      <img src="/images/5.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-2 d-none justify-content-center align-items-center d-lg-flex">
+                  <div
+                    className="d-flex flex-column justify-content-center align-items-center"
+                    style={{ height: "853px" }}
+                  >
+                    <div>
+                      <div className="timepoint Paragraph">1</div>
+                    </div>
+                    <div>
+                      <div className="timeline"></div>
+                    </div>
+                    <div>
+                      <div className="timepoint Paragraph">2</div>
+                    </div>
+                    <div>
+                      <div className="timeline"></div>
+                    </div>
+                    <div>
+                      <div className="timepoint Paragraph">3</div>
+                    </div>
+                    <div>
+                      <div className="timeline"></div>
+                    </div>
+                    <div>
+                      <div className="timepoint Paragraph">4</div>
+                    </div>
+                    <div>
+                      <div className="timeline"></div>
+                    </div>
+                    <div>
+                      <div className="timepoint Paragraph">5</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-5 text-start">
+                  <div className="d-flex flex-column align-items-start">
+                    <div
+                      style={{ marginBottom: "50px" }}
+                      className="d-flex gap-19 flex-column"
+                    >
+                      <div className="Paragraph">0% Transaction Fees</div>
+                      <div className="Paragraph">
+                        Sell/Buy your Cryptocurrency via Bank Transfers
+                      </div>
+                    </div>
+                    <div style={{ marginBottom: "92px" }}>
+                      <img src="/images/2.png" alt="" />
+                    </div>
+                    <div
+                      style={{ marginBottom: "84px" }}
+                      className="d-flex gap-19 flex-column"
+                    >
+                      <div className="Paragraph">
+                        Suitable for Both Beginners and Experienced Investors
+                      </div>
+                      <div className="Paragraph">
+                        Secured and Convenient Way to Operate Your Crypto
+                        Holdings
+                      </div>
+                    </div>
+                    <div style={{ marginBottom: "49px" }}>
+                      <img src="/images/4.png" alt="" />
+                    </div>
+                    <div className="d-flex gap-19 flex-column">
+                      <div className="Paragraph">
+                        Receive Invoice via WhatsApp & e-mail
+                      </div>
+                      <div className="Paragraph">
+                        Comply with Crypto Effective Anti-Money Laundering (AML)
+                        Standard Policy / Computing Terrorism Financing (CTF)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
