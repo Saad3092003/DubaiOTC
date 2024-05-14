@@ -479,3 +479,47 @@
   border-radius: 10.688px;
   background: #5761d7;
 }
+
+.news-card .content {
+  padding-block: 40px;
+  padding-inline: 40px;
+}
+
+.news-card {
+  height: 100%;
+  background: #dcdffb;
+  border-radius: 24.938px;
+}
+.btnPrimary {
+  background-color: #5761d7 !important;
+  color: white !important;
+}
+.btnPrimary:hover {
+  background-color: #5761d7 !important;
+  color: white !important;
+}
+
+.entrieCard {
+  padding: 25px;
+  border-radius: 14.634px;
+  border: 2px solid #dbdbdb;
+  background: #f8f8f8;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btnEntrie {
+  padding: 10px 30px;
+  align-items: center;
+  border-radius: 13.861px;
+  border: 0.648px solid #787ef8;
+  background: #22246a;
+}
+
+/* .entrieCard:hover {
+  color: white !important;
+  background-color: #3671E9  !important;
+} */
