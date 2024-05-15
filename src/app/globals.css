@@ -523,3 +523,52 @@
   color: white !important;
   background-color: #3671E9  !important;
 } */
+
+.accordion {
+  padding-block: 40px;
+  background-color: transparent;
+  border-radius: 25px;
+}
+.accordion-body p {
+  font-family: "Poppins", sans-serif;
+  color: #404040;
+}
+.accordion-button {
+  font-weight: 600;
+  background-color: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+}
+.accordion-button:not(.collapsed) {
+  color: black !important;
+}
+.accordion-button:not(.collapsed).text-white {
+  color: white !important;
+}
+.accordion-button:focus {
+  border-color: white !important;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../../public/images/mines.png) !important;
+}
+.accordion-button::after {
+  background-image: url(../../public/images/plus.png) !important;
+}
+.question-collapes {
+  border-radius: 40px;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-position: center;
+}
+.accordion-item {
+  border: none !important;
+  background-color: transparent !important;
+}
+.accordion-header {
+  background-color: transparent !important;
+}

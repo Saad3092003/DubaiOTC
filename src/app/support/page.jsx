@@ -312,6 +312,692 @@ const Support = () => {
         </div>
       </div>
 
+      {/* Faqs */}
+      <div
+        style={{
+          paddingBlock: "100px",
+          marginTop: "100px",
+          backgroundImage: "url(/images/knowledgeBG.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="container">
+          <div className="Heading01 mb-5 text-center">Knowledge Base</div>
+          <div className="accordion " id="accordionExample1">
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingOne">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What is OTC trading?
+                </button>
+              </h5>
+              <div
+                id="collapseOne"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample1"
+              >
+                <div className="accordion-body">
+                  OTC trading refers to the buying and selling of
+                  cryptocurrencies directly between two parties, outside of
+                  traditional exchanges. It allows for larger transactions and
+                  more personalized services.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingTwo">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  What is DubaiOTC?
+                </button>
+              </h5>
+              <div
+                id="collapseTwo"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample1"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Similique, eos.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingThree">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  How does OTC Exchange work?
+                </button>
+              </h5>
+              <div
+                id="collapseThree"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample1"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Temporibus, amet.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          paddingBlock: "100px",
+          backgroundImage: "url(/images/registerBG.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="container">
+          <div className="Heading01 mb-5 text-center text-white">
+            Registration & Login
+          </div>
+          <div className="accordion " id="accordionExample2">
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingOne">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne2"
+                  aria-expanded="true"
+                  aria-controls="collapseOne2"
+                >
+                  How is it Different from Traditional Crypto Exchanges?
+                </button>
+              </h5>
+              <div
+                id="collapseOne2"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample2"
+              >
+                <div className="accordion-body">
+                  OTC trading involves direct, off-exchange transactions
+                  negotiated between buyers and sellers, often used for larger
+                  trades, while traditional crypto exchanges match orders on a
+                  centralized platform for a broad range of users.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingTwo">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo2"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo2"
+                >
+                  What is Manager&apos;s Cheque?
+                </button>
+              </h5>
+              <div
+                id="collapseTwo2"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample2"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Similique, eos.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingThree">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree2"
+                  aria-expanded="false"
+                  aria-controls="collapseThree2"
+                >
+                  How do I start trading with you?
+                </button>
+              </h5>
+              <div
+                id="collapseThree2"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample2"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Temporibus, amet.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingFour2">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour2"
+                  aria-expanded="false"
+                  aria-controls="collapseFour2"
+                >
+                  What is your Onboarding Process?
+                </button>
+              </h5>
+              <div
+                id="collapseFour2"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingFour2"
+                data-bs-parent="#accordionExample2"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                  vel.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          paddingBlock: "100px",
+          backgroundImage: "url(/images/knowledgeBG.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="container">
+          <div className="Heading01 mb-5 text-center">Payment Options</div>
+          <div className="accordion " id="accordionExample3">
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingOne">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne3"
+                  aria-expanded="true"
+                  aria-controls="collapseOne3"
+                >
+                  What documentation is required to start trading?
+                </button>
+              </h5>
+              <div
+                id="collapseOne3"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample3"
+              >
+                <div className="accordion-body">
+                  We Need to Conduct Mandatory KYC (In case of Individuals) or
+                  KYB (In case of Business) as per the Regulatory Requirements.
+                  We may ask for Further documentations as required by Law.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingTwo">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo3"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo3"
+                >
+                  How is pricing determined for OTC trades?
+                </button>
+              </h5>
+              <div
+                id="collapseTwo3"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample3"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Similique, eos.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingThree">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree3"
+                  aria-expanded="false"
+                  aria-controls="collapseThree3"
+                >
+                  What security measures are in place to protect my assets?
+                </button>
+              </h5>
+              <div
+                id="collapseThree3"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample3"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Temporibus, amet.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingFour">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour3"
+                  aria-expanded="false"
+                  aria-controls="collapseFour3"
+                >
+                  Which Currencies do you support?
+                </button>
+              </h5>
+              <div
+                id="collapseFour3"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample3"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Temporibus, amet.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingFive">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive3"
+                  aria-expanded="false"
+                  aria-controls="collapseFive3"
+                >
+                  What Payment Methods you support for AED Currency?
+                </button>
+              </h5>
+              <div
+                id="collapseFive3"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample3"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Temporibus, amet.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          paddingBlock: "100px",
+          backgroundImage: "url(/images/registerBG.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="container">
+          <div className="Heading01 mb-5 text-center text-white">Technical</div>
+          <div className="accordion " id="accordionExample4">
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingOne">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne4"
+                  aria-expanded="true"
+                  aria-controls="collapseOne4"
+                >
+                  Which Payment Methods you support for INR (Indian Rupees)
+                </button>
+              </h5>
+              <div
+                id="collapseOne4"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample4"
+              >
+                <div className="accordion-body">
+                  We Support Cash in all Major Cities,Bank Transfer
+                  (RTGS/NEFT/IMPS) & UPI Payment Methods for INR Currency.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingTwo">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo4"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo4"
+                >
+                  How long does it to receive Cryptocurrency Usually?
+                </button>
+              </h5>
+              <div
+                id="collapseTwo4"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample4"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Similique, eos.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingThree">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree4"
+                  aria-expanded="false"
+                  aria-controls="collapseThree4"
+                >
+                  What payment Methods you support for USD Currency?
+                </button>
+              </h5>
+              <div
+                id="collapseThree4"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample4"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Temporibus, amet.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingFour4">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour4"
+                  aria-expanded="false"
+                  aria-controls="collapseFour4"
+                >
+                  What payment Methods you support for Euro Currency?
+                </button>
+              </h5>
+              <div
+                id="collapseFour4"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingFour4"
+                data-bs-parent="#accordionExample4"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                  vel.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingFive4">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive4"
+                  aria-expanded="false"
+                  aria-controls="collapseFive4"
+                >
+                  Which Cryptocurrency do you support?
+                </button>
+              </h5>
+              <div
+                id="collapseFive4"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingFive4"
+                data-bs-parent="#accordionExample4"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                  vel.
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingSix4">
+                <button
+                  className="accordion-button text-white collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix4"
+                  aria-expanded="false"
+                  aria-controls="collapseSix4"
+                >
+                  Which Blockchains you Support?
+                </button>
+              </h5>
+              <div
+                id="collapseSix4"
+                className="accordion-collapse collapse text-white"
+                aria-labelledby="headingSix4"
+                data-bs-parent="#accordionExample4"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+                  vel.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          paddingBlock: "100px",
+          backgroundImage: "url(/images/knowledgeBG.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <div className="container">
+          <div className="Heading01 mb-5 text-center">Support</div>
+          <div className="accordion " id="accordionExample5">
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingOne">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne5"
+                  aria-expanded="true"
+                  aria-controls="collapseOne5"
+                >
+                  Do you offer 24/7 support?
+                </button>
+              </h5>
+              <div
+                id="collapseOne5"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample5"
+              >
+                <div className="accordion-body">
+                  Our Customer Support is available between 10:00 to 22:00
+                  Hours, Dubai Time(UTC+4:00)
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="accordion-item">
+              <h5 className="accordion-header" id="headingTwo">
+                <button
+                  className="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo5"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo5"
+                >
+                  How to contact us?
+                </button>
+              </h5>
+              <div
+                id="collapseTwo5"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample5"
+              >
+                <div className="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Similique, eos.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* partners section */}
+      <section
+        className="container-fluid overflow-hidden"
+        style={{ paddingTop: "100px", paddingBottom: "100px" }}
+      >
+        <div className="text-center">
+          <div className="Heading01" data-aos="fade-up">
+            Our <span style={{ color: "#2982CC" }}>Partners</span>
+          </div>
+          <div style={{ marginTop: "70px" }}>
+            <PartnersSlider />
+          </div>
+        </div>
+      </section>
+
+      {/* newsletter */}
+      <section
+        style={{
+          paddingBlock: "110px",
+          paddingInline: "20px",
+          background: "#8890f1",
+          zoom: "0.8",
+        }}
+      >
+        <div
+          className="rounded-4"
+          style={{
+            background: "#3671e9",
+            backgroundImage: "url(images/contactBg.png)",
+            backgroundSize: "cover",
+            paddingBlock: "36px",
+            paddingInline: "64px",
+            maxWidth: "1440px",
+            flexWrap: "wrap",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          <div className="text-white">
+            <div
+              className="Heading01"
+              style={{
+                maxWidth: "898px",
+              }}
+            >
+              Connect with Us on Telegram for Official Customer Support
+            </div>
+            <div
+              className="text-light Paragraphlarge"
+              style={{
+                maxWidth: "700px",
+              }}
+            >
+              We Understand the Significance of Addressing Each
+              Individual&apos;s Specific Needs with Care and Attention.
+            </div>
+          </div>
+          <div>
+            <button
+              className="btn btn-light rounded-pill"
+              style={{
+                display: "inline-flex",
+                padding: "18.667px 42.667px",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "24px",
+              }}
+            >
+              <img src="images/telegram-icon.png" width={42} height={42} />
+              <span
+                style={{
+                  color: "#0D0D2B",
+                  textAlign: "center",
+                  fontSize: "24px",
+                  fontWeight: "500",
+                  lineHeight: "150%",
+                }}
+              >
+                Connect now
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* footer */}
       <section
         style={{
