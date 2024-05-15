@@ -48,7 +48,7 @@ export const Header = ({ type }) => {
             </li>
             <li className="nav-item p-0">
               <a className="nav-link Paragraph p-0" href="#">
-                Features
+                Services
               </a>
             </li>
             <li className="nav-item p-0">
@@ -62,9 +62,9 @@ export const Header = ({ type }) => {
               </a>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link Paragraph p-0" href="#">
+              <Link className="nav-link Paragraph p-0" href="support">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="d-flex gap-4 align-items-center">
