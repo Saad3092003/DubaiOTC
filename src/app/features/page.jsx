@@ -1,6 +1,26 @@
 import PartnersSlider from "../../components/PartnersSlider";
 import { Header } from "../../components/Header";
 
+function WorkCard({ count, title, desc }) {
+  return (
+    <div className="d-flex align-items-center  gap-27">
+      <div
+        style={{
+          color: "#3671E9",
+          fontSize: "24px",
+          fontWeight: "700",
+        }}
+      >
+        {count}
+      </div>
+      <div className="d-flex flex-column gap-6">
+        <div className="Heading04">{title}</div>
+        <div className="Paragraph">{desc}</div>
+      </div>
+    </div>
+  );
+}
+
 const Features = () => {
   return (
     <>
@@ -8,11 +28,11 @@ const Features = () => {
         <Header type="plain" />
       </div>
 
-      <div className="py-5 container ">
-        <div className="row ">
+      <div className="py-5  container ">
+        <div className="row px-2 g-5 flex-wrap-reverse">
           <div className="col-md-6">
             <div className="gap-41 d-flex flex-column">
-              <div className="Heading01">
+              <div className="Heading01 text-h1">
                 Buy <span style={{ color: "#22246A" }}>Ethereum, USDT</span>{" "}
                 with EUR within minutes
               </div>
@@ -44,6 +64,23 @@ const Features = () => {
                   for seamless transactions.
                 </div>
               </div>
+              <div>
+                <button
+                  className="btn btn-primary rounded-pill"
+                  style={{ padding: "12px 33px" }}
+                >
+                  Buy Crypto Now
+                </button>
+              </div>
+              <div className="d-flex flex-column gap-6">
+                <div className="Paragraph">Excellent 247 Reviews on</div>
+                <img
+                  src="/images/trust.png"
+                  className="img-fluid"
+                  width={"150"}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="col-md-6 ">
@@ -55,10 +92,257 @@ const Features = () => {
                   zIndex: -1,
                   position: "absolute",
                   top: -50,
-                  right: 20,
+                  right: 50,
+                  scale: 1.2,
                 }}
               />
-              <img src="/images/cal.png" className="img-fluid" />
+              <div
+                style={{ maxWidth: "430px" }}
+                className="p-md-5 p-4 w-100 rounded-5 bg-white shadow-lg d-flex flex-column gap-29"
+              >
+                <div className="d-flex flex-column gap-25">
+                  <div className="d-flex flex-column gap-32">
+                    <div className="d-flex flex-column gap-16">
+                      <div
+                        style={{
+                          color: "#000",
+                          fontSize: "18px",
+                          fontWeight: "500",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        You Pay
+                      </div>
+                      <div
+                        className="d-flex justify-content-between overflow-hidden"
+                        style={{
+                          borderRadius: "12px",
+                          border: "1px solid rgba(0, 0, 0, 0.10)",
+                        }}
+                      >
+                        <div className="p-3">
+                          <input
+                            type="number"
+                            className="w-100 cal-input"
+                            placeholder="3000"
+                          />
+                        </div>
+                        <div
+                          style={{
+                            background: "#ECECEB",
+                            paddingTop: "20px",
+                            paddingBottom: "20px",
+                            paddingLeft: "18px",
+                            paddingRight: "15px",
+                          }}
+                        >
+                          <div className="d-flex gap-15">
+                            <img src="/images/eth.png" width={"24"} />
+                            <select name="" id="">
+                              <option> AED</option>
+                              <option> INR</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="d-flex flex-column gap-16">
+                      <div
+                        style={{
+                          color: "#000",
+                          fontSize: "18px",
+                          fontWeight: "500",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        You Get
+                      </div>
+                      <div
+                        className="d-flex justify-content-between overflow-hidden"
+                        style={{
+                          borderRadius: "12px",
+                          border: "1px solid rgba(0, 0, 0, 0.10)",
+                        }}
+                      >
+                        <div className="p-3">
+                          <input
+                            type="number"
+                            className="w-100 cal-input"
+                            placeholder="3000"
+                          />
+                        </div>
+                        <div
+                          style={{
+                            background: "#ECECEB",
+                            paddingTop: "20px",
+                            paddingBottom: "20px",
+                            paddingLeft: "18px",
+                            paddingRight: "15px",
+                          }}
+                        >
+                          <div className="d-flex gap-15">
+                            <img src="/images/eth.png" width={"24"} />
+                            <select name="" id="">
+                              <option> USDT</option>
+                              <option> BTC</option>
+                              <option> ETH</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="d-flex flex-column gap-16">
+                    <div className="d-flex justify-content-between">
+                      <div
+                        style={{
+                          color: "rgba(0, 0, 0, 0.47)",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        DubaiOTC fee
+                      </div>
+                      <div
+                        style={{
+                          color: "#000",
+                          textAlign: "center",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        0 EUR
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                      <div
+                        style={{
+                          color: "rgba(0, 0, 0, 0.47)",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        Network fee
+                      </div>
+                      <div
+                        style={{
+                          color: "#000",
+                          textAlign: "center",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        2.7 EUR
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-between">
+                      <div
+                        style={{
+                          color: "rgba(0, 0, 0, 0.47)",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        Exchange rate
+                      </div>
+                      <div
+                        style={{
+                          color: "#000",
+                          textAlign: "center",
+                          fontSize: "14px",
+                          fontWeight: "400",
+                          lineHeight: "150%",
+                        }}
+                      >
+                        3404.71 EUR
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  style={{
+                    height: "1px",
+                    width: "100%",
+                    backgroundColor: "#000000",
+                  }}
+                ></div>
+                <div className="d-flex justify-content-between">
+                  <div
+                    style={{
+                      color: "rgba(0, 0, 0, 0.47)",
+                      fontSize: "14px",
+                      fontWeight: "400",
+                      lineHeight: "150%",
+                    }}
+                  >
+                    Total
+                  </div>
+                  <div className="d-flex gap-9">
+                    <div
+                      style={{
+                        color: "#000",
+                        textAlign: "center",
+                        fontSize: "14px",
+                        fontWeight: "400",
+                        lineHeight: "150%",
+                      }}
+                    >
+                      0.880339
+                    </div>
+                    <img src="/images/eth.png" width={"24"} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-5 container ">
+        <div className="row px-2 py-5 g-5 justify-content-between">
+          <div className="col-md-5">
+            <img src="/images/work.png" className="img-fluid" alt="" />
+          </div>
+          <div className="col-md-6">
+            <div className="d-flex gap-41 flex-column">
+              <div className="Heading01 text-center text-md-start">
+                How Does it Works?
+              </div>
+              <WorkCard
+                count={1}
+                title={"Create a new SwapinBuy payment"}
+                desc={
+                  "Choose the cryptocurrency you want to buy and enter the amount of fiat you want to pay with."
+                }
+              />
+              <WorkCard
+                count={2}
+                title={"Transfer fiat"}
+                desc={
+                  "Swapin will provide a Dedicated IBAN, issued in your name. Send fiat from your bank account to the provided IBAN"
+                }
+              />
+              <WorkCard
+                count={3}
+                title={"Get crypto"}
+                desc={
+                  "Once Swapin gets your fiat payment, crypto will arrive to the provided wallet within minutes."
+                }
+              />
+              <div>
+                <button
+                  className="btn btn-primary rounded-pill"
+                  style={{ padding: "12px 33px" }}
+                >
+                  Get Started
+                </button>
+              </div>
             </div>
           </div>
         </div>
