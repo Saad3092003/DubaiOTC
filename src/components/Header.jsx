@@ -41,28 +41,23 @@ export const Header = ({ type }) => {
               <a
                 className="nav-link Paragraph p-0 active"
                 aria-current="page"
-                href="#"
+                href="/"
               >
                 Home
               </a>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link Paragraph p-0" href="#">
+              <a className="nav-link Paragraph p-0" href="/service">
                 Services
               </a>
             </li>
             <li className="nav-item p-0">
-              <Link className="nav-link Paragraph p-0" href="company">
+              <Link className="nav-link Paragraph p-0" href="/company">
                 Company
               </Link>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link Paragraph p-0" href="#">
-                Knowledge
-              </a>
-            </li>
-            <li className="nav-item p-0">
-              <Link className="nav-link Paragraph p-0" href="support">
+              <Link className="nav-link Paragraph p-0" href="/support">
                 Support
               </Link>
             </li>
