@@ -103,11 +103,12 @@ export const FooterCust = ({ home }) => {
                     <img src="images/logo-white.png" width={200} />
                   </div>
                   <p className="fs-5">
-                    Lorem ipsum dolor sit amet consectetur. Tristique vulputate
-                    odio condimentum at tortor aenean iaculis mattis.
-                    Consectetur tellus tristique aliquam dolor at.Condimentum at
-                    tortor aenean iaculis mattis. Consectetur tellus tristique
-                    aliquam dolor at.
+                    Dubai OTC is the most reputable over-the-counter (OTC) desk
+                    to Sell cryptocurrency. We support over 50+ different
+                    cryptocurrencies, including Tether USDT, Bitcoin, Ethereum
+                    (ETH), USDC, BUSD and constantly extending its supported
+                    crypto assets. The company charges 0% transaction fees and
+                    offers personal one-on-one OTC trade support to all traders.
                   </p>
                 </div>
               </div>
