@@ -27,11 +27,19 @@ export const Temp = () => {
             style={{ paddingTop: "145px", paddingBottom: "358px" }}
           >
             <div data-aos="fade-up">
-              <img src="images/telegram.png" width={"125"} />
+              <a
+                style={{ textDecoration: "none", color: "black !important" }}
+                target="_blank"
+                href="https://t.me/DubaiOTCofficial"
+              >
+                <img src="images/telegram.png" width={"125"} />
+              </a>
             </div>
-            <div className="Heading01 mt-3" data-aos="fade-up">
-              Stay ahead of the curve with real-time rate updates!
-            </div>
+            <a target="_blank" href="https://t.me/DubaiOTCofficial">
+              <div className="Heading01 mt-3" data-aos="fade-up">
+                Stay ahead of the curve with real-time rate updates!
+              </div>
+            </a>
           </div>
         </div>
       </section>

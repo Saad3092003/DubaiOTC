@@ -6,7 +6,14 @@ const Huobi = () => {
   return (
     <div className="row g-5 align-items-center">
       <div className="col-md-5">
-        <Card image={"images/HuobiV.png"} text1={"lorem ipsum dolor"} />
+        <Card
+          image={"images/HuobiV.png"}
+          link1={
+            "https://www.huobi.com/en-us/v/register/double-invite/?inviter_id=11345710&invite_code=ieva6223"
+          }
+          link2={"https://www.huobi.com/en-us/fiat-crypto/trader/408787473"}
+          text1={"lorem ipsum dolor"}
+        />
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
@@ -49,7 +56,14 @@ const Binance = () => {
   return (
     <div className="row g-5 align-items-center">
       <div className="col-md-5">
-        <Card image={"images/binanceV.png"} text1={"lorem ipsum dolor"} />
+        <Card
+          image={"images/binanceV.png"}
+          link1={"https://accounts.binance.com/register?ref=505564300"}
+          link2={
+            "https://p2p.binance.com/en/advertiserDetail?advertiserNo=secc298e2109637ac905bd9ea512e01c4"
+          }
+          text1={"lorem ipsum dolor"}
+        />
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
@@ -95,7 +109,12 @@ const Bidget = () => {
   return (
     <div className="row g-5 align-items-center">
       <div className="col-md-5">
-        <Card image={"images/BitgetV.png"} text1={"lorem ipsum dolor"} />
+        <Card
+          image={"images/BitgetV.png"}
+          link1={"https://www.bitget.com/en/p2p-trade/user/"}
+          link2={"https://www.bitget.com/en/p2p-trade/user/"}
+          text1={"lorem ipsum dolor"}
+        />
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
@@ -141,7 +160,12 @@ const Okk = () => {
   return (
     <div className="row g-5 align-items-center">
       <div className="col-md-5">
-        <Card image={"images/OkkV.png"} text1={"lorem ipsum dolor"} />
+        <Card
+          link1={"https://www.okx.com/join/80177139"}
+          link2={"https://www.okx.com/p2p/ads-merchant?publicUserId=d84f1ffbb5"}
+          image={"images/OkkV.png"}
+          text1={"lorem ipsum dolor"}
+        />
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
@@ -187,7 +211,12 @@ const Kucoin = () => {
   return (
     <div className="row g-5 align-items-center">
       <div className="col-md-5">
-        <Card image={"images/KuV.png"} text1={"lorem ipsum dolor"} />
+        <Card
+          image={"images/KuV.png"}
+          link1={"https://www.kucoin.com/r/af/rPHAT39"}
+          link2={"https://www.kucoin.com/otc/user/ads"}
+          text1={"lorem ipsum dolor"}
+        />
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">

@@ -611,3 +611,8 @@
     border: none !important;
     outline: none !important;
 }
+
+.anot{
+    color: inherit !important;
+    text-decoration: none !important;
+}

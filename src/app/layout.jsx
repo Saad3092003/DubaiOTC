@@ -22,7 +22,18 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         /> */}
       </head>
-      <body className={rubik.className}> {children} </body>
+      <body className={rubik.className}>
+        {" "}
+        {children}
+        <div
+          className="position-fixed bottom-0 end-0 p-3"
+          style={{ zIndex: 999 }}
+        >
+          <a href="https://t.me/DubaiOTCofficial" target="_blank">
+            <img src="/images/telegram-icon.png" width={56} />
+          </a>
+        </div>
+      </body>
     </html>
   );
 }
