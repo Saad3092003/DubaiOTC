@@ -599,3 +599,15 @@
   font-weight: 400;
   line-height: 150%; /* 27px */
 }
+
+.select-cal{
+    border: none !important;
+    background: transparent !important;
+}
+
+.select-cal:focus,
+.select-cal:focus-visible,
+.select-cal:focus-within{
+    border: none !important;
+    outline: none !important;
+}
