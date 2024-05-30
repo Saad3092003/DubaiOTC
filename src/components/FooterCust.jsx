@@ -48,29 +48,35 @@ export const FooterCust = ({ home }) => {
             </div>
           </div>
           <div>
-            <button
-              className="btn btn-light rounded-pill"
-              style={{
-                display: "inline-flex",
-                padding: "18.667px 42.667px",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "24px",
-              }}
+            <a
+              className="anot"
+              href="https://t.me/DubaiOTCofficial"
+              target="_blank"
             >
-              <img src="images/telegram-icon.png" width={42} height={42} />
-              <span
+              <button
+                className="btn btn-light rounded-pill"
                 style={{
-                  color: "#0D0D2B",
-                  textAlign: "center",
-                  fontSize: "24px",
-                  fontWeight: "500",
-                  lineHeight: "150%",
+                  display: "inline-flex",
+                  padding: "18.667px 42.667px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "24px",
                 }}
               >
-                Connect now
-              </span>
-            </button>
+                <img src="images/telegram-icon.png" width={42} height={42} />
+                <span
+                  style={{
+                    color: "#0D0D2B",
+                    textAlign: "center",
+                    fontSize: "24px",
+                    fontWeight: "500",
+                    lineHeight: "150%",
+                  }}
+                >
+                  Connect now
+                </span>
+              </button>
+            </a>
           </div>
         </div>
       </section>
@@ -91,12 +97,12 @@ export const FooterCust = ({ home }) => {
         <div className="d-flex gap-16 flex-column text-white h-100 align-items-center">
           <div style={{ maxWidth: "1600px" }}>
             <div className="row g-5">
-              <div className="col-md-3">
+              <div className="col-md-5">
                 <div className="d-flex flex-column gap-33">
                   <div>
                     <img src="images/logo-white.png" width={200} />
                   </div>
-                  <p className="Paragraph">
+                  <p className="fs-5">
                     Lorem ipsum dolor sit amet consectetur. Tristique vulputate
                     odio condimentum at tortor aenean iaculis mattis.
                     Consectetur tellus tristique aliquam dolor at.Condimentum at
@@ -105,40 +111,27 @@ export const FooterCust = ({ home }) => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-2">
+              <div className="col-md-3">
                 <div className="d-flex flex-column gap-32">
-                  <div className="Heading03">Exchange Type</div>
+                  <div className="Heading03">Explore More</div>
                   <div className="d-flex text-light flex-column gap-20">
-                    <div className="Paragraphmd">P2P</div>
-                    <div className="Paragraphmd">BINANCE</div>
-                    <div className="Paragraphmd">OKX</div>
-                    <div className="Paragraphmd">BYBIT</div>
-                    <div className="Paragraphmd">HTX</div>
-                    <div className="Paragraphmd">KUCOIN</div>
-                    <div className="Paragraphmd">BITGET</div>
-                    <div className="Paragraphmd">Managers Cheque (UAE) </div>
+                    <Link className="anot" href="/">
+                      <div className="Paragraphmd">Home</div>
+                    </Link>
+                    <Link className="anot" href="/service">
+                      <div className="Paragraphmd">Services</div>
+                    </Link>
+                    <Link className="anot" href="/company">
+                      <div className="Paragraphmd">Company</div>
+                    </Link>
+                    <Link className="anot" href="/support">
+                      <div className="Paragraphmd">Support</div>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="d-flex flex-column gap-32">
-                  <div className="Heading03">Payments</div>
-                  <div className="d-flex text-light flex-column gap-20">
-                    <div className="fs-5">
-                      Indian Bank Transfer NEFT,RTGS,IMPS
-                    </div>
-                    <div className="Paragraphmd">UAE Local bank transfer </div>
-                    <div className="Paragraphmd">International SWIFT</div>
-                    <div className="Paragraphmd">EUR SEPA</div>
-                    <div className="Paragraphmd">AED CASH</div>
-                    <div className="Paragraphmd">INR CASH</div>
-                    <div className="Paragraphmd">USD CASH</div>
-                    <div className="Paragraphmd">EUR CASH</div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="d-flex flex-column gap-50">
+                <div className="d-flex mb-4 flex-column gap-50">
                   <div className="Heading01">Get in touch with us now</div>
                 </div>
                 <div className="d-flex flex-wrap justify-content-center gap-17">
@@ -200,8 +193,10 @@ export const FooterCust = ({ home }) => {
               </div>
             </div>
           </div>
-          <div className="d-flex w-100 justify-content-between flex-wrap gap-3 fs-4">
-            <div className="Paragraphmd">© All rights reserved</div>
+          <div className="d-flex w-100 justify-content-between flex-wrap gap-3 mt-3 fs-4">
+            <div className="Paragraphmd">
+              Copyright © 2024 All rights reserved | DubaiOTC
+            </div>
             <div className="d-flex gap-32">
               <Link className="anot" href="/terms">
                 <div className="Paragraphmd">Terms & Condition</div>

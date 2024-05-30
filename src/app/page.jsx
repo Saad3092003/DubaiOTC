@@ -57,7 +57,7 @@ export default function Home() {
                 &quot;Experience Seamless Crypto Transactions with Dubai
                 OTC&apos;s Premier Services&quot;
               </div>
-              <div className="d-flex justify-content-center align-items-center gap-45">
+              <div className="d-flex justify-content-center align-items-center gap-45 flex-wrap">
                 <div className="service-card" data-aos="fade-up">
                   <div className="icon mx-auto">
                     <img src="images/service2.png" width={50} />
@@ -127,38 +127,87 @@ export default function Home() {
               <div className="col-md-6" data-aos="fade-right">
                 <img src="images/map.gif" className="img-fluid" />
               </div>
-              <div className="col-md-6">
-                <div className="d-flex gap-3 justify-content-center flex-wrap">
-                  <div className="clients-card " data-aos="fade-left">
-                    Individual Investor
+              <div className="col-md-6 d-none d-sm-block">
+                <div className="row justify-content-center">
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card ms-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1300"
+                    >
+                      Crypto Traders
+                    </div>
                   </div>
-                  <div
-                    className="clients-card "
-                    data-aos="fade-left"
-                    data-aos-duration="1200"
-                  >
-                    SME Business
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card me-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1200"
+                    >
+                      SME Business
+                    </div>
                   </div>
-                  <div
-                    className="clients-card "
-                    data-aos="fade-left"
-                    data-aos-duration="1300"
-                  >
-                    Crypto Traders
+                </div>
+                <div className="row mt-4 justify-content-center">
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card ms-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1400"
+                    >
+                      High net worth individual
+                    </div>
                   </div>
-                  <div
-                    className="clients-card "
-                    data-aos="fade-left"
-                    data-aos-duration="1400"
-                  >
-                    High net worth individual
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card me-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1500"
+                    >
+                      Property Buyers
+                    </div>
                   </div>
-                  <div
-                    className="clients-card "
-                    data-aos="fade-left"
-                    data-aos-duration="1500"
-                  >
-                    Property Buyers
+                </div>
+              </div>
+              <div className="col-md-6 d-block d-sm-none">
+                <div className="row justify-content-center g-4">
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card mx-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1300"
+                    >
+                      Crypto Traders
+                    </div>
+                  </div>
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card mx-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1200"
+                    >
+                      SME Business
+                    </div>
+                  </div>
+                </div>
+                <div className="row mt-4 justify-content-center g-4">
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card mx-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1400"
+                    >
+                      High net worth individual
+                    </div>
+                  </div>
+                  <div className="col-sm-6 ">
+                    <div
+                      className="clients-card mx-auto px-2 "
+                      data-aos="fade-left"
+                      data-aos-duration="1500"
+                    >
+                      Property Buyers
+                    </div>
                   </div>
                 </div>
               </div>

@@ -38,18 +38,18 @@ export const Header = ({ type }) => {
             className="navbar-nav ms-auto mb-2 mb-lg-0"
           >
             <li className="nav-item p-0">
-              <a
+              <Link
                 className="nav-link Paragraph p-0 active"
                 aria-current="page"
                 href="/"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item p-0">
-              <a className="nav-link Paragraph p-0" href="/service">
+              <Link className="nav-link Paragraph p-0" href="/service">
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item p-0">
               <Link className="nav-link Paragraph p-0" href="/company">
