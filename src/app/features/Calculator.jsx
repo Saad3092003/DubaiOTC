@@ -1,24 +1,42 @@
 "use client";
 import { useEffect, useState } from "react";
-const convertCryptoCurrencyPrice = require("crypto-price-converter-xid");
 
 function Calculator() {
+  const [currencyrate, setCurrencyRate] = useState({
+    AED: 3.67,
+    INR: 83.31,
+    USDT: 1,
+    BTC: 67762.37,
+    ETH: 3727.79,
+  });
+
   const [payCurrency, setpayCurrency] = useState("AED");
   const [getCurrency, setGetCurrency] = useState("USDT");
-  const [pay, setPay] = useState(1);
+  const [pay, setPay] = useState(1000);
   const [get, setGet] = useState(0);
 
-  async function currencytocrypto(payCurrency, getCurrency) {
-    let crypto = await convertCryptoCurrencyPrice(payCurrency, getCurrency);
-    setGet(crypto.toFixed(2));
+  async function getRate() {
+    const response = await fetch(
+      `https://api1.binance.com/api/v3/ticker/price?symbols=["BTCUSDT","ETHUSDT"]`
+    );
+    const data = await response.json();
+    const currencyrate = {
+      AED: 3.67,
+      INR: 83.31,
+      USDT: 1,
+      BTC: data[0].price,
+      ETH: data[1].price,
+    };
+
+    setCurrencyRate(currencyrate);
   }
 
-  async function cryptoToCurrency(payCurrency, getCurrency) {
-    let crypto = await convertCryptoCurrencyPrice(getCurrency, payCurrency);
-    setPay(crypto.toFixed(2));
-  }
   useEffect(() => {
-    currencytocrypto(payCurrency, getCurrency);
+    setGet(
+      (pay / currencyrate[payCurrency] / currencyrate[getCurrency]).toFixed(6)
+    );
+
+    getRate();
   }, []);
 
   return (
@@ -62,6 +80,15 @@ function Calculator() {
                   <input
                     value={pay}
                     onChange={(e) => setPay(e.target.value)}
+                    onKeyUp={(e) => {
+                      setGet(
+                        (
+                          e.target.value /
+                          currencyrate[payCurrency] /
+                          currencyrate[getCurrency]
+                        ).toFixed(6)
+                      );
+                    }}
                     type="number"
                     className="w-100 cal-input"
                     placeholder="3000"
@@ -82,7 +109,13 @@ function Calculator() {
                       value={payCurrency}
                       onChange={(e) => {
                         setpayCurrency(e.target.value);
-                        currencytocrypto(e.target.value, getCurrency);
+                        setGet(
+                          (
+                            pay /
+                            currencyrate[e.target.value] /
+                            currencyrate[getCurrency]
+                          ).toFixed(6)
+                        );
                       }}
                       className="select-cal"
                       name=""
@@ -117,6 +150,15 @@ function Calculator() {
                   <input
                     value={get}
                     onChange={(e) => setGet(e.target.value)}
+                    onKeyUp={(e) => {
+                      setPay(
+                        (
+                          e.target.value *
+                          currencyrate[getCurrency] *
+                          currencyrate[payCurrency]
+                        ).toFixed(2)
+                      );
+                    }}
                     type="number"
                     className="w-100 cal-input"
                     placeholder="3000"
@@ -134,9 +176,16 @@ function Calculator() {
                   <div className="d-flex gap-15">
                     <img src="/images/eth.png" width={"24"} />
                     <select
+                      value={getCurrency}
                       onChange={(e) => {
                         setGetCurrency(e.target.value);
-                        cryptoToCurrency(payCurrency, e.target.value);
+                        setPay(
+                          (
+                            get *
+                            currencyrate[payCurrency] *
+                            currencyrate[e.target.value]
+                          ).toFixed(2)
+                        );
                       }}
                       className="select-cal"
                       name=""
