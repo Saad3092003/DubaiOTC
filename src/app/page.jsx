@@ -6,13 +6,9 @@ import { FooterCust } from "../components/FooterCust";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        zoom: "0.8",
-      }}
-    >
+    <div>
       <div className="overflow-hidden">
-        <div className="hero-section">
+        <div className="hero-section pt-3">
           <Header />
           <HeroSection />
         </div>
@@ -20,7 +16,7 @@ export default function Home() {
           <div className="container">
             <div
               className="d-flex flex-column  align-items-center"
-              style={{ paddingTop: "145px", paddingBottom: "358px" }}
+              style={{ paddingTop: "145px", paddingBottom: "458px" }}
             >
               <div data-aos="fade-up">
                 <a
@@ -36,8 +32,12 @@ export default function Home() {
                 target="_blank"
                 href="https://t.me/DubaiOTCofficial"
               >
-                <div className="Heading01 mt-3" data-aos="fade-up">
-                  Stay ahead of the curve with real-time rate updates!
+                <div
+                  className="Heading01 mt-3 text-dark text-center"
+                  data-aos="fade-up"
+                >
+                  Stay ahead of the market with daily rate updates. Subscribe to
+                  our Telegram channel for the latest rates and news
                 </div>
               </a>
             </div>
@@ -54,8 +54,7 @@ export default function Home() {
                 style={{ maxWidth: "907px" }}
                 data-aos="fade-up"
               >
-                &quot;Experience Seamless Crypto Transactions with Dubai
-                OTC&apos;s Premier Services&quot;
+                Multiple Trading Options To Choose From
               </div>
               <div className="d-flex justify-content-center align-items-center gap-45 flex-wrap">
                 <div className="service-card" data-aos="fade-up">
@@ -65,8 +64,10 @@ export default function Home() {
                   <div className="d-flex flex-column gap-13">
                     <div className="Heading03 text-center">Crypto OTC Desk</div>
                     <p className="mb-0 text-center Paragraph">
-                      Lorem ipsum dolor sit amet consectetur. Hendrerit fusce in
-                      tempus nulla ultrices
+                      Buy or sell your cryptocurrency at our OTC desk at
+                      competitive rates. We facilitate small to large-volume
+                      transactions while offering a secure and discrete trading
+                      experience for our clients.
                     </p>
                   </div>
                 </div>
@@ -79,8 +80,9 @@ export default function Home() {
                       Local Bank <br /> Transfer
                     </div>
                     <p className="mb-0 text-center Paragraph">
-                      Lorem ipsum dolor sit amet consectetur. Hendrerit fusce in
-                      tempus nulla ultrices
+                      We also offer local bank transfer services for stress-free
+                      cryptocurrency transactions. Our team ensures all
+                      transfers are swift.
                     </p>
                   </div>
                 </div>
@@ -93,8 +95,9 @@ export default function Home() {
                       Payment Solution <br /> for Business
                     </div>
                     <p className="mb-0 text-center Paragraph">
-                      Lorem ipsum dolor sit amet consectetur. Hendrerit fusce in
-                      tempus nulla ultrices
+                      We provide tailored payment solutions for businesses
+                      looking to make payment to their business partners or
+                      individuals through cryptocurrency.
                     </p>
                   </div>
                 </div>
@@ -116,10 +119,11 @@ export default function Home() {
               <div
                 data-aos="fade-up"
                 className="heading02 mx-auto"
-                style={{ maxWidth: "752px" }}
+                style={{ maxWidth: "1152px" }}
               >
-                At Dubai OTC, our clients are at the forefront of everything we
-                do.
+                Don’t Just Take Our Words For It. This is What Our Clients Say
+                About Us. / Beyond Our Promises: Read What Our Clients Have to
+                Say.
               </div>
             </div>
 
@@ -221,8 +225,8 @@ export default function Home() {
               <div className="col-md-5">
                 <div className="d-flex gap-28 flex-column">
                   <div className="Heading01" data-aos="fade-right">
-                    Thrilled with Dubai OTC&apos;s Exceptional Service: Clients
-                    Testimonial
+                    Start Your Journey Today with DubaiOTC. Read What Clients
+                    Say About us.
                   </div>
                   <div className="d-flex gap-50">
                     <div>
@@ -233,7 +237,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div>
-                      <img src="images/trustpilot.png" width={"205"} />
+                      <img src="images/trustpilot.png" width={"145"} />
                       <div className="fw-bold" style={{ color: "#00B77B" }}>
                         68 Reviews 5.0/5.0
                       </div>
@@ -261,9 +265,8 @@ export default function Home() {
                       className="Paragraphlarge"
                       style={{ color: "#1a1a1a" }}
                     >
-                      Lorem ipsum dolor sit amet consectetur. Consequat auctor
-                      consectetur nunc vitae dolor blandit. Elit enim massa
-                      etiam neque laoreet lorem sed.
+                      Great services, Professional and reliable. Working with
+                      them since last 2 years regularly now. Recommended
                     </div>
                     <div className="d-flex flex-column mt-3">
                       <div className="heading05">Anthony Bahringer</div>
@@ -329,7 +332,7 @@ export default function Home() {
                         }}
                         className="Paragraphlarge"
                       >
-                        Personalized Approach.
+                        Quick, Secure and Efficient
                       </div>
                     </div>
                     <div
@@ -343,7 +346,7 @@ export default function Home() {
                         }}
                         className="Paragraphlarge"
                       >
-                        247 Support
+                        Competitive Rates in the Market / Unbeatable rates
                       </div>
                     </div>
                     <div
@@ -357,9 +360,7 @@ export default function Home() {
                         }}
                         className="Paragraphlarge"
                       >
-                        Dubai OTC offers wide range of Payment Solutions to
-                        Individuals, HNIS & Businesses to move money without
-                        Countes Pasty Risks.
+                        Multiple Payment Options (OTC/Bank Transfer)
                       </div>
                     </div>
                     <div
@@ -373,9 +374,7 @@ export default function Home() {
                         }}
                         className="Paragraphlarge"
                       >
-                        We&apos;ve helped more than 10,000 Individuals & too
-                        soot Businessy to Fulfil their Payeed Q. & many C&ypto
-                        Enterprises would wide with Moving Money Efficiently.
+                        24/7 Support Telegram Chat Assistance
                       </div>
                     </div>
                   </div>
@@ -405,8 +404,7 @@ export default function Home() {
                   }}
                   className="heading02"
                 >
-                  Quick Steps for Buying & Selling Cryptocurrency Directly from
-                  us.
+                  Simple Steps to Buy & Sell Crypto for AED with DubaiOTC
                 </div>
               </div>
               <div className="row">
@@ -423,7 +421,7 @@ export default function Home() {
                         }}
                         className="Heading03"
                       >
-                        Get Verified
+                        Onboarding
                       </div>
                       <div
                         style={{
@@ -432,7 +430,8 @@ export default function Home() {
                           fontWeight: " 400",
                         }}
                       >
-                        Registration or Create an Account
+                        To get started, create an account with us and verify
+                        your account to initiate your trade.
                       </div>
                     </div>
                   </div>
@@ -450,7 +449,7 @@ export default function Home() {
                         }}
                         className="Heading03"
                       >
-                        Use our interactive calculator
+                        Check Prevailing Rates
                       </div>
                       <div
                         style={{
@@ -459,7 +458,8 @@ export default function Home() {
                           fontWeight: " 400",
                         }}
                       >
-                        Powered By AI
+                        Next,check our Telegram channel for the current rate of
+                        your selected cryptocurrency.
                       </div>
                     </div>
                   </div>
@@ -477,7 +477,7 @@ export default function Home() {
                         }}
                         className="Heading03"
                       >
-                        Get in touch with us
+                        Contact Us On Telegram
                       </div>
                       <div
                         style={{
@@ -486,7 +486,9 @@ export default function Home() {
                           fontWeight: " 400",
                         }}
                       >
-                        Contact us via Live Support / Telegram
+                        Contact us on Telegram to book an appointment for your
+                        trade. Our live support team is available 24/7 to assist
+                        you.
                       </div>
                     </div>
                   </div>

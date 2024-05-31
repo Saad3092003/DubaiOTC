@@ -26,71 +26,71 @@ function WorkCard({ count, title, desc }) {
 const Features = () => {
   return (
     <>
-      <div className="container mt-3">
-        <Header type="plain" />
-      </div>
-
-      <div className="py-5  container ">
-        <div className="row px-2 g-5 flex-wrap-reverse">
-          <div className="col-md-6">
-            <div className="gap-41 d-flex flex-column">
-              <div className="Heading01 text-h1">
-                Buy <span style={{ color: "#22246A" }}>Ethereum, USDT</span>{" "}
-                with EUR within minutes
-              </div>
-              <div className="d-flex gap-15 align-items-center">
+      <div className="hero-section pt-3">
+        <div className="container">
+          <Header />
+        </div>
+        <div className="py-5 text-white container ">
+          <div className="row px-2 g-5 flex-wrap-reverse">
+            <div className="col-md-6">
+              <div className="gap-41 d-flex flex-column">
+                <div className="Heading01 text-h1">
+                  Buy <span style={{ color: "#f7f7f7" }}>Ethereum, USDT</span>{" "}
+                  with EUR within minutes
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img src="images/Check.png" width={"32"} height={"32"} />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Buy as much as you need – we support volumes from 5 EUR to
+                    up to 10M EUR.
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img src="images/Check.png" width={"32"} height={"32"} />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Receive crypto directly in any Metamask, Trust, or other
+                    crypto wallet. As a non-custodial solution Swapin never
+                    holds your funds.
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img src="images/Check.png" width={"32"} height={"32"} />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Enjoy the convenience of a Dedicated IBAN issued in your
+                    name for seamless transactions.
+                  </div>
+                </div>
                 <div>
-                  <img src="images/Check.png" width={"32"} height={"32"} />
+                  <button
+                    className="btn btn-primary rounded-pill"
+                    style={{ padding: "12px 33px" }}
+                  >
+                    Buy Crypto Now
+                  </button>
                 </div>
-                <div className="Paragraph" style={{ color: "#797979" }}>
-                  Buy as much as you need – we support volumes from 5 EUR to up
-                  to 10M EUR.
+                <div className="d-flex flex-column gap-6">
+                  <div className="Paragraph">Excellent 247 Reviews on</div>
+                  <img
+                    src="/images/trust.png"
+                    className="img-fluid rounded-3"
+                    width={"150"}
+                    alt=""
+                  />
                 </div>
-              </div>
-              <div className="d-flex gap-15 align-items-center">
-                <div>
-                  <img src="images/Check.png" width={"32"} height={"32"} />
-                </div>
-                <div className="Paragraph" style={{ color: "#797979" }}>
-                  Receive crypto directly in any Metamask, Trust, or other
-                  crypto wallet. As a non-custodial solution Swapin never holds
-                  your funds.
-                </div>
-              </div>
-              <div className="d-flex gap-15 align-items-center">
-                <div>
-                  <img src="images/Check.png" width={"32"} height={"32"} />
-                </div>
-                <div className="Paragraph" style={{ color: "#797979" }}>
-                  Enjoy the convenience of a Dedicated IBAN issued in your name
-                  for seamless transactions.
-                </div>
-              </div>
-              <div>
-                <button
-                  className="btn btn-primary rounded-pill"
-                  style={{ padding: "12px 33px" }}
-                >
-                  Buy Crypto Now
-                </button>
-              </div>
-              <div className="d-flex flex-column gap-6">
-                <div className="Paragraph">Excellent 247 Reviews on</div>
-                <img
-                  src="/images/trust.png"
-                  className="img-fluid"
-                  width={"150"}
-                  alt=""
-                />
               </div>
             </div>
-          </div>
-          <div className="col-md-6 ">
-            <Calculator />
+            <div className="col-md-6 ">
+              <Calculator />
+            </div>
           </div>
         </div>
       </div>
-
       <div className="py-5 container ">
         <div className="row px-2 py-5 g-5 justify-content-between">
           <div className="col-md-5">

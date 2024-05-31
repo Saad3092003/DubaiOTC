@@ -4,7 +4,7 @@ export default function HeroSection() {
       <div className="row align-items-center flex-wrap-reverse">
         <div className="col-md-6">
           <h1 className="hero-text mx-auto" data-aos="fade-up">
-            Unlocking the Future: Explore the World of Cryptocurrency
+            Best Crypto-to-Fiat and Fiat-to-Crypto OTC Desk in Dubai
           </h1>
         </div>
         <div className="col-md-6">

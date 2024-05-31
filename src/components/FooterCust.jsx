@@ -9,7 +9,7 @@ export const FooterCust = ({ home }) => {
           paddingBlock: "110px",
           paddingInline: "20px",
           background: "#8890f1",
-          zoom: home ? "0" : "0.8",
+          zoom: home ? "0.8" : "0.8",
         }}
       >
         <div
@@ -43,8 +43,9 @@ export const FooterCust = ({ home }) => {
                 maxWidth: "700px",
               }}
             >
-              We Understand the Significance of Addressing Each
-              Individual&apos;s Specific Needs with Care and Attention.
+              Join our active Telegram channel for up-to-the-minute price
+              updates and use our chatbots for instant support. Stay in the loop
+              about latest updates.
             </div>
           </div>
           <div>
@@ -88,7 +89,7 @@ export const FooterCust = ({ home }) => {
           paddingBlock: "80px",
           minHeight: "736px",
           paddingInline: "50px",
-          zoom: home ? "0" : "0.8",
+          zoom: home ? "0.8" : "0.8",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -103,12 +104,15 @@ export const FooterCust = ({ home }) => {
                     <img src="images/logo-white.png" width={200} />
                   </div>
                   <p className="fs-5">
-                    Dubai OTC is the most reputable over-the-counter (OTC) desk
-                    to Sell cryptocurrency. We support over 50+ different
-                    cryptocurrencies, including Tether USDT, Bitcoin, Ethereum
-                    (ETH), USDC, BUSD and constantly extending its supported
-                    crypto assets. The company charges 0% transaction fees and
-                    offers personal one-on-one OTC trade support to all traders.
+                    DubaiOTC is a user-friendly and fast-rising cryptocurrency
+                    exchange platform based in Dubai, that facilitates the
+                    buying and selling of cryptocurrencies in the UAE.
+                    <br />
+                    <br />
+                    We offer top-class cryptocurrency trading services to
+                    individuals, companies and investors of all magnitudes and
+                    experiences in the crypto space. At DubaiOTC, we make
+                    cryptocurrency trading easier and faster for all.
                   </p>
                 </div>
               </div>
@@ -204,9 +208,6 @@ export const FooterCust = ({ home }) => {
               </Link>
               <Link className="anot" href="/privacy">
                 <div className="Paragraphmd">Privacy Policy</div>
-              </Link>
-              <Link className="anot" href="/aml">
-                <div className="Paragraphmd">AML Policy</div>
               </Link>
             </div>
           </div>
