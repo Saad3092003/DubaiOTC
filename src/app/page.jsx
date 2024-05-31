@@ -233,7 +233,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div>
-                      <img src="images/trustpilot.png" width={"145"} />
+                      <img src="images/trustpilot.png" width={"205"} />
                       <div className="fw-bold" style={{ color: "#00B77B" }}>
                         68 Reviews 5.0/5.0
                       </div>

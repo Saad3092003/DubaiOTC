@@ -616,3 +616,14 @@
     color: inherit !important;
     text-decoration: none !important;
 }
+
+@media (max-width: 768px) {
+    .hero-text{
+      font-size: 35px !important ;
+      text-align: center;
+    }
+    .Heading01{
+      font-size: 35px !important;
+      text-align: center;
+    }
+}

@@ -19,6 +19,7 @@ export default function PartnersSlider() {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
+          centerMode: true,
         },
       },
       {
@@ -26,6 +27,7 @@ export default function PartnersSlider() {
         settings: {
           slidesToShow: 2,
           centerPadding: "20px",
+          centerMode: true,
         },
       },
       {
@@ -33,6 +35,7 @@ export default function PartnersSlider() {
         settings: {
           slidesToShow: 1,
           centerPadding: "10px",
+          centerMode: true,
         },
       },
     ],
@@ -40,16 +43,16 @@ export default function PartnersSlider() {
   return (
     <Slider {...settings}>
       <div>
-        <img src="images/euOTC.png" className="img-fluid " alt="" />
+        <img src="images/euOTC.png" className="img-fluid mx-auto" alt="" />
       </div>
       <div>
-        <img src="images/amlBot.png" className="img-fluid " alt="" />
+        <img src="images/amlBot.png" className="img-fluid mx-auto" alt="" />
       </div>
       <div>
-        <img src="images/okk.png" className="img-fluid " alt="" />
+        <img src="images/okk.png" className="img-fluid mx-auto" alt="" />
       </div>
       <div>
-        <img src="images/ledger.png" className="img-fluid " alt="" />
+        <img src="images/ledger.png" className="img-fluid mx-auto" alt="" />
       </div>
     </Slider>
   );

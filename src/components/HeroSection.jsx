@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <div className="container p-3 ">
-      <div className="row align-items-center">
+      <div className="row align-items-center flex-wrap-reverse">
         <div className="col-md-6">
           <h1 className="hero-text mx-auto" data-aos="fade-up">
             Unlocking the Future: Explore the World of Cryptocurrency

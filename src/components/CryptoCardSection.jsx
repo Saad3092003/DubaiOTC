@@ -276,7 +276,7 @@ export const CryptoCardSection = () => {
           ) : (
             <Kucoin />
           )}
-          <div className="justify-content-between px-md-5 gap-4 w-100 d-flex align-items-center">
+          <div className="justify-content-between overflow-auto px-md-5 gap-4 w-100 d-flex align-items-center">
             <img
               onClick={() => setActive(0)}
               style={{ cursor: "pointer" }}
