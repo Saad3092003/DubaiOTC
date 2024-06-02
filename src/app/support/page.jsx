@@ -374,8 +374,9 @@ const Support = () => {
                 data-bs-parent="#accordionExample1"
               >
                 <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Similique, eos.
+                  DubaiOTC is an OTC (Over-the-Counter) Desk where you can buy,
+                  sell cryptocurrencies, including Tether (USDT), Bitcoin (BTC),
+                  Ethereum (ETH) & Other cryptocurrency.
                 </div>
               </div>
             </div>
@@ -400,8 +401,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample1"
               >
                 <div className="accordion-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus, amet.
+                  OTC trading involves direct communication between buyers and
+                  sellers to negotiate and execute large cryptocurrency trades.
                 </div>
               </div>
             </div>
@@ -432,7 +433,7 @@ const Support = () => {
                   aria-expanded="true"
                   aria-controls="collapseOne2"
                 >
-                  How is it Different from Traditional Crypto Exchanges?
+                  What cryptocurrencies do you support?{" "}
                 </button>
               </h5>
               <div
@@ -442,10 +443,9 @@ const Support = () => {
                 data-bs-parent="#accordionExample2"
               >
                 <div className="accordion-body">
-                  OTC trading involves direct, off-exchange transactions
-                  negotiated between buyers and sellers, often used for larger
-                  trades, while traditional crypto exchanges match orders on a
-                  centralized platform for a broad range of users.
+                  We support Tether(USDT), Bitcoin(BTC), Ethereum(ETH), USD
+                  coin(USDC) & BUSD currently. We are working on Supporting More
+                  crypto.
                 </div>
               </div>
             </div>
@@ -460,7 +460,7 @@ const Support = () => {
                   aria-expanded="false"
                   aria-controls="collapseTwo2"
                 >
-                  What is Manager&apos;s Cheque?
+                  What is the minimum and maximum trade size?
                 </button>
               </h5>
               <div
@@ -470,8 +470,7 @@ const Support = () => {
                 data-bs-parent="#accordionExample2"
               >
                 <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Similique, eos.
+                  Our Minimum Trade amount starts with 3000 USDT.
                 </div>
               </div>
             </div>
@@ -486,7 +485,7 @@ const Support = () => {
                   aria-expanded="false"
                   aria-controls="collapseThree2"
                 >
-                  How do I start trading with you?
+                  What are the fees associated with OTC trading?
                 </button>
               </h5>
               <div
@@ -496,8 +495,9 @@ const Support = () => {
                 data-bs-parent="#accordionExample2"
               >
                 <div className="accordion-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus, amet.
+                  There is No Additional Fees.We do not charge any additional
+                  Fees above Already Stated in the website, You get what you See
+                  in the our calculator......Our rate Page Link
                 </div>
               </div>
             </div>
@@ -512,7 +512,7 @@ const Support = () => {
                   aria-expanded="false"
                   aria-controls="collapseFour2"
                 >
-                  What is your Onboarding Process?
+                  Can I trade fiat currencies for cryptocurrencies OTC?
                 </button>
               </h5>
               <div
@@ -522,8 +522,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample2"
               >
                 <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                  vel.
+                  Yes, We do accept AED,USD,EUR & INR Currenctly, We are working
+                  to Accomodate More payment Options.
                 </div>
               </div>
             </div>
@@ -589,8 +589,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample3"
               >
                 <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Similique, eos.
+                  Pricing Changes As per the Market.See our Detailed Pricing
+                  Here
                 </div>
               </div>
             </div>
@@ -615,8 +615,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample3"
               >
                 <div className="accordion-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus, amet.
+                  We use Bitgo as our Custody Partner, assets are Protected by
+                  Insurance of 1 Mn USD.
                 </div>
               </div>
             </div>
@@ -631,7 +631,7 @@ const Support = () => {
                   aria-expanded="false"
                   aria-controls="collapseFour3"
                 >
-                  Which Currencies do you support?
+                  Can I get market insights or assistance with market analysis?
                 </button>
               </h5>
               <div
@@ -641,8 +641,9 @@ const Support = () => {
                 data-bs-parent="#accordionExample3"
               >
                 <div className="accordion-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus, amet.
+                  No, We do not provide any Market Insights or assistance.
+                  Cryptocurrency Market is Highly Fluctuating & Only trade at
+                  your own discretion.
                 </div>
               </div>
             </div>
@@ -657,7 +658,7 @@ const Support = () => {
                   aria-expanded="false"
                   aria-controls="collapseFive3"
                 >
-                  What Payment Methods you support for AED Currency?
+                  Do you offer 24/7 support?
                 </button>
               </h5>
               <div
@@ -667,8 +668,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample3"
               >
                 <div className="accordion-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus, amet.
+                  Our Customer Support is available between 10:00 to 22:00
+                  Hours, Dubai Time(UTC+4:00)
                 </div>
               </div>
             </div>
@@ -697,7 +698,8 @@ const Support = () => {
                   aria-expanded="true"
                   aria-controls="collapseOne4"
                 >
-                  Which Payment Methods you support for INR (Indian Rupees)
+                  Can I execute trades via phone or other communication
+                  channels?
                 </button>
               </h5>
               <div
@@ -707,8 +709,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample4"
               >
                 <div className="accordion-body">
-                  We Support Cash in all Major Cities,Bank Transfer
-                  (RTGS/NEFT/IMPS) & UPI Payment Methods for INR Currency.
+                  You may reach us through our Official Telegram @Dubai_OTC or
+                  Via Email Support CS@dubaiotc.com for all Queries.
                 </div>
               </div>
             </div>
@@ -723,7 +725,7 @@ const Support = () => {
                   aria-expanded="false"
                   aria-controls="collapseTwo4"
                 >
-                  How long does it to receive Cryptocurrency Usually?
+                  Are there any restrictions on who can use the OTC desk?
                 </button>
               </h5>
               <div
@@ -733,178 +735,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample4"
               >
                 <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Similique, eos.
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div className="accordion-item">
-              <h5 className="accordion-header" id="headingThree">
-                <button
-                  className="accordion-button text-white collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree4"
-                  aria-expanded="false"
-                  aria-controls="collapseThree4"
-                >
-                  What payment Methods you support for USD Currency?
-                </button>
-              </h5>
-              <div
-                id="collapseThree4"
-                className="accordion-collapse collapse text-white"
-                aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample4"
-              >
-                <div className="accordion-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus, amet.
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div className="accordion-item">
-              <h5 className="accordion-header" id="headingFour4">
-                <button
-                  className="accordion-button text-white collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour4"
-                  aria-expanded="false"
-                  aria-controls="collapseFour4"
-                >
-                  What payment Methods you support for Euro Currency?
-                </button>
-              </h5>
-              <div
-                id="collapseFour4"
-                className="accordion-collapse collapse text-white"
-                aria-labelledby="headingFour4"
-                data-bs-parent="#accordionExample4"
-              >
-                <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                  vel.
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div className="accordion-item">
-              <h5 className="accordion-header" id="headingFive4">
-                <button
-                  className="accordion-button text-white collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseFive4"
-                  aria-expanded="false"
-                  aria-controls="collapseFive4"
-                >
-                  Which Cryptocurrency do you support?
-                </button>
-              </h5>
-              <div
-                id="collapseFive4"
-                className="accordion-collapse collapse text-white"
-                aria-labelledby="headingFive4"
-                data-bs-parent="#accordionExample4"
-              >
-                <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                  vel.
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div className="accordion-item">
-              <h5 className="accordion-header" id="headingSix4">
-                <button
-                  className="accordion-button text-white collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseSix4"
-                  aria-expanded="false"
-                  aria-controls="collapseSix4"
-                >
-                  Which Blockchains you Support?
-                </button>
-              </h5>
-              <div
-                id="collapseSix4"
-                className="accordion-collapse collapse text-white"
-                aria-labelledby="headingSix4"
-                data-bs-parent="#accordionExample4"
-              >
-                <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-                  vel.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        style={{
-          paddingBlock: "100px",
-          backgroundImage: "url(/images/knowledgeBG.png)",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
-        <div className="container">
-          <div className="Heading01 mb-5 text-center">Support</div>
-          <div className="accordion " id="accordionExample5">
-            <div className="accordion-item">
-              <h5 className="accordion-header" id="headingOne">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne5"
-                  aria-expanded="true"
-                  aria-controls="collapseOne5"
-                >
-                  Do you offer 24/7 support?
-                </button>
-              </h5>
-              <div
-                id="collapseOne5"
-                className="accordion-collapse collapse"
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample5"
-              >
-                <div className="accordion-body">
-                  Our Customer Support is available between 10:00 to 22:00
-                  Hours, Dubai Time(UTC+4:00)
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div className="accordion-item">
-              <h5 className="accordion-header" id="headingTwo">
-                <button
-                  className="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo5"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo5"
-                >
-                  How to contact us?
-                </button>
-              </h5>
-              <div
-                id="collapseTwo5"
-                className="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample5"
-              >
-                <div className="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Similique, eos.
+                  Check for any geographical or regulatory restrictions that may
+                  apply to users of the OTC desk.
                 </div>
               </div>
             </div>

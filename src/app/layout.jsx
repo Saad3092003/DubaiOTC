@@ -5,8 +5,9 @@ import "bootstrap/dist/css/bootstrap.css";
 const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "DubaiOTC",
-  description: "Explore the World of Cryptocurrency",
+  title: "DubaiOTC - Buy and Sell USDT Cryptocurrencies in Dubai",
+  description:
+    "DubaiOTC is a licensed Over-The-Counter (OTC) desk for buying and selling top cryptocurrencies in UAE. We support different cryptocurrencies, including Tether USDT, Bitcoin, Ethereum (ETH), USDC, BUSD with 0% transaction fees. Visit our office today!",
 };
 
 export default function RootLayout({ children }) {
