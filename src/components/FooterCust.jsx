@@ -142,7 +142,12 @@ export const FooterCust = ({ home }) => {
                 <div className="d-flex flex-wrap justify-content-center gap-17">
                   <a href="https://www.instagram.com/dubaiotc/" target="_blank">
                     <div className="footer-social">
-                      <img src="images/instagram-icon.png" height={34} alt="" />
+                      <img
+                        src="images/instagram-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a
@@ -150,17 +155,32 @@ export const FooterCust = ({ home }) => {
                     target="_blank"
                   >
                     <div className="footer-social">
-                      <img src="images/linkedin-icon.png" height={34} alt="" />
+                      <img
+                        src="images/linkedin-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a href="https://twitter.com/DubaiOtc" target="_blank">
                     <div className="footer-social">
-                      <img src="images/twitter-icon.png" height={34} alt="" />
+                      <img
+                        src="images/twitter-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a href="https://medium.com/@dubaiotc" target="_blank">
                     <div className="footer-social">
-                      <img src="images/medium-icon.png" height={34} alt="" />
+                      <img
+                        src="images/medium-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a
@@ -168,17 +188,32 @@ export const FooterCust = ({ home }) => {
                     target="_blank"
                   >
                     <div className="footer-social">
-                      <img src="images/reddit-icon.png" height={34} alt="" />
+                      <img
+                        src="images/reddit-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a href="https://www.pinterest.com/DubaiOTC/" target="_blank">
                     <div className="footer-social">
-                      <img src="images/pinterest-icon.png" height={34} alt="" />
+                      <img
+                        src="images/pinterest-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a href="https://www.facebook.com/dubaiotc/" target="_blank">
                     <div className="footer-social">
-                      <img src="images/facebook-icon.png" height={34} alt="" />
+                      <img
+                        src="images/facebook-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a
@@ -186,12 +221,22 @@ export const FooterCust = ({ home }) => {
                     target="_blank"
                   >
                     <div className="footer-social">
-                      <img src="images/quora-icon.png" height={34} alt="" />
+                      <img
+                        src="images/quora-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                   <a href="" target="_blank">
                     <div className="footer-social">
-                      <img src="images/discord-icon.png" height={34} alt="" />
+                      <img
+                        src="images/discord-icon.png"
+                        className="rounded-2"
+                        height={54}
+                        alt=""
+                      />
                     </div>
                   </a>
                 </div>
@@ -204,10 +249,13 @@ export const FooterCust = ({ home }) => {
             </div>
             <div className="d-flex gap-32">
               <Link className="anot" href="/terms">
-                <div className="Paragraphmd">Terms & Condition</div>
+                <div className="Paragraphmd">Terms of Use</div>
               </Link>
               <Link className="anot" href="/privacy">
                 <div className="Paragraphmd">Privacy Policy</div>
+              </Link>
+              <Link className="anot" href="/cookie">
+                <div className="Paragraphmd">Cookies</div>
               </Link>
             </div>
           </div>

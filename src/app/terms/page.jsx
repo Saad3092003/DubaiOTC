@@ -26,7 +26,7 @@ const Terms = () => {
             >
               Terms - DubaiOTC
             </div>
-            <div className="hero-text mt-3">Terms And Condition</div>
+            <div className="hero-text mt-3">Terms of Use</div>
           </div>
         </div>
       </section>
