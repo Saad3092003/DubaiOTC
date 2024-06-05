@@ -1,3 +1,4 @@
+import Type from "./Type";
 import PartnersSlider from "../../components/PartnersSlider";
 import { Header } from "../../components/Header";
 import { FooterCust } from "../../components/FooterCust";
@@ -35,7 +36,7 @@ const Features = () => {
             <div className="col-md-6">
               <div className="gap-41 d-flex flex-column">
                 <div className="Heading01 text-h1">
-                  Buy <span style={{ color: "#f7f7f7" }}>Ethereum, USDT</span>{" "}
+                  Buy <Type />
                   with EUR within minutes
                 </div>
                 <div className="d-flex gap-15 align-items-center">
