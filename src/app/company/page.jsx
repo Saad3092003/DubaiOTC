@@ -17,16 +17,6 @@ const Company = () => {
           style={{ minHeight: "375px" }}
         >
           <div className="h-100 d-flex flex-column justify-content-center align-items-center">
-            <div
-              className="badge rounded-pill"
-              style={{
-                backgroundColor: "#22246A",
-                fontSize: "11px",
-                fontWeight: "400",
-              }}
-            >
-              Company - DubaiOTC
-            </div>
             <div className="hero-text mt-3">Company</div>
           </div>
         </div>

@@ -264,7 +264,7 @@ export const FooterCust = ({ home }) => {
                 <div className="Paragraphmd">Privacy Policy</div>
               </Link>
               <Link className="anot" href="/cookie">
-                <div className="Paragraphmd">Cookies</div>
+                <div className="Paragraphmd">Cookie Policy</div>
               </Link>
             </div>
           </div>
