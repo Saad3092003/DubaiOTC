@@ -5,15 +5,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export default function PartnersSlider() {
-  var settings = {
+  let settings = {
     dots: false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 1500,
     speed: 500,
     slidesToShow: 3,
-    centerMode: true,
-    slidesToScroll: 3,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -43,16 +42,32 @@ export default function PartnersSlider() {
   return (
     <Slider {...settings}>
       <div>
-        <img src="images/euOTC.png" className="img-fluid mx-auto" alt="" />
+        <img
+          alt="DubaiOTC"
+          src="images/euOTC.png"
+          className="img-fluid mx-auto"
+        />
       </div>
       <div>
-        <img src="images/amlBot.png" className="img-fluid mx-auto" alt="" />
+        <img
+          alt="DubaiOTC"
+          src="images/amlBot.png"
+          className="img-fluid mx-auto"
+        />
       </div>
       <div>
-        <img src="images/okk.png" className="img-fluid mx-auto" alt="" />
+        <img
+          alt="DubaiOTC"
+          src="images/okk.png"
+          className="img-fluid mx-auto"
+        />
       </div>
       <div>
-        <img src="images/ledger.png" className="img-fluid mx-auto" alt="" />
+        <img
+          alt="DubaiOTC"
+          src="images/ledger.png"
+          className="img-fluid mx-auto"
+        />
       </div>
     </Slider>
   );

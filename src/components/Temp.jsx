@@ -32,13 +32,13 @@ export const Temp = () => {
                 target="_blank"
                 href="https://t.me/DubaiOTCofficial"
               >
-                <img src="images/telegram.png" width={"125"} />
+                <img alt="DubaiOTC" src="images/telegram.png" width={"125"} />
               </a>
             </div>
             <a target="_blank" href="https://t.me/DubaiOTCofficial">
-              <div className="Heading01 mt-3" data-aos="fade-up">
+              <h2 className="Heading01 mt-3" data-aos="fade-up">
                 Stay ahead of the curve with real-time rate updates!
-              </div>
+              </h2>
             </a>
           </div>
         </div>
@@ -60,7 +60,7 @@ export const Temp = () => {
             <div className="d-flex justify-content-center align-items-center gap-45">
               <div className="service-card" data-aos="fade-up">
                 <div className="icon mx-auto">
-                  <img src="images/service2.png" width={50} />
+                  <img alt="DubaiOTC" src="images/service2.png" width={50} />
                 </div>
                 <div className="d-flex flex-column gap-13">
                   <div className="Heading03 text-center">Crypto OTC Desk</div>
@@ -72,7 +72,7 @@ export const Temp = () => {
               </div>
               <div className="service-card" data-aos="fade-up">
                 <div className="icon mx-auto">
-                  <img src="images/service1.png" width={50} />
+                  <img alt="DubaiOTC" src="images/service1.png" width={50} />
                 </div>
                 <div className="d-flex flex-column gap-13">
                   <div className="Heading03 text-center">
@@ -86,7 +86,7 @@ export const Temp = () => {
               </div>
               <div className="service-card" data-aos="fade-up">
                 <div className="icon mx-auto">
-                  <img src="images/service3.png" width={50} />
+                  <img alt="DubaiOTC" src="images/service3.png" width={50} />
                 </div>
                 <div className="d-flex flex-column gap-13">
                   <div className="Heading03 text-center">
@@ -125,7 +125,7 @@ export const Temp = () => {
 
           <div className="row g-4 justify-content-center align-items-center">
             <div className="col-md-6" data-aos="fade-right">
-              <img src="images/map.gif" className="img-fluid" />
+              <img alt="DubaiOTC" src="images/map.gif" className="img-fluid" />
             </div>
             <div className="col-md-6">
               <div className="d-flex gap-3 justify-content-center flex-wrap">
@@ -177,14 +177,18 @@ export const Temp = () => {
                 </div>
                 <div className="d-flex gap-50">
                   <div>
-                    <img src="images/google.png" width={"145"} />
+                    <img alt="DubaiOTC" src="images/google.png" width={"145"} />
                     <div className="fw-bold">
                       <span style={{ color: "#3172F3" }}>120 Reviews</span>{" "}
                       <span style={{ color: "#FDB002" }}>5.0/5.0</span>
                     </div>
                   </div>
                   <div>
-                    <img src="images/trustpilot.png" width={"145"} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/trustpilot.png"
+                      width={"145"}
+                    />
                     <div className="fw-bold" style={{ color: "#00B77B" }}>
                       68 Reviews 5.0/5.0
                     </div>
@@ -221,7 +225,11 @@ export const Temp = () => {
                   </div>
                 </div>
                 <div>
-                  <img src="images/testimonial.png" className="img-fluid" />
+                  <img
+                    alt="DubaiOTC"
+                    src="images/testimonial.png"
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
@@ -230,7 +238,11 @@ export const Temp = () => {
       </section>
 
       <section>
-        <img src="images/bgtoppartner.png" className="img-fluid w-100" />
+        <img
+          alt="DubaiOTC"
+          src="images/bgtoppartner.png"
+          className="img-fluid w-100"
+        />
         <div className="text-center">
           <div
             className="Heading01"
@@ -243,7 +255,11 @@ export const Temp = () => {
             <PartnersSlider />
           </div>
         </div>
-        <img src="images/bgbottompartner.png" className="img-fluid w-100" />
+        <img
+          alt="DubaiOTC"
+          src="images/bgbottompartner.png"
+          className="img-fluid w-100"
+        />
       </section>
 
       <section
@@ -256,7 +272,11 @@ export const Temp = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-md-6" data-aos="fade-right">
-              <img src="images/benefits.png" className="img-fluid" alt="" />
+              <img
+                alt="DubaiOTC"
+                src="images/benefits.png"
+                className="img-fluid"
+              />
             </div>
             <div className="col-md-6">
               <div className="d-flex flex-column gap-32">
@@ -269,7 +289,11 @@ export const Temp = () => {
                     className="d-flex gap-18 align-items-center"
                     data-aos="fade-left"
                   >
-                    <img src="images/check-mark.png" width={48} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/check-mark.png"
+                      width={48}
+                    />
                     <div
                       style={{
                         color: "#797979",
@@ -283,7 +307,11 @@ export const Temp = () => {
                     className="d-flex gap-18 align-items-center"
                     data-aos="fade-left"
                   >
-                    <img src="images/check-mark.png" width={48} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/check-mark.png"
+                      width={48}
+                    />
                     <div
                       style={{
                         color: "#797979",
@@ -297,7 +325,11 @@ export const Temp = () => {
                     className="d-flex gap-18 align-items-center"
                     data-aos="fade-left"
                   >
-                    <img src="images/check-mark.png" width={48} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/check-mark.png"
+                      width={48}
+                    />
                     <div
                       style={{
                         color: "#797979",
@@ -313,7 +345,11 @@ export const Temp = () => {
                     className="d-flex gap-18 align-items-center"
                     data-aos="fade-left"
                   >
-                    <img src="images/check-mark.png" width={48} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/check-mark.png"
+                      width={48}
+                    />
                     <div
                       style={{
                         color: "#797979",
@@ -362,7 +398,11 @@ export const Temp = () => {
                   style={{ maxWidth: "430px" }}
                   className="d-flex flex-column gap-31"
                 >
-                  <img src="images/step1.png" className="img-fluid" />
+                  <img
+                    alt="DubaiOTC"
+                    src="images/step1.png"
+                    className="img-fluid"
+                  />
                   <div className="d-flex flex-column gap-12">
                     <div
                       style={{
@@ -389,7 +429,11 @@ export const Temp = () => {
                   style={{ maxWidth: "430px" }}
                   className="d-flex flex-column gap-31"
                 >
-                  <img src="images/step2.png" className="img-fluid" />
+                  <img
+                    alt="DubaiOTC"
+                    src="images/step2.png"
+                    className="img-fluid"
+                  />
                   <div className="d-flex flex-column gap-12">
                     <div
                       style={{
@@ -416,7 +460,11 @@ export const Temp = () => {
                   style={{ maxWidth: "430px" }}
                   className="d-flex flex-column gap-31"
                 >
-                  <img src="images/step3.png" className="img-fluid" />
+                  <img
+                    alt="DubaiOTC"
+                    src="images/step3.png"
+                    className="img-fluid"
+                  />
                   <div className="d-flex flex-column gap-12">
                     <div
                       style={{
@@ -496,7 +544,12 @@ export const Temp = () => {
                 gap: "24px",
               }}
             >
-              <img src="images/telegram-icon.png" width={42} height={42} />
+              <img
+                alt="DubaiOTC"
+                src="images/telegram-icon.png"
+                width={42}
+                height={42}
+              />
               <span
                 style={{
                   color: "#0D0D2B",
@@ -530,7 +583,11 @@ export const Temp = () => {
               <div className="col-md-3">
                 <div className="d-flex flex-column gap-33">
                   <div>
-                    <img src="images/logo-white.png" width={200} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/logo-white.png"
+                      width={200}
+                    />
                   </div>
                   <p className="Paragraph">
                     Lorem ipsum dolor sit amet consectetur. Tristique vulputate
@@ -579,31 +636,67 @@ export const Temp = () => {
                 </div>
                 <div className="d-flex flex-wrap justify-content-center gap-17">
                   <div className="footer-social">
-                    <img src="images/instagram-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/instagram-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/linkedin-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/linkedin-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/twitter-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/twitter-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/medium-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/medium-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/reddit-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/reddit-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/pinterest-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/pinterest-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/facebook-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/facebook-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/quora-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/quora-icon.png"
+                      height={34}
+                    />
                   </div>
                   <div className="footer-social">
-                    <img src="images/discord-icon.png" height={34} alt="" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/discord-icon.png"
+                      height={34}
+                    />
                   </div>
                 </div>
               </div>

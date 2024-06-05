@@ -39,10 +39,10 @@ const Support = () => {
             <div className="col-md-5">
               <div className="news-card">
                 <img
+                  alt="DubaiOTC"
                   src="/images/artical1.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
-                  alt=""
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
                   <div className="Heading03" style={{ color: "#22246A" }}>
@@ -64,10 +64,10 @@ const Support = () => {
             <div className="col-md-5">
               <div className="news-card">
                 <img
+                  alt="DubaiOTC"
                   src="/images/artical2.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
-                  alt=""
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
                   <div className="Heading03" style={{ color: "#22246A" }}>
@@ -90,10 +90,10 @@ const Support = () => {
             <div className="col-md-5">
               <div className="news-card">
                 <img
+                  alt="DubaiOTC"
                   src="/images/artical1.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
-                  alt=""
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
                   <div className="Heading03" style={{ color: "#22246A" }}>
@@ -115,10 +115,10 @@ const Support = () => {
             <div className="col-md-5">
               <div className="news-card">
                 <img
+                  alt="DubaiOTC"
                   src="/images/artical2.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
-                  alt=""
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
                   <div className="Heading03" style={{ color: "#22246A" }}>
@@ -149,9 +149,9 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
+                  alt="DubaiOTC"
                   src="/images/E1.png"
                   style={{ width: "48px", height: "48px" }}
-                  alt=""
                 />
               </div>
               <div className="d-flex flex-column gap-1">
@@ -182,9 +182,9 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
+                  alt="DubaiOTC"
                   src="/images/E2.svg"
                   style={{ width: "48px", height: "48px" }}
-                  alt=""
                 />
               </div>
               <div className="d-flex flex-column gap-1">
@@ -215,9 +215,9 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
+                  alt="DubaiOTC"
                   src="/images/E3.svg"
                   style={{ width: "48px", height: "48px" }}
-                  alt=""
                 />
               </div>
               <div className="d-flex flex-column gap-1">
@@ -248,9 +248,9 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
+                  alt="DubaiOTC"
                   src="/images/E4.svg"
                   style={{ width: "48px", height: "48px" }}
-                  alt=""
                 />
               </div>
               <div className="d-flex flex-column gap-1">
@@ -281,9 +281,9 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
+                  alt="DubaiOTC"
                   src="/images/E4.svg"
                   style={{ width: "48px", height: "48px" }}
-                  alt=""
                 />
               </div>
               <div className="d-flex flex-column gap-1">

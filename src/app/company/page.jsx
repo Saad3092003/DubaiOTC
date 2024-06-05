@@ -85,7 +85,7 @@ const Company = () => {
                 <div className="col-lg-5 text-start text-lg-end">
                   <div className="d-flex flex-column align-items-start align-items-lg-end">
                     <div style={{ marginBottom: "93px" }}>
-                      <img src="/images/1.png" alt="" />
+                      <img alt="DubaiOTC" src="/images/1.png" />
                     </div>
                     <div
                       style={{ marginBottom: "70px" }}
@@ -99,7 +99,7 @@ const Company = () => {
                       </div>
                     </div>
                     <div style={{ marginBottom: "73px" }}>
-                      <img src="/images/3.png" alt="" />
+                      <img alt="DubaiOTC" src="/images/3.png" />
                     </div>
                     <div
                       className="d-flex gap-19 flex-column"
@@ -115,7 +115,7 @@ const Company = () => {
                       </div>
                     </div>
                     <div>
-                      <img src="/images/5.png" alt="" />
+                      <img alt="DubaiOTC" src="/images/5.png" />
                     </div>
                   </div>
                 </div>
@@ -165,7 +165,7 @@ const Company = () => {
                       </div>
                     </div>
                     <div style={{ marginBottom: "92px" }}>
-                      <img src="/images/2.png" alt="" />
+                      <img alt="DubaiOTC" src="/images/2.png" />
                     </div>
                     <div
                       style={{ marginBottom: "84px" }}
@@ -180,7 +180,7 @@ const Company = () => {
                       </div>
                     </div>
                     <div style={{ marginBottom: "49px" }}>
-                      <img src="/images/4.png" alt="" />
+                      <img alt="DubaiOTC" src="/images/4.png" />
                     </div>
                     <div className="d-flex gap-19 flex-column">
                       <div className="Paragraph">
@@ -220,9 +220,9 @@ const Company = () => {
             </div>
             <div className="col-md-6">
               <img
+                alt="DubaiOTC"
                 src="images/2nd_section_company.png"
                 className="img-fluid"
-                alt=""
               />
             </div>
           </div>

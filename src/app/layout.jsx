@@ -8,6 +8,14 @@ export const metadata = {
   title: "DubaiOTC - Buy and Sell USDT Cryptocurrencies in Dubai",
   description:
     "DubaiOTC is a licensed Over-The-Counter (OTC) desk for buying and selling top cryptocurrencies in UAE. We support different cryptocurrencies, including Tether USDT, Bitcoin, Ethereum (ETH), USDC, BUSD with 0% transaction fees. Visit our office today!",
+  keywords: [
+    "buy and sell cryptocurrencies in uae",
+    "Crypto OTC in Dubai",
+    "Best Crypto OTC in Dubai",
+    "Best Crypto Exchange in Dubai",
+    "Dubai OTC crypto",
+    "dubai crypto otc desk",
+  ],
 };
 
 export default function RootLayout({ children }) {
@@ -23,6 +31,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         /> */}
       </head>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={rubik.className}>
         {" "}
         {children}
@@ -31,7 +40,7 @@ export default function RootLayout({ children }) {
           style={{ zIndex: 999 }}
         >
           <a href="https://t.me/DubaiOTCofficial" target="_blank">
-            <img src="/images/telegram-icon.png" width={56} />
+            <img alt="DubaiOTC" src="/images/telegram-icon.png" width={56} />
           </a>
         </div>
       </body>

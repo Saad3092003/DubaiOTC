@@ -3,6 +3,7 @@ import { Header } from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import PartnersSlider from "../components/PartnersSlider";
 import { FooterCust } from "../components/FooterCust";
+import Testimonial from "../components/Testimonial";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
                   target="_blank"
                   href="https://t.me/DubaiOTCofficial"
                 >
-                  <img src="images/telegram.png" width={"125"} />
+                  <img alt="DubaiOTC" src="images/telegram.png" width={"125"} />
                 </a>
               </div>
               <a
@@ -32,13 +33,13 @@ export default function Home() {
                 target="_blank"
                 href="https://t.me/DubaiOTCofficial"
               >
-                <div
+                <h2
                   className="Heading01 mt-3 text-dark text-center"
                   data-aos="fade-up"
                 >
                   Stay ahead of the market with daily rate updates. Subscribe to
                   our Telegram channel for the latest rates and news
-                </div>
+                </h2>
               </a>
             </div>
           </div>
@@ -49,20 +50,20 @@ export default function Home() {
         <section style={{ paddingBlock: "87px" }}>
           <div className="container">
             <div className="d-flex flex-column" style={{ gap: "64px" }}>
-              <div
+              <h3
                 className="heading02 text-center mx-auto"
                 style={{ maxWidth: "907px" }}
                 data-aos="fade-up"
               >
                 Multiple Trading Options To Choose From
-              </div>
+              </h3>
               <div className="d-flex justify-content-center align-items-center gap-45 flex-wrap">
                 <div className="service-card" data-aos="fade-up">
                   <div className="icon mx-auto">
-                    <img src="images/service2.png" width={50} />
+                    <img alt="DubaiOTC" src="images/service2.png" width={50} />
                   </div>
                   <div className="d-flex flex-column gap-13">
-                    <div className="Heading03 text-center">Crypto OTC Desk</div>
+                    <h4 className="Heading03 text-center">Crypto OTC Desk</h4>
                     <p className="mb-0 text-center Paragraph">
                       Buy or sell your cryptocurrency at our OTC desk at
                       competitive rates. We facilitate small to large-volume
@@ -73,12 +74,12 @@ export default function Home() {
                 </div>
                 <div className="service-card" data-aos="fade-up">
                   <div className="icon mx-auto">
-                    <img src="images/service1.png" width={50} />
+                    <img alt="DubaiOTC" src="images/service1.png" width={50} />
                   </div>
                   <div className="d-flex flex-column gap-13">
-                    <div className="Heading03 text-center">
+                    <h4 className="Heading03 text-center">
                       Local Bank <br /> Transfer
-                    </div>
+                    </h4>
                     <p className="mb-0 text-center Paragraph">
                       We also offer local bank transfer services for stress-free
                       cryptocurrency transactions. Our team ensures all
@@ -88,12 +89,12 @@ export default function Home() {
                 </div>
                 <div className="service-card" data-aos="fade-up">
                   <div className="icon mx-auto">
-                    <img src="images/service3.png" width={50} />
+                    <img alt="DubaiOTC" src="images/service3.png" width={50} />
                   </div>
                   <div className="d-flex flex-column gap-13">
-                    <div className="Heading03 text-center">
+                    <h4 className="Heading03 text-center">
                       Payment Solution <br /> for Business
-                    </div>
+                    </h4>
                     <p className="mb-0 text-center Paragraph">
                       We provide tailored payment solutions for businesses
                       looking to make payment to their business partners or
@@ -116,7 +117,7 @@ export default function Home() {
               >
                 Our Clients
               </div>
-              <div
+              <h3
                 data-aos="fade-up"
                 className="heading02 mx-auto"
                 style={{ maxWidth: "1152px" }}
@@ -124,52 +125,56 @@ export default function Home() {
                 Don’t Just Take Our Words For It. This is What Our Clients Say
                 About Us. / Beyond Our Promises: Read What Our Clients Have to
                 Say.
-              </div>
+              </h3>
             </div>
 
             <div className="row g-4 justify-content-center align-items-center">
               <div className="col-md-6" data-aos="fade-right">
-                <img src="images/map.gif" className="img-fluid" />
+                <img
+                  alt="DubaiOTC"
+                  src="images/map.gif"
+                  className="img-fluid"
+                />
               </div>
               <div className="col-md-6 d-none d-sm-block">
                 <div className="row justify-content-center">
                   <div className="col-sm-6 ">
-                    <div
+                    <h4
                       className="clients-card ms-auto px-2 "
                       data-aos="fade-left"
                       data-aos-duration="1300"
                     >
                       Crypto Traders
-                    </div>
+                    </h4>
                   </div>
                   <div className="col-sm-6 ">
-                    <div
+                    <h4
                       className="clients-card me-auto px-2 "
                       data-aos="fade-left"
                       data-aos-duration="1200"
                     >
                       SME Business
-                    </div>
+                    </h4>
                   </div>
                 </div>
                 <div className="row mt-4 justify-content-center">
                   <div className="col-sm-6 ">
-                    <div
+                    <h4
                       className="clients-card ms-auto px-2 "
                       data-aos="fade-left"
                       data-aos-duration="1400"
                     >
                       High net worth individual
-                    </div>
+                    </h4>
                   </div>
                   <div className="col-sm-6 ">
-                    <div
+                    <h4
                       className="clients-card me-auto px-2 "
                       data-aos="fade-left"
                       data-aos-duration="1500"
                     >
                       Property Buyers
-                    </div>
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -224,20 +229,28 @@ export default function Home() {
             <div className="row g-5 align-items-center justify-content-center">
               <div className="col-md-5">
                 <div className="d-flex gap-28 flex-column">
-                  <div className="Heading01" data-aos="fade-right">
+                  <h3 className="Heading01" data-aos="fade-right">
                     Start Your Journey Today with DubaiOTC. Read What Clients
                     Say About us.
-                  </div>
+                  </h3>
                   <div className="d-flex gap-50">
                     <div>
-                      <img src="images/google.png" width={"145"} />
+                      <img
+                        alt="DubaiOTC"
+                        src="images/google.png"
+                        width={"145"}
+                      />
                       <div className="fw-bold">
                         <span style={{ color: "#3172F3" }}>120 Reviews</span>{" "}
                         <span style={{ color: "#FDB002" }}>5.0/5.0</span>
                       </div>
                     </div>
                     <div>
-                      <img src="images/trustpilot.png" width={"145"} />
+                      <img
+                        alt="DubaiOTC"
+                        src="images/trustpilot.png"
+                        width={"145"}
+                      />
                       <div className="fw-bold" style={{ color: "#00B77B" }}>
                         68 Reviews 5.0/5.0
                       </div>
@@ -246,46 +259,18 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-7">
-                <div
-                  className="d-flex flex-column flex-md-row"
-                  data-aos="fade-left"
-                >
-                  <div
-                    className="bg-white d-flex w-100 ps-5 pe-3 justify-content-center flex-column gap-9 "
-                    style={{ maxWidth: "427px" }}
-                  >
-                    <div className="d-flex py-3">
-                      <i className="fa fa-star fs-4"></i>
-                      <i className="fa fa-star fs-4"></i>
-                      <i className="fa fa-star fs-4"></i>
-                      <i className="fa fa-star fs-4"></i>
-                      <i className="fa fa-star fs-4"></i>
-                    </div>
-                    <div
-                      className="Paragraphlarge"
-                      style={{ color: "#1a1a1a" }}
-                    >
-                      Great services, Professional and reliable. Working with
-                      them since last 2 years regularly now. Recommended
-                    </div>
-                    <div className="d-flex flex-column mt-3">
-                      <div className="heading05">Anthony Bahringer</div>
-                      {/* <div className="fs-6 fw-light text-secondary">
-                    Senior Research Manager
-                  </div> */}
-                    </div>
-                  </div>
-                  <div>
-                    <img src="images/testimonial.png" className="img-fluid" />
-                  </div>
-                </div>
+                <Testimonial />
               </div>
             </div>
           </div>
         </section>
 
         <section>
-          <img src="images/bgtoppartner.png" className="img-fluid w-100" />
+          <img
+            alt="DubaiOTC"
+            src="images/bgtoppartner.png"
+            className="img-fluid w-100"
+          />
           <div className="text-center">
             <div
               className="Heading01"
@@ -298,7 +283,11 @@ export default function Home() {
               <PartnersSlider />
             </div>
           </div>
-          <img src="images/bgbottompartner.png" className="img-fluid w-100" />
+          <img
+            alt="DubaiOTC"
+            src="images/bgbottompartner.png"
+            className="img-fluid w-100"
+          />
         </section>
 
         <section
@@ -311,21 +300,29 @@ export default function Home() {
           <div className="container">
             <div className="row g-5">
               <div className="col-md-6" data-aos="fade-right">
-                <img src="images/benefits.png" className="img-fluid" alt="" />
+                <img
+                  alt="DubaiOTC"
+                  src="images/benefits.png"
+                  className="img-fluid"
+                />
               </div>
               <div className="col-md-6">
                 <div className="d-flex flex-column gap-32">
-                  <div className="Heading01" data-aos="fade-up">
+                  <h2 className="Heading01" data-aos="fade-up">
                     {" "}
                     Why Choose{" "}
                     <span style={{ color: "#2982CC" }}>Dubai OTC</span>
-                  </div>
+                  </h2>
                   <div className="d-flex flex-column gap-33">
                     <div
                       className="d-flex gap-18 align-items-center"
                       data-aos="fade-left"
                     >
-                      <img src="images/check-mark.png" width={48} />
+                      <img
+                        alt="DubaiOTC"
+                        src="images/check-mark.png"
+                        width={48}
+                      />
                       <div
                         style={{
                           color: "#797979",
@@ -339,7 +336,11 @@ export default function Home() {
                       className="d-flex gap-18 align-items-center"
                       data-aos="fade-left"
                     >
-                      <img src="images/check-mark.png" width={48} />
+                      <img
+                        alt="DubaiOTC"
+                        src="images/check-mark.png"
+                        width={48}
+                      />
                       <div
                         style={{
                           color: "#797979",
@@ -353,7 +354,11 @@ export default function Home() {
                       className="d-flex gap-18 align-items-center"
                       data-aos="fade-left"
                     >
-                      <img src="images/check-mark.png" width={48} />
+                      <img
+                        alt="DubaiOTC"
+                        src="images/check-mark.png"
+                        width={48}
+                      />
                       <div
                         style={{
                           color: "#797979",
@@ -367,7 +372,11 @@ export default function Home() {
                       className="d-flex gap-18 align-items-center"
                       data-aos="fade-left"
                     >
-                      <img src="images/check-mark.png" width={48} />
+                      <img
+                        alt="DubaiOTC"
+                        src="images/check-mark.png"
+                        width={48}
+                      />
                       <div
                         style={{
                           color: "#797979",
@@ -388,7 +397,7 @@ export default function Home() {
           <div className="container">
             <div className="d-flex justify-content-center flex-column gap-50">
               <div className="d-flex flex-column gap-27 ">
-                <div
+                <h4
                   style={{
                     color: "#2982CC",
                     textAlign: "center",
@@ -396,16 +405,17 @@ export default function Home() {
                   className="Heading04"
                 >
                   How to start Trading with us
-                </div>
-                <div
+                </h4>
+                <h4
                   style={{
                     color: "#4C4448",
                     textAlign: "center",
                   }}
                   className="heading02"
                 >
-                  Simple Steps to Buy & Sell Crypto for AED with DubaiOTC
-                </div>
+                  Simple Steps to Buy & Sell Cryptocurrencies for AED with
+                  DubaiOTC
+                </h4>
               </div>
               <div className="row">
                 <div className="col-md-4">
@@ -413,16 +423,20 @@ export default function Home() {
                     style={{ maxWidth: "430px" }}
                     className="d-flex flex-column gap-31"
                   >
-                    <img src="images/step1.png" className="img-fluid" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/step1.png"
+                      className="img-fluid"
+                    />
                     <div className="d-flex flex-column gap-12">
-                      <div
+                      <h4
                         style={{
                           color: "#1A1A1A",
                         }}
                         className="Heading03"
                       >
                         Onboarding
-                      </div>
+                      </h4>
                       <div
                         style={{
                           color: "#888587",
@@ -441,16 +455,20 @@ export default function Home() {
                     style={{ maxWidth: "430px" }}
                     className="d-flex flex-column gap-31"
                   >
-                    <img src="images/step2.png" className="img-fluid" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/step2.png"
+                      className="img-fluid"
+                    />
                     <div className="d-flex flex-column gap-12">
-                      <div
+                      <h4
                         style={{
                           color: "#1A1A1A",
                         }}
                         className="Heading03"
                       >
                         Check Prevailing Rates
-                      </div>
+                      </h4>
                       <div
                         style={{
                           color: "#888587",
@@ -469,16 +487,20 @@ export default function Home() {
                     style={{ maxWidth: "430px" }}
                     className="d-flex flex-column gap-31"
                   >
-                    <img src="images/step3.png" className="img-fluid" />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/step3.png"
+                      className="img-fluid"
+                    />
                     <div className="d-flex flex-column gap-12">
-                      <div
+                      <h4
                         style={{
                           color: "#1A1A1A",
                         }}
                         className="Heading03"
                       >
                         Contact Us On Telegram
-                      </div>
+                      </h4>
                       <div
                         style={{
                           color: "#888587",

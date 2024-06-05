@@ -40,7 +40,12 @@ const Features = () => {
                 </div>
                 <div className="d-flex gap-15 align-items-center">
                   <div>
-                    <img src="images/Check.png" width={"32"} height={"32"} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/Check.png"
+                      width={"32"}
+                      height={"32"}
+                    />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
                     Buy as much as you need – we support volumes from 5 EUR to
@@ -49,7 +54,12 @@ const Features = () => {
                 </div>
                 <div className="d-flex gap-15 align-items-center">
                   <div>
-                    <img src="images/Check.png" width={"32"} height={"32"} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/Check.png"
+                      width={"32"}
+                      height={"32"}
+                    />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
                     Receive crypto directly in any Metamask, Trust, or other
@@ -59,7 +69,12 @@ const Features = () => {
                 </div>
                 <div className="d-flex gap-15 align-items-center">
                   <div>
-                    <img src="images/Check.png" width={"32"} height={"32"} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/Check.png"
+                      width={"32"}
+                      height={"32"}
+                    />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
                     Enjoy the convenience of a Dedicated IBAN issued in your
@@ -77,10 +92,10 @@ const Features = () => {
                 <div className="d-flex flex-column gap-6">
                   <div className="Paragraph">Excellent 247 Reviews on</div>
                   <img
+                    alt="DubaiOTC"
                     src="/images/trust.png"
                     className="img-fluid rounded-3"
                     width={"150"}
-                    alt=""
                   />
                 </div>
               </div>
@@ -94,7 +109,7 @@ const Features = () => {
       <div className="py-5 container ">
         <div className="row px-2 py-5 g-5 justify-content-between">
           <div className="col-md-5">
-            <img src="/images/work.png" className="img-fluid" alt="" />
+            <img alt="DubaiOTC" src="/images/work.png" className="img-fluid" />
           </div>
           <div className="col-md-6">
             <div className="d-flex gap-41 flex-column">
@@ -157,6 +172,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
+                  alt="DubaiOTC"
                   src="/images/f1.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -184,6 +200,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
+                  alt="DubaiOTC"
                   src="/images/f2.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -210,6 +227,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
+                  alt="DubaiOTC"
                   src="/images/f3.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -238,6 +256,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
+                  alt="DubaiOTC"
                   src="/images/f4.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -265,6 +284,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
+                  alt="DubaiOTC"
                   src="/images/f5.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -290,6 +310,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
+                  alt="DubaiOTC"
                   src="/images/f6.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -321,6 +342,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
+                  alt="DubaiOTC"
                   src="/images/f7.png"
                   className="img-fluid w-100 rounded-4"
                 />

@@ -42,6 +42,7 @@ function Calculator() {
   return (
     <div className="h-100 w-100 d-flex justify-content-center  align-items-center position-relative">
       <img
+        alt="DubaiOTC"
         src="/images/grad.png"
         className="img-fluid"
         style={{
@@ -104,7 +105,7 @@ function Calculator() {
                   }}
                 >
                   <div className="d-flex gap-15">
-                    <img src="/images/eth.png" width={"24"} />
+                    <img alt="DubaiOTC" src="/images/eth.png" width={"24"} />
                     <select
                       value={payCurrency}
                       onChange={(e) => {
@@ -174,7 +175,7 @@ function Calculator() {
                   }}
                 >
                   <div className="d-flex gap-15">
-                    <img src="/images/eth.png" width={"24"} />
+                    <img alt="DubaiOTC" src="/images/eth.png" width={"24"} />
                     <select
                       value={getCurrency}
                       onChange={(e) => {
@@ -303,7 +304,7 @@ function Calculator() {
             >
               0.880339
             </div>
-            <img src="/images/eth.png" width={"24"} />
+            <img alt="DubaiOTC" src="/images/eth.png" width={"24"} />
           </div>
         </div> */}
       </div>

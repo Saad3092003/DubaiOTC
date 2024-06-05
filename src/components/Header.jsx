@@ -20,7 +20,7 @@ export const Header = ({ type }) => {
     >
       <div className="container">
         <Link className="navbar-brand" href="/">
-          <img src="images/logo.png" width={"208"} />
+          <img alt="DubaiOTC" src="images/logo.png" width={"208"} />
         </Link>
         <button
           className="navbar-toggler"
@@ -100,6 +100,13 @@ export const Header = ({ type }) => {
             >
               Register
             </button>
+            <a
+              className="nav-link p-0"
+              href="https://t.me/DubaiOTCofficial"
+              target="_blank"
+            >
+              <img alt="DubaiOTC" src="/images/telegram-icon.png" width={46} />
+            </a>
           </div>
         </div>
       </div>

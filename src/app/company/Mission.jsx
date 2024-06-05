@@ -20,25 +20,40 @@ function Mission() {
           }}
         >
           <div className="icon-button-heart position-absolute top-0 end-0 m-3">
-            <img src="images/heart-rounded.png" className="img-fluid" alt="" />
+            <img
+              alt="DubaiOTC"
+              src="images/heart-rounded.png"
+              className="img-fluid"
+            />
           </div>
           <div className="position-absolute bottom-0 ms-4 mb-3 start-0">
             <button className="btn btn-light px-5 rounded-pill">Try Now</button>
           </div>
-          <img src="images/vision.png" className="img-fluid" alt="" />
+          {active === 1 ? (
+            <img alt="DubaiOTC" src="images/vision.png" className="img-fluid" />
+          ) : (
+            <img alt="DubaiOTC" src="images/vision.png" className="img-fluid" />
+          )}
         </div>
       </div>
       <div className="col-md-7">
         <div className="d-flex gap-14 flex-column">
           <div
             onClick={() => setActive(0)}
+            style={{
+              cursor: "pointer",
+            }}
             className={`d-flex flex-column gap-17 company-tab ${
               active === 0 ? "active" : ""
             } `}
           >
             <div className="d-flex gap-18 align-items-center">
               <div className="icon-square-button">
-                <img src="images/zap.png" className="img-fluid" alt="" />
+                <img
+                  alt="DubaiOTC"
+                  src="images/zap.png"
+                  className="img-fluid"
+                />
               </div>
               <div className="Heading03">Our Vision</div>
             </div>
@@ -48,13 +63,20 @@ function Mission() {
           </div>
           <div
             onClick={() => setActive(1)}
+            style={{
+              cursor: "pointer",
+            }}
             className={`d-flex flex-column gap-17 company-tab ${
               active === 1 ? "active" : ""
             } `}
           >
             <div className="d-flex gap-18 align-items-center">
               <div className="icon-square-button">
-                <img src="images/shield-zap.png" className="img-fluid" alt="" />
+                <img
+                  alt="DubaiOTC"
+                  src="images/shield-zap.png"
+                  className="img-fluid"
+                />
               </div>
               <div className="Heading03">Our Mission</div>
             </div>

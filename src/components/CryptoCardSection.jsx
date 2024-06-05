@@ -19,9 +19,9 @@ const Huobi = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title Heading01" data-aos="fade-left">
+          <h2 className="third-section-title Heading01" data-aos="fade-left">
             Trade with Us on Your Favorite Global Crypto Exchanges Securely
-          </div>
+          </h2>
           <p className="third-section-para Paragraph mb-0" data-aos="fade-up">
             DubaiOTC is a trusted and verified trader available on the
             world&apos;s most renowned cryptocurrency exchanges, like Binance,
@@ -71,9 +71,9 @@ const Binance = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title Heading01" data-aos="fade-left">
+          <h2 className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
-          </div>
+          </h2>
           <p
             className="third-section-para Paragraph mb-0"
             data-aos="fade-right"
@@ -124,9 +124,9 @@ const Bidget = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title Heading01" data-aos="fade-left">
+          <h2 className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
-          </div>
+          </h2>
           <p
             className="third-section-para Paragraph mb-0"
             data-aos="fade-right"
@@ -177,9 +177,9 @@ const Okk = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title Heading01" data-aos="fade-left">
+          <h2 className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
-          </div>
+          </h2>
           <p
             className="third-section-para Paragraph mb-0"
             data-aos="fade-right"
@@ -230,9 +230,9 @@ const Kucoin = () => {
       </div>
       <div className="col-md-7">
         <div className="d-flex flex-column gap-32">
-          <div className="third-section-title Heading01" data-aos="fade-left">
+          <h2 className="third-section-title Heading01" data-aos="fade-left">
             Now you can trade with us using your favourite P2P exchnage securely
-          </div>
+          </h2>
           <p
             className="third-section-para Paragraph mb-0"
             data-aos="fade-right"
@@ -291,30 +291,35 @@ export const CryptoCardSection = () => {
             className="justify-content-between px-md-5 gap-4 w-100 d-flex align-items-center"
           >
             <img
+              alt="DubaiOTC"
               onClick={() => setActive(0)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/huobi.png"
             />
             <img
+              alt="DubaiOTC"
               onClick={() => setActive(1)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/binance.png"
             />
             <img
+              alt="DubaiOTC"
               onClick={() => setActive(2)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/bitget.png"
             />
             <img
+              alt="DubaiOTC"
               onClick={() => setActive(3)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/okk.png"
             />
             <img
+              alt="DubaiOTC"
               onClick={() => setActive(4)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"

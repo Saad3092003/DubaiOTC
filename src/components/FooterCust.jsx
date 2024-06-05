@@ -29,14 +29,14 @@ export const FooterCust = ({ home }) => {
           }}
         >
           <div className="text-white">
-            <div
+            <h3
               className="Heading01"
               style={{
                 maxWidth: "898px",
               }}
             >
               Connect with Us on Telegram for Official Customer Support
-            </div>
+            </h3>
             <div
               className="text-light Paragraphlarge"
               style={{
@@ -64,7 +64,12 @@ export const FooterCust = ({ home }) => {
                   gap: "24px",
                 }}
               >
-                <img src="images/telegram-icon.png" width={42} height={42} />
+                <img
+                  alt="DubaiOTC"
+                  src="images/telegram-icon.png"
+                  width={42}
+                  height={42}
+                />
                 <span
                   style={{
                     color: "#0D0D2B",
@@ -101,7 +106,11 @@ export const FooterCust = ({ home }) => {
               <div className="col-md-5">
                 <div className="d-flex flex-column gap-33">
                   <div>
-                    <img src="images/logo-white.png" width={200} />
+                    <img
+                      alt="DubaiOTC"
+                      src="images/logo-white.png"
+                      width={200}
+                    />
                   </div>
                   <p className="fs-5">
                     DubaiOTC is a user-friendly and fast-rising cryptocurrency
@@ -143,10 +152,10 @@ export const FooterCust = ({ home }) => {
                   <a href="https://www.instagram.com/dubaiotc/" target="_blank">
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/instagram-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
@@ -156,30 +165,30 @@ export const FooterCust = ({ home }) => {
                   >
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/linkedin-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
                   <a href="https://twitter.com/DubaiOtc" target="_blank">
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/twitter-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
                   <a href="https://medium.com/@dubaiotc" target="_blank">
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/medium-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
@@ -189,30 +198,30 @@ export const FooterCust = ({ home }) => {
                   >
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/reddit-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
                   <a href="https://www.pinterest.com/DubaiOTC/" target="_blank">
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/pinterest-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
                   <a href="https://www.facebook.com/dubaiotc/" target="_blank">
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/facebook-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
@@ -222,20 +231,20 @@ export const FooterCust = ({ home }) => {
                   >
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/quora-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>
                   <a href="" target="_blank">
                     <div className="footer-social">
                       <img
+                        alt="DubaiOTC"
                         src="images/discord-icon.png"
                         className="rounded-2"
                         height={54}
-                        alt=""
                       />
                     </div>
                   </a>

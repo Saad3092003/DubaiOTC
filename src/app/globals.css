@@ -22,6 +22,12 @@
   color: #ffffff;
 }
 
+.hero-para {
+  font-weight: 400;
+  max-width: 550px;
+  color: #ffffff;
+}
+
 .cryptoCard {
   transition: all 0.3s;
 }
@@ -600,34 +606,34 @@
   line-height: 150%; /* 27px */
 }
 
-.select-cal{
-    border: none !important;
-    background: transparent !important;
+.select-cal {
+  border: none !important;
+  background: transparent !important;
 }
 
 .select-cal:focus,
 .select-cal:focus-visible,
-.select-cal:focus-within{
-    border: none !important;
-    outline: none !important;
+.select-cal:focus-within {
+  border: none !important;
+  outline: none !important;
 }
 
-.anot{
-    color: inherit !important;
-    text-decoration: none !important;
+.anot {
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 @media (max-width: 768px) {
-    .hero-text{
-      font-size: 35px !important ;
-      text-align: center;
-    }
-    .Heading01{
-      font-size: 35px !important;
-      text-align: center;
-    }
-    .text-h1{
-      font-size: 25px !important;
-      text-align: center;
-    }
+  .hero-text {
+    font-size: 35px !important ;
+    text-align: center;
+  }
+  .Heading01 {
+    font-size: 35px !important;
+    text-align: center;
+  }
+  .text-h1 {
+    font-size: 25px !important;
+    text-align: center;
+  }
 }
