@@ -105,7 +105,11 @@ function Calculator() {
                   }}
                 >
                   <div className="d-flex gap-15">
-                    <img alt="DubaiOTC" src="/images/eth.png" width={"24"} />
+                    {payCurrency === "AED" ? (
+                      <img alt="DubaiOTC" src="/images/aed.png" width={"34"} />
+                    ) : (
+                      <img alt="DubaiOTC" src="/images/inr.png" width={"34"} />
+                    )}
                     <select
                       value={payCurrency}
                       onChange={(e) => {
@@ -175,7 +179,13 @@ function Calculator() {
                   }}
                 >
                   <div className="d-flex gap-15">
-                    <img alt="DubaiOTC" src="/images/eth.png" width={"24"} />
+                    {getCurrency === "USDT" ? (
+                      <img alt="DubaiOTC" src="/images/usdt.png" width={"34"} />
+                    ) : getCurrency === "BTC" ? (
+                      <img alt="DubaiOTC" src="/images/btc.png" width={"34"} />
+                    ) : (
+                      <img alt="DubaiOTC" src="/images/eth.png" width={"34"} />
+                    )}
                     <select
                       value={getCurrency}
                       onChange={(e) => {

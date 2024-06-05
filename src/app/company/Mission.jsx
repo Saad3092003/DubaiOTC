@@ -26,9 +26,13 @@ function Mission() {
               className="img-fluid"
             />
           </div>
-          <div className="position-absolute bottom-0 ms-4 mb-3 start-0">
-            <button className="btn btn-light px-5 rounded-pill">Try Now</button>
-          </div>
+          {active === 0 && (
+            <div className="position-absolute bottom-0 ms-4 mb-3 start-0">
+              <button className="btn btn-light px-5 rounded-pill">
+                Try Now
+              </button>
+            </div>
+          )}
           {active === 1 ? (
             <img alt="DubaiOTC" src="images/vision.png" className="img-fluid" />
           ) : (
