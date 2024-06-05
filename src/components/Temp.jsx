@@ -622,11 +622,9 @@ export const Temp = () => {
                     </div>
                     <div className="Paragraphmd">UAE Local bank transfer </div>
                     <div className="Paragraphmd">International SWIFT</div>
-                    <div className="Paragraphmd">EUR SEPA</div>
                     <div className="Paragraphmd">AED CASH</div>
                     <div className="Paragraphmd">INR CASH</div>
                     <div className="Paragraphmd">USD CASH</div>
-                    <div className="Paragraphmd">EUR CASH</div>
                   </div>
                 </div>
               </div>

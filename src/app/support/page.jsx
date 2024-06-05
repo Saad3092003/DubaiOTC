@@ -512,8 +512,8 @@ const Support = () => {
                 data-bs-parent="#accordionExample2"
               >
                 <div className="accordion-body">
-                  Yes, We do accept AED,USD,EUR & INR Currenctly, We are working
-                  to Accomodate More payment Options.
+                  Yes, We do accept AED,USD & INR Currenctly, We are working to
+                  Accomodate More payment Options.
                 </div>
               </div>
             </div>

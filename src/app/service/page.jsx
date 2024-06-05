@@ -37,7 +37,7 @@ const Features = () => {
               <div className="gap-41 d-flex flex-column">
                 <div className="Heading01 text-h1">
                   Buy <Type />
-                  with EUR within minutes
+                  with AED within minutes
                 </div>
                 <div className="d-flex gap-15 align-items-center">
                   <div>
@@ -49,8 +49,8 @@ const Features = () => {
                     />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Buy as much as you need – we support volumes from 5 EUR to
-                    up to 10M EUR.
+                    Buy as much as you need – we support volumes from 5 AED to
+                    up to 10M AED.
                   </div>
                 </div>
                 <div className="d-flex gap-15 align-items-center">
@@ -304,7 +304,7 @@ const Features = () => {
                   <div className="Paragraph">
                     Our platform provides SEPA transfers for seamless B2B & B2C
                     transactions, accessible from P2P platforms and directly
-                    through our official Telegram. Enjoy hassle-free European
+                    through our official Telegram. Enjoy hassle-free AED
                     transactions with our SEPA payment services.
                   </div>
                 </div>
