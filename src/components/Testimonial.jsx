@@ -33,7 +33,7 @@ const Testimonial = () => {
               last 2 years regularly now. Recommended
             </div>
             <div className="d-flex flex-column mt-3">
-              <div className="heading05">Anthony Bahringer</div>
+              <div className="heading05">lingisetty ajaykumar</div>
               {/* <div className="fs-6 fw-light text-secondary">
                     Senior Research Manager
                   </div> */}
@@ -53,7 +53,7 @@ const Testimonial = () => {
               friendly ❤️❤️
             </div>
             <div className="d-flex flex-column mt-3">
-              <div className="heading05">Anthony Bahringer</div>
+              <div className="heading05">Ali Nabil Official</div>
               {/* <div className="fs-6 fw-light text-secondary">
                     Senior Research Manager
                   </div> */}
@@ -73,7 +73,7 @@ const Testimonial = () => {
               to the team very much.
             </div>
             <div className="d-flex flex-column mt-3">
-              <div className="heading05">Anthony Bahringer</div>
+              <div className="heading05">Ahmed Fouda</div>
               {/* <div className="fs-6 fw-light text-secondary">
                     Senior Research Manager
                   </div> */}
