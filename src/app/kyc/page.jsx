@@ -3,7 +3,7 @@ import { Header } from "../../components/Header";
 import { FooterCust } from "../../components/FooterCust";
 import { useEffect, useState } from "react";
 
-const Terms = () => {
+const KYC = () => {
   const [verId, setVerId] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -63,7 +63,7 @@ const Terms = () => {
           style={{ minHeight: "375px" }}
         >
           <div className="h-100 d-flex flex-column justify-content-center align-items-center">
-            <div className="hero-text mt-3">Terms of Use</div>
+            <div className="hero-text mt-3">KYC</div>
           </div>
         </div>
       </section>
@@ -85,4 +85,4 @@ const Terms = () => {
   );
 };
 
-export default Terms;
+export default KYC;
