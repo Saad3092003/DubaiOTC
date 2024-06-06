@@ -4,16 +4,16 @@ import { FooterCust } from "../../components/FooterCust";
 import { useEffect, useState } from "react";
 
 const Terms = () => {
-  const url = new URL(window.location.href);
-  const params = new URLSearchParams(url.search);
-  const searchParams = params.get("v");
-
-  const search = searchParams;
   const [verId, setVerId] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    const url = new URL(window.location.href);
+    const params = new URLSearchParams(url.search);
+    const searchParams = params.get("v");
+
+    const search = searchParams;
     const v = search;
     setLoading(true);
     if (!v) {
