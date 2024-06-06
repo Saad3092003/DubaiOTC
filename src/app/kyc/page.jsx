@@ -10,10 +10,11 @@ const Terms = () => {
   const search = searchParams.get("v");
   const [verId, setVerId] = useState(null);
   const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const v = search;
-
+    setLoading(true);
     if (!v) {
       const apiUrl =
         "https://kyc-api.amlbot.com/forms/2de138731280a24e3e2a8261b53f5ec1344c/urls";
@@ -45,6 +46,7 @@ const Terms = () => {
         });
     } else {
       setVerId(v);
+      setLoading(false);
     }
   }, []);
   return (
@@ -66,11 +68,15 @@ const Terms = () => {
       </section>
 
       <section className="bg-light mt-5 pb-5">
-        <iframe
-          className="w-100 "
-          style={{ height: "1000px" }}
-          src={`https://kyc-forms.amlbot.com/${verId}`}
-        ></iframe>
+        {loading == true ? (
+          <h1 className="text-center heading02">Loading PLease Wait...</h1>
+        ) : (
+          <iframe
+            className="w-100 "
+            style={{ height: "1000px" }}
+            src={`https://kyc-forms.amlbot.com/${verId}`}
+          ></iframe>
+        )}
       </section>
 
       <FooterCust home={false} />
