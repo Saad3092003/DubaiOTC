@@ -1,13 +1,14 @@
 "use client";
 import { Header } from "../../components/Header";
 import { FooterCust } from "../../components/FooterCust";
-import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const Terms = () => {
-  const searchParams = useSearchParams();
+  const url = new URL(window.location.href);
+  const params = new URLSearchParams(url.search);
+  const searchParams = params.get("v");
 
-  const search = searchParams.get("v");
+  const search = searchParams;
   const [verId, setVerId] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
