@@ -20,7 +20,11 @@ export const Header = ({ type }) => {
     >
       <div className="container">
         <Link className="navbar-brand" href="/">
-          <img alt="DubaiOTC" src="images/logo.png" width={"208"} />
+          <img
+            alt="Buy USDT in Dubai for bank Transfer"
+            src="images/logo.png"
+            width={"208"}
+          />
         </Link>
         <button
           className="navbar-toggler"
@@ -105,7 +109,11 @@ export const Header = ({ type }) => {
               href="https://t.me/DubaiOTCofficial"
               target="_blank"
             >
-              <img alt="DubaiOTC" src="/images/telegram-icon.png" width={46} />
+              <img
+                alt="Sell USDT for cash in Dubai"
+                src="/images/telegram-icon.png"
+                width={46}
+              />
             </a>
           </div>
         </div>

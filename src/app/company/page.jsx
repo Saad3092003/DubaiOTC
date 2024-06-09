@@ -17,7 +17,7 @@ const Company = () => {
           style={{ minHeight: "375px" }}
         >
           <div className="h-100 d-flex flex-column justify-content-center align-items-center">
-            <div className="hero-text mt-3">Company</div>
+            <h1 className="hero-text mt-3">Company</h1>
           </div>
         </div>
       </section>
@@ -28,7 +28,7 @@ const Company = () => {
         style={{ marginTop: "80px", paddingBottom: "400px" }}
       >
         <div className="d-flex flex-column gap-14 text-center">
-          <div className="heading02">NO MIDDLEMAN</div>
+          <h2 className="heading02">NO MIDDLEMAN</h2>
           <div className="Paragraph text-paragraph">
             The Goal of Developing an Appropriate Operating Framework for
             Cryptocurrency Trade
@@ -75,7 +75,10 @@ const Company = () => {
                 <div className="col-lg-5 text-start text-lg-end">
                   <div className="d-flex flex-column align-items-start align-items-lg-end">
                     <div style={{ marginBottom: "93px" }}>
-                      <img alt="DubaiOTC" src="/images/1.png" />
+                      <img
+                        alt="Buy USDT in Dubai for cash"
+                        src="/images/1.png"
+                      />
                     </div>
                     <div
                       style={{ marginBottom: "70px" }}
@@ -89,7 +92,10 @@ const Company = () => {
                       </div>
                     </div>
                     <div style={{ marginBottom: "73px" }}>
-                      <img alt="DubaiOTC" src="/images/3.png" />
+                      <img
+                        alt="Buy USDT in Dubai for cash"
+                        src="/images/3.png"
+                      />
                     </div>
                     <div
                       className="d-flex gap-19 flex-column"
@@ -105,7 +111,10 @@ const Company = () => {
                       </div>
                     </div>
                     <div>
-                      <img alt="DubaiOTC" src="/images/5.png" />
+                      <img
+                        alt="Buy USDT in Dubai for bank Transfer"
+                        src="/images/5.png"
+                      />
                     </div>
                   </div>
                 </div>
@@ -155,7 +164,10 @@ const Company = () => {
                       </div>
                     </div>
                     <div style={{ marginBottom: "92px" }}>
-                      <img alt="DubaiOTC" src="/images/2.png" />
+                      <img
+                        alt="Buy USDT in Dubai for bank Transfer"
+                        src="/images/2.png"
+                      />
                     </div>
                     <div
                       style={{ marginBottom: "84px" }}
@@ -170,7 +182,10 @@ const Company = () => {
                       </div>
                     </div>
                     <div style={{ marginBottom: "49px" }}>
-                      <img alt="DubaiOTC" src="/images/4.png" />
+                      <img
+                        alt="Buy USDT in Dubai for bank Transfer"
+                        src="/images/4.png"
+                      />
                     </div>
                     <div className="d-flex gap-19 flex-column">
                       <div className="Paragraph">
@@ -199,9 +214,9 @@ const Company = () => {
           <div className="row g-3 flex-wrap-reverse">
             <div className="col-md-6">
               <div className="d-flex flex-column gap-26">
-                <div className="Heading01 text-base-primary">
+                <h2 className="Heading01 text-base-primary">
                   SAFE TRADING BEGINS WITH Dubai OTC
-                </div>
+                </h2>
                 <div className="Heading04">
                   Launching an over-the-counter (OTC) trading platform powering
                   crypto-to-fiat pairs exchanges based in UAE
@@ -210,7 +225,7 @@ const Company = () => {
             </div>
             <div className="col-md-6">
               <img
-                alt="DubaiOTC"
+                alt="Buy USDT in Dubai for bank Transfer"
                 src="images/2nd_section_company.png"
                 className="img-fluid"
               />
@@ -249,7 +264,7 @@ const Company = () => {
       {/* vision mission section */}
       <div className="bg-bottom-wave" style={{ paddingTop: "300px" }}>
         <div className="text-center">
-          <div className="Heading01 text-dark ">Our Vision & Mission</div>
+          <h3 className="Heading01 text-dark ">Our Vision & Mission</h3>
           <p className="Paragraph text-paragraph mt-2">
             Experience the Power of AI Image Generator
           </p>
@@ -265,9 +280,9 @@ const Company = () => {
         style={{ paddingTop: "100px", paddingBottom: "100px" }}
       >
         <div className="text-center">
-          <div className="Heading01" data-aos="fade-up">
+          <h3 className="Heading01" data-aos="fade-up">
             Our <span style={{ color: "#2982CC" }}>Partners</span>
-          </div>
+          </h3>
           <div style={{ marginTop: "70px" }}>
             <PartnersSlider />
           </div>

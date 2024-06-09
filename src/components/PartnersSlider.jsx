@@ -43,28 +43,28 @@ export default function PartnersSlider() {
     <Slider {...settings}>
       <div>
         <img
-          alt="DubaiOTC"
+          alt="Sell USDT in Dubai"
           src="images/euOTC.png"
           className="img-fluid mx-auto"
         />
       </div>
       <div>
         <img
-          alt="DubaiOTC"
+          alt="Sell USDT in Dubai"
           src="images/amlBot.png"
           className="img-fluid mx-auto"
         />
       </div>
       <div>
         <img
-          alt="DubaiOTC"
+          alt="USDT OTC in Dubai"
           src="images/okk.png"
           className="img-fluid mx-auto"
         />
       </div>
       <div>
         <img
-          alt="DubaiOTC"
+          alt="USDT OTC in Dubai"
           src="images/ledger.png"
           className="img-fluid mx-auto"
         />

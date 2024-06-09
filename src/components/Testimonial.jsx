@@ -83,7 +83,7 @@ const Testimonial = () => {
       </div>
       <div>
         <img
-          alt="DubaiOTC"
+          alt="USDT OTC in Dubai"
           src="images/testimonial.png"
           className="img-fluid"
         />

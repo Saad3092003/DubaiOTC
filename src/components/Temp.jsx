@@ -32,7 +32,11 @@ export const Temp = () => {
                 target="_blank"
                 href="https://t.me/DubaiOTCofficial"
               >
-                <img alt="DubaiOTC" src="images/telegram.png" width={"125"} />
+                <img
+                  alt="USDT OTC in Dubai"
+                  src="images/telegram.png"
+                  width={"125"}
+                />
               </a>
             </div>
             <a target="_blank" href="https://t.me/DubaiOTCofficial">
@@ -60,7 +64,11 @@ export const Temp = () => {
             <div className="d-flex justify-content-center align-items-center gap-45">
               <div className="service-card" data-aos="fade-up">
                 <div className="icon mx-auto">
-                  <img alt="DubaiOTC" src="images/service2.png" width={50} />
+                  <img
+                    alt="USDT OTC in Dubai"
+                    src="images/service2.png"
+                    width={50}
+                  />
                 </div>
                 <div className="d-flex flex-column gap-13">
                   <div className="Heading03 text-center">Crypto OTC Desk</div>
@@ -72,7 +80,11 @@ export const Temp = () => {
               </div>
               <div className="service-card" data-aos="fade-up">
                 <div className="icon mx-auto">
-                  <img alt="DubaiOTC" src="images/service1.png" width={50} />
+                  <img
+                    alt="USDT OTC in Dubai"
+                    src="images/service1.png"
+                    width={50}
+                  />
                 </div>
                 <div className="d-flex flex-column gap-13">
                   <div className="Heading03 text-center">
@@ -86,7 +98,11 @@ export const Temp = () => {
               </div>
               <div className="service-card" data-aos="fade-up">
                 <div className="icon mx-auto">
-                  <img alt="DubaiOTC" src="images/service3.png" width={50} />
+                  <img
+                    alt="USDT OTC in Dubai"
+                    src="images/service3.png"
+                    width={50}
+                  />
                 </div>
                 <div className="d-flex flex-column gap-13">
                   <div className="Heading03 text-center">
@@ -125,7 +141,11 @@ export const Temp = () => {
 
           <div className="row g-4 justify-content-center align-items-center">
             <div className="col-md-6" data-aos="fade-right">
-              <img alt="DubaiOTC" src="images/map.gif" className="img-fluid" />
+              <img
+                alt="Buy USDT in Dubai"
+                src="images/map.gif"
+                className="img-fluid"
+              />
             </div>
             <div className="col-md-6">
               <div className="d-flex gap-3 justify-content-center flex-wrap">
@@ -177,7 +197,11 @@ export const Temp = () => {
                 </div>
                 <div className="d-flex gap-50">
                   <div>
-                    <img alt="DubaiOTC" src="images/google.png" width={"145"} />
+                    <img
+                      alt="Buy USDT in Dubai"
+                      src="images/google.png"
+                      width={"145"}
+                    />
                     <div className="fw-bold">
                       <span style={{ color: "#3172F3" }}>120 Reviews</span>{" "}
                       <span style={{ color: "#FDB002" }}>5.0/5.0</span>
@@ -185,7 +209,7 @@ export const Temp = () => {
                   </div>
                   <div>
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/trustpilot.png"
                       width={"145"}
                     />
@@ -226,7 +250,7 @@ export const Temp = () => {
                 </div>
                 <div>
                   <img
-                    alt="DubaiOTC"
+                    alt="Buy USDT in Dubai"
                     src="images/testimonial.png"
                     className="img-fluid"
                   />
@@ -239,7 +263,7 @@ export const Temp = () => {
 
       <section>
         <img
-          alt="DubaiOTC"
+          alt="USDT Rate in Dubai"
           src="images/bgtoppartner.png"
           className="img-fluid w-100"
         />
@@ -256,7 +280,7 @@ export const Temp = () => {
           </div>
         </div>
         <img
-          alt="DubaiOTC"
+          alt="USDT Rate in Dubai"
           src="images/bgbottompartner.png"
           className="img-fluid w-100"
         />
@@ -273,7 +297,7 @@ export const Temp = () => {
           <div className="row g-5">
             <div className="col-md-6" data-aos="fade-right">
               <img
-                alt="DubaiOTC"
+                alt="USDT Rate in Dubai"
                 src="images/benefits.png"
                 className="img-fluid"
               />
@@ -290,7 +314,7 @@ export const Temp = () => {
                     data-aos="fade-left"
                   >
                     <img
-                      alt="DubaiOTC"
+                      alt="USDT Rate in Dubai"
                       src="images/check-mark.png"
                       width={48}
                     />
@@ -308,7 +332,7 @@ export const Temp = () => {
                     data-aos="fade-left"
                   >
                     <img
-                      alt="DubaiOTC"
+                      alt="USDT Rate in Dubai"
                       src="images/check-mark.png"
                       width={48}
                     />
@@ -326,7 +350,7 @@ export const Temp = () => {
                     data-aos="fade-left"
                   >
                     <img
-                      alt="DubaiOTC"
+                      alt="USDT Rate in Dubai"
                       src="images/check-mark.png"
                       width={48}
                     />
@@ -346,7 +370,7 @@ export const Temp = () => {
                     data-aos="fade-left"
                   >
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/check-mark.png"
                       width={48}
                     />
@@ -399,7 +423,7 @@ export const Temp = () => {
                   className="d-flex flex-column gap-31"
                 >
                   <img
-                    alt="DubaiOTC"
+                    alt="Buy USDT in Dubai"
                     src="images/step1.png"
                     className="img-fluid"
                   />
@@ -430,7 +454,7 @@ export const Temp = () => {
                   className="d-flex flex-column gap-31"
                 >
                   <img
-                    alt="DubaiOTC"
+                    alt="Buy USDT in Dubai for cash"
                     src="images/step2.png"
                     className="img-fluid"
                   />
@@ -461,7 +485,7 @@ export const Temp = () => {
                   className="d-flex flex-column gap-31"
                 >
                   <img
-                    alt="DubaiOTC"
+                    alt="Buy USDT in Dubai for cash"
                     src="images/step3.png"
                     className="img-fluid"
                   />
@@ -545,7 +569,7 @@ export const Temp = () => {
               }}
             >
               <img
-                alt="DubaiOTC"
+                alt="Buy USDT in Dubai for cash"
                 src="images/telegram-icon.png"
                 width={42}
                 height={42}
@@ -584,7 +608,7 @@ export const Temp = () => {
                 <div className="d-flex flex-column gap-33">
                   <div>
                     <img
-                      alt="DubaiOTC"
+                      alt="Sell USDT for cash in Dubai"
                       src="images/logo-white.png"
                       width={200}
                     />
@@ -635,63 +659,63 @@ export const Temp = () => {
                 <div className="d-flex flex-wrap justify-content-center gap-17">
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai for cash"
                       src="images/instagram-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Sell USDT for cash in Dubai"
                       src="images/linkedin-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Sell USDT for cash in Dubai"
                       src="images/twitter-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Sell USDT for cash in Dubai"
                       src="images/medium-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/reddit-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/pinterest-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/facebook-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/quora-icon.png"
                       height={34}
                     />
                   </div>
                   <div className="footer-social">
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/discord-icon.png"
                       height={34}
                     />

@@ -60,7 +60,11 @@ export default function Home() {
               <div className="d-flex justify-content-center align-items-center gap-45 flex-wrap">
                 <div className="service-card" data-aos="fade-up">
                   <div className="icon mx-auto">
-                    <img alt="DubaiOTC" src="images/service2.png" width={50} />
+                    <img
+                      alt="USDT OTC in Dubai"
+                      src="images/service2.png"
+                      width={50}
+                    />
                   </div>
                   <div className="d-flex flex-column gap-13">
                     <h4 className="Heading03 text-center">Crypto OTC Desk</h4>
@@ -74,7 +78,11 @@ export default function Home() {
                 </div>
                 <div className="service-card" data-aos="fade-up">
                   <div className="icon mx-auto">
-                    <img alt="DubaiOTC" src="images/service1.png" width={50} />
+                    <img
+                      alt="USDT OTC in Dubai"
+                      src="images/service1.png"
+                      width={50}
+                    />
                   </div>
                   <div className="d-flex flex-column gap-13">
                     <h4 className="Heading03 text-center">
@@ -89,7 +97,11 @@ export default function Home() {
                 </div>
                 <div className="service-card" data-aos="fade-up">
                   <div className="icon mx-auto">
-                    <img alt="DubaiOTC" src="images/service3.png" width={50} />
+                    <img
+                      alt="USDT OTC in Dubai"
+                      src="images/service3.png"
+                      width={50}
+                    />
                   </div>
                   <div className="d-flex flex-column gap-13">
                     <h4 className="Heading03 text-center">
@@ -131,7 +143,7 @@ export default function Home() {
             <div className="row g-4 justify-content-center align-items-center">
               <div className="col-md-6" data-aos="fade-right">
                 <img
-                  alt="DubaiOTC"
+                  alt="USDT OTC in Dubai"
                   src="images/map.gif"
                   className="img-fluid"
                 />
@@ -236,7 +248,7 @@ export default function Home() {
                   <div className="d-flex gap-50">
                     <div>
                       <img
-                        alt="DubaiOTC"
+                        alt="USDT OTC in Dubai"
                         src="images/google.png"
                         width={"145"}
                       />
@@ -247,7 +259,7 @@ export default function Home() {
                     </div>
                     <div>
                       <img
-                        alt="DubaiOTC"
+                        alt="USDT OTC in Dubai"
                         src="images/trustpilot.png"
                         width={"145"}
                       />
@@ -267,7 +279,7 @@ export default function Home() {
 
         <section>
           <img
-            alt="DubaiOTC"
+            alt="USDT OTC in Dubai"
             src="images/bgtoppartner.png"
             className="img-fluid w-100"
           />
@@ -284,7 +296,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            alt="DubaiOTC"
+            alt="USDT OTC in Dubai"
             src="images/bgbottompartner.png"
             className="img-fluid w-100"
           />
@@ -301,7 +313,7 @@ export default function Home() {
             <div className="row g-5">
               <div className="col-md-6" data-aos="fade-right">
                 <img
-                  alt="DubaiOTC"
+                  alt="USDT OTC in Dubai"
                   src="images/benefits.png"
                   className="img-fluid"
                 />
@@ -319,7 +331,7 @@ export default function Home() {
                       data-aos="fade-left"
                     >
                       <img
-                        alt="DubaiOTC"
+                        alt="USDT OTC in Dubai"
                         src="images/check-mark.png"
                         width={48}
                       />
@@ -337,7 +349,7 @@ export default function Home() {
                       data-aos="fade-left"
                     >
                       <img
-                        alt="DubaiOTC"
+                        alt="Buy USDT in Dubai"
                         src="images/check-mark.png"
                         width={48}
                       />
@@ -355,7 +367,7 @@ export default function Home() {
                       data-aos="fade-left"
                     >
                       <img
-                        alt="DubaiOTC"
+                        alt="Buy USDT in Dubai"
                         src="images/check-mark.png"
                         width={48}
                       />
@@ -373,7 +385,7 @@ export default function Home() {
                       data-aos="fade-left"
                     >
                       <img
-                        alt="DubaiOTC"
+                        alt="Buy USDT in Dubai"
                         src="images/check-mark.png"
                         width={48}
                       />
@@ -424,7 +436,7 @@ export default function Home() {
                     className="d-flex flex-column gap-31"
                   >
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai"
                       src="images/step1.png"
                       className="img-fluid"
                     />
@@ -456,7 +468,7 @@ export default function Home() {
                     className="d-flex flex-column gap-31"
                   >
                     <img
-                      alt="DubaiOTC"
+                      alt="USDT Rate in Dubai"
                       src="images/step2.png"
                       className="img-fluid"
                     />
@@ -488,7 +500,7 @@ export default function Home() {
                     className="d-flex flex-column gap-31"
                   >
                     <img
-                      alt="DubaiOTC"
+                      alt="USDT Rate in Dubai"
                       src="images/step3.png"
                       className="img-fluid"
                     />

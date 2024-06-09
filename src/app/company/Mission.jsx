@@ -21,7 +21,7 @@ function Mission() {
         >
           <div className="icon-button-heart position-absolute top-0 end-0 m-3">
             <img
-              alt="DubaiOTC"
+              alt="Buy USDT in Dubai for cash"
               src="images/heart-rounded.png"
               className="img-fluid"
             />
@@ -34,9 +34,17 @@ function Mission() {
             </div>
           )}
           {active === 1 ? (
-            <img alt="DubaiOTC" src="images/vision.png" className="img-fluid" />
+            <img
+              alt="Buy USDT in Dubai for cash"
+              src="images/vision.png"
+              className="img-fluid"
+            />
           ) : (
-            <img alt="DubaiOTC" src="images/vision.png" className="img-fluid" />
+            <img
+              alt="Buy USDT in Dubai for cash"
+              src="images/vision.png"
+              className="img-fluid"
+            />
           )}
         </div>
       </div>
@@ -54,12 +62,12 @@ function Mission() {
             <div className="d-flex gap-18 align-items-center">
               <div className="icon-square-button">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="images/zap.png"
                   className="img-fluid"
                 />
               </div>
-              <div className="Heading03">Our Vision</div>
+              <h4 className="Heading03">Our Vision</h4>
             </div>
             <p className="Paragraph my-0">
               We believe in innovation by merging primary with elaborate ideas.
@@ -77,12 +85,12 @@ function Mission() {
             <div className="d-flex gap-18 align-items-center">
               <div className="icon-square-button">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="images/shield-zap.png"
                   className="img-fluid"
                 />
               </div>
-              <div className="Heading03">Our Mission</div>
+              <h4 className="Heading03">Our Mission</h4>
             </div>
             <p className="Paragraph my-0">
               We are crafting a digital method that subsists life across all

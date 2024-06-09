@@ -42,7 +42,7 @@ function Calculator() {
   return (
     <div className="h-100 w-100 d-flex justify-content-center  align-items-center position-relative">
       <img
-        alt="DubaiOTC"
+        alt="Sell USDT for cash in Dubai"
         src="/images/grad.png"
         className="img-fluid"
         style={{
@@ -106,9 +106,17 @@ function Calculator() {
                 >
                   <div className="d-flex gap-15">
                     {payCurrency === "AED" ? (
-                      <img alt="DubaiOTC" src="/images/aed.png" width={"34"} />
+                      <img
+                        alt="Sell USDT for cash in Dubai"
+                        src="/images/aed.png"
+                        width={"34"}
+                      />
                     ) : (
-                      <img alt="DubaiOTC" src="/images/inr.png" width={"34"} />
+                      <img
+                        alt="Sell USDT for cash in Dubai"
+                        src="/images/inr.png"
+                        width={"34"}
+                      />
                     )}
                     <select
                       value={payCurrency}
@@ -180,11 +188,23 @@ function Calculator() {
                 >
                   <div className="d-flex gap-15">
                     {getCurrency === "USDT" ? (
-                      <img alt="DubaiOTC" src="/images/usdt.png" width={"34"} />
+                      <img
+                        alt="Sell USDT for cash in Dubai"
+                        src="/images/usdt.png"
+                        width={"34"}
+                      />
                     ) : getCurrency === "BTC" ? (
-                      <img alt="DubaiOTC" src="/images/btc.png" width={"34"} />
+                      <img
+                        alt="Sell USDT for bank transfer in Dubai"
+                        src="/images/btc.png"
+                        width={"34"}
+                      />
                     ) : (
-                      <img alt="DubaiOTC" src="/images/eth.png" width={"34"} />
+                      <img
+                        alt="Sell USDT for bank transfer in Dubai"
+                        src="/images/eth.png"
+                        width={"34"}
+                      />
                     )}
                     <select
                       value={getCurrency}
@@ -314,7 +334,7 @@ function Calculator() {
             >
               0.880339
             </div>
-            <img alt="DubaiOTC" src="/images/eth.png" width={"24"} />
+            <img alt="Sell USDT for bank transfer in Dubai" src="/images/eth.png" width={"24"} />
           </div>
         </div> */}
       </div>

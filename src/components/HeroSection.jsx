@@ -13,7 +13,13 @@ export default function HeroSection() {
         </div>
         <div className="col-md-6">
           <img
-            alt="DubaiOTC"
+            alt="Buy
+            USDT
+            in
+            Dubai
+            for
+            bank
+            Transfer"
             src="images/V.gif"
             data-aos="fade"
             className="img-fluid p-5"

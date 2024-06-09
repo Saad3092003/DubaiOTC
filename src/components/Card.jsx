@@ -13,7 +13,7 @@ export const Card = ({ image, text1, text2, link1, link2 }) => {
       data-aos="fade-up"
     >
       <div className="d-flex gap-21 flex-column">
-        <img alt="DubaiOTC" src={image} />
+        <img alt="USDT Rate in Dubai" src={image} />
       </div>
       <div className="d-flex gap-14 flex-column px-4">
         <div className="card-text">{text1}</div>

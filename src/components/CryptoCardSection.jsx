@@ -291,35 +291,35 @@ export const CryptoCardSection = () => {
             className="justify-content-between px-md-5 gap-4 w-100 d-flex align-items-center"
           >
             <img
-              alt="DubaiOTC"
+              alt="USDT Rate in Dubai"
               onClick={() => setActive(0)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/huobi.png"
             />
             <img
-              alt="DubaiOTC"
+              alt="USDT Rate in Dubai"
               onClick={() => setActive(1)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/binance.png"
             />
             <img
-              alt="DubaiOTC"
+              alt="USDT Rate in Dubai"
               onClick={() => setActive(2)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/bitget.png"
             />
             <img
-              alt="DubaiOTC"
+              alt="USDT Rate in Dubai"
               onClick={() => setActive(3)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"
               src="images/okk.png"
             />
             <img
-              alt="DubaiOTC"
+              alt="Buy USDT in Dubai for bank Transfer"
               onClick={() => setActive(4)}
               style={{ cursor: "pointer" }}
               className="cryptoCard"

@@ -29,14 +29,14 @@ export const FooterCust = ({ home }) => {
           }}
         >
           <div className="text-white">
-            <h3
+            <h2
               className="Heading01"
               style={{
                 maxWidth: "898px",
               }}
             >
               Connect with Us on Telegram for Official Customer Support
-            </h3>
+            </h2>
             <div
               className="text-light Paragraphlarge"
               style={{
@@ -65,7 +65,7 @@ export const FooterCust = ({ home }) => {
                 }}
               >
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for bank Transfer"
                   src="images/telegram-icon.png"
                   width={42}
                   height={42}
@@ -107,7 +107,7 @@ export const FooterCust = ({ home }) => {
                 <div className="d-flex flex-column gap-33">
                   <div>
                     <img
-                      alt="DubaiOTC"
+                      alt="Buy USDT in Dubai for bank Transfer"
                       src="images/logo-white.png"
                       width={200}
                     />
@@ -152,7 +152,7 @@ export const FooterCust = ({ home }) => {
                   <a href="https://www.instagram.com/dubaiotc/" target="_blank">
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Buy USDT in Dubai for bank Transfer"
                         src="images/instagram-icon.png"
                         className="rounded-2"
                         height={54}
@@ -165,7 +165,7 @@ export const FooterCust = ({ home }) => {
                   >
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Buy USDT in Dubai for bank Transfer"
                         src="images/linkedin-icon.png"
                         className="rounded-2"
                         height={54}
@@ -175,7 +175,7 @@ export const FooterCust = ({ home }) => {
                   <a href="https://twitter.com/DubaiOtc" target="_blank">
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Buy USDT in Dubai for bank Transfer"
                         src="images/twitter-icon.png"
                         className="rounded-2"
                         height={54}
@@ -185,7 +185,7 @@ export const FooterCust = ({ home }) => {
                   <a href="https://medium.com/@dubaiotc" target="_blank">
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Sell USDT for cash in Dubai"
                         src="images/medium-icon.png"
                         className="rounded-2"
                         height={54}
@@ -198,7 +198,7 @@ export const FooterCust = ({ home }) => {
                   >
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Sell USDT for cash in Dubai"
                         src="images/reddit-icon.png"
                         className="rounded-2"
                         height={54}
@@ -208,7 +208,7 @@ export const FooterCust = ({ home }) => {
                   <a href="https://www.pinterest.com/DubaiOTC/" target="_blank">
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Sell USDT for cash in Dubai"
                         src="images/pinterest-icon.png"
                         className="rounded-2"
                         height={54}
@@ -218,7 +218,7 @@ export const FooterCust = ({ home }) => {
                   <a href="https://www.facebook.com/dubaiotc/" target="_blank">
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Sell USDT for cash in Dubai"
                         src="images/facebook-icon.png"
                         className="rounded-2"
                         height={54}
@@ -231,7 +231,7 @@ export const FooterCust = ({ home }) => {
                   >
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Sell USDT for cash in Dubai"
                         src="images/quora-icon.png"
                         className="rounded-2"
                         height={54}
@@ -241,7 +241,7 @@ export const FooterCust = ({ home }) => {
                   <a href="" target="_blank">
                     <div className="footer-social">
                       <img
-                        alt="DubaiOTC"
+                        alt="Sell USDT for cash in Dubai"
                         src="images/discord-icon.png"
                         className="rounded-2"
                         height={54}

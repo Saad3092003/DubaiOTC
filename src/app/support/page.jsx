@@ -16,28 +16,28 @@ const Support = () => {
           style={{ minHeight: "375px" }}
         >
           <div className="h-100 d-flex flex-column justify-content-center align-items-center">
-            <div className="hero-text mt-3">Help desk</div>
+            <h1 className="hero-text mt-3">Help desk</h1>
           </div>
         </div>
       </div>
 
       {/* News artical */}
       <div className="container" style={{ marginTop: "120px" }}>
-        <h1 className="Heading01 text-center">News & articles</h1>
+        <h2 className="Heading01 text-center">News & articles</h2>
         <div className="mt-4">
           <div className="row g-4 justify-content-center">
             <div className="col-md-5">
               <div className="news-card">
                 <img
-                  alt="DubaiOTC"
+                  alt="Sell USDT for cash in Dubai"
                   src="/images/artical1.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
+                  <h3 className="Heading03" style={{ color: "#22246A" }}>
                     Cryptocurrency OTC Services in India
-                  </div>
+                  </h3>
                   <div className="Paragraph">
                     Experience our professional Crypto OTC exchange services in
                     major cities in India,
@@ -54,15 +54,15 @@ const Support = () => {
             <div className="col-md-5">
               <div className="news-card">
                 <img
-                  alt="DubaiOTC"
+                  alt="Sell USDT for cash in Dubai"
                   src="/images/artical2.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
+                  <h3 className="Heading03" style={{ color: "#22246A" }}>
                     India Bank Transfer
-                  </div>
+                  </h3>
                   <div className="Paragraph">
                     For clients in India, we support IMPS/RTGS/NEFT payment
                     methods for bank transfers. Our platform also offers escrow
@@ -80,15 +80,15 @@ const Support = () => {
             <div className="col-md-5">
               <div className="news-card">
                 <img
-                  alt="DubaiOTC"
+                  alt="Sell USDT for cash in Dubai"
                   src="/images/artical1.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
+                  <h3 className="Heading03" style={{ color: "#22246A" }}>
                     Cryptocurrency OTC Services in India
-                  </div>
+                  </h3>
                   <div className="Paragraph">
                     Experience our professional Crypto OTC exchange services in
                     major cities in India,
@@ -105,15 +105,15 @@ const Support = () => {
             <div className="col-md-5">
               <div className="news-card">
                 <img
-                  alt="DubaiOTC"
+                  alt="Sell USDT for cash in Dubai"
                   src="/images/artical2.png"
                   className="object-fit-cover rounded-4 w-100"
                   height={"256"}
                 />
                 <div className="content d-flex flex-column gap-14 align-items-start">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
+                  <h3 className="Heading03" style={{ color: "#22246A" }}>
                     India Bank Transfer
-                  </div>
+                  </h3>
                   <div className="Paragraph">
                     For clients in India, we support IMPS/RTGS/NEFT payment
                     methods for bank transfers. Our platform also offers escrow
@@ -139,13 +139,13 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/E1.png"
                   style={{ width: "48px", height: "48px" }}
                 />
               </div>
               <div className="d-flex flex-column gap-1">
-                <div
+                <h4
                   style={{
                     color: "#1A1A1A",
                     fontSize: "20.488px",
@@ -154,7 +154,7 @@ const Support = () => {
                   }}
                 >
                   Knowledge Base
-                </div>
+                </h4>
                 <div
                   style={{
                     color: "#757B8C",
@@ -172,13 +172,13 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/E2.svg"
                   style={{ width: "48px", height: "48px" }}
                 />
               </div>
               <div className="d-flex flex-column gap-1">
-                <div
+                <h4
                   style={{
                     color: "#1A1A1A",
                     fontSize: "20.488px",
@@ -187,7 +187,7 @@ const Support = () => {
                   }}
                 >
                   Registration & Login
-                </div>
+                </h4>
                 <div
                   style={{
                     color: "#757B8C",
@@ -205,13 +205,13 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/E3.svg"
                   style={{ width: "48px", height: "48px" }}
                 />
               </div>
               <div className="d-flex flex-column gap-1">
-                <div
+                <h4
                   style={{
                     color: "#1A1A1A",
                     fontSize: "20.488px",
@@ -220,7 +220,7 @@ const Support = () => {
                   }}
                 >
                   Payment Options
-                </div>
+                </h4>
                 <div
                   style={{
                     color: "#757B8C",
@@ -238,13 +238,13 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/E4.svg"
                   style={{ width: "48px", height: "48px" }}
                 />
               </div>
               <div className="d-flex flex-column gap-1">
-                <div
+                <h4
                   style={{
                     color: "#1A1A1A",
                     fontSize: "20.488px",
@@ -253,7 +253,7 @@ const Support = () => {
                   }}
                 >
                   Technical
-                </div>
+                </h4>
                 <div
                   style={{
                     color: "#757B8C",
@@ -271,13 +271,13 @@ const Support = () => {
             <div className="d-flex flex-wrap gap-20 align-items-center">
               <div>
                 <img
-                  alt="DubaiOTC"
+                  alt="USDT Rate in Dubai"
                   src="/images/E4.svg"
                   style={{ width: "48px", height: "48px" }}
                 />
               </div>
               <div className="d-flex flex-column gap-1">
-                <div
+                <h4
                   style={{
                     color: "#1A1A1A",
                     fontSize: "20.488px",
@@ -286,7 +286,7 @@ const Support = () => {
                   }}
                 >
                   Support
-                </div>
+                </h4>
                 <div
                   style={{
                     color: "#757B8C",
@@ -314,10 +314,10 @@ const Support = () => {
         }}
       >
         <div className="container">
-          <div className="Heading01 mb-5 text-center">Knowledge Base</div>
+          <h3 className="Heading01 mb-5 text-center">Knowledge Base</h3>
           <div className="accordion " id="accordionExample1">
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingOne">
+              <h4 className="accordion-header" id="headingOne">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -328,7 +328,7 @@ const Support = () => {
                 >
                   What is OTC trading?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseOne"
                 className="accordion-collapse collapse"
@@ -345,7 +345,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -356,7 +356,7 @@ const Support = () => {
                 >
                   What is DubaiOTC?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseTwo"
                 className="accordion-collapse collapse"
@@ -372,7 +372,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingThree">
+              <h4 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -383,7 +383,7 @@ const Support = () => {
                 >
                   How does OTC Exchange work?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseThree"
                 className="accordion-collapse collapse"
@@ -414,7 +414,7 @@ const Support = () => {
           </div>
           <div className="accordion " id="accordionExample2">
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingOne">
+              <h4 className="accordion-header" id="headingOne">
                 <button
                   className="accordion-button text-white collapsed"
                   type="button"
@@ -425,7 +425,7 @@ const Support = () => {
                 >
                   What cryptocurrencies do you support?{" "}
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseOne2"
                 className="accordion-collapse collapse text-white"
@@ -441,7 +441,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button text-white collapsed"
                   type="button"
@@ -452,7 +452,7 @@ const Support = () => {
                 >
                   What is the minimum and maximum trade size?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseTwo2"
                 className="accordion-collapse collapse text-white"
@@ -466,7 +466,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingThree">
+              <h4 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button text-white collapsed"
                   type="button"
@@ -477,7 +477,7 @@ const Support = () => {
                 >
                   What are the fees associated with OTC trading?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseThree2"
                 className="accordion-collapse collapse text-white"
@@ -493,7 +493,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingFour2">
+              <h4 className="accordion-header" id="headingFour2">
                 <button
                   className="accordion-button text-white collapsed"
                   type="button"
@@ -504,7 +504,7 @@ const Support = () => {
                 >
                   Can I trade fiat currencies for cryptocurrencies OTC?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseFour2"
                 className="accordion-collapse collapse text-white"
@@ -533,7 +533,7 @@ const Support = () => {
           <div className="Heading01 mb-5 text-center">Payment Options</div>
           <div className="accordion " id="accordionExample3">
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingOne">
+              <h4 className="accordion-header" id="headingOne">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -544,7 +544,7 @@ const Support = () => {
                 >
                   What documentation is required to start trading?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseOne3"
                 className="accordion-collapse collapse"
@@ -560,7 +560,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -571,7 +571,7 @@ const Support = () => {
                 >
                   How is pricing determined for OTC trades?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseTwo3"
                 className="accordion-collapse collapse"
@@ -586,7 +586,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingThree">
+              <h4 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -597,7 +597,7 @@ const Support = () => {
                 >
                   What security measures are in place to protect my assets?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseThree3"
                 className="accordion-collapse collapse"
@@ -612,7 +612,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingFour">
+              <h4 className="accordion-header" id="headingFour">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -623,7 +623,7 @@ const Support = () => {
                 >
                   Can I get market insights or assistance with market analysis?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseFour3"
                 className="accordion-collapse collapse"
@@ -639,7 +639,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingFive">
+              <h4 className="accordion-header" id="headingFive">
                 <button
                   className="accordion-button collapsed"
                   type="button"
@@ -650,7 +650,7 @@ const Support = () => {
                 >
                   Do you offer 24/7 support?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseFive3"
                 className="accordion-collapse collapse"
@@ -679,7 +679,7 @@ const Support = () => {
           <div className="Heading01 mb-5 text-center text-white">Technical</div>
           <div className="accordion " id="accordionExample4">
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingOne">
+              <h4 className="accordion-header" id="headingOne">
                 <button
                   className="accordion-button text-white collapsed"
                   type="button"
@@ -691,7 +691,7 @@ const Support = () => {
                   Can I execute trades via phone or other communication
                   channels?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseOne4"
                 className="accordion-collapse collapse text-white"
@@ -706,7 +706,7 @@ const Support = () => {
             </div>
             <hr />
             <div className="accordion-item">
-              <h5 className="accordion-header" id="headingTwo">
+              <h4 className="accordion-header" id="headingTwo">
                 <button
                   className="accordion-button text-white collapsed"
                   type="button"
@@ -717,7 +717,7 @@ const Support = () => {
                 >
                   Are there any restrictions on who can use the OTC desk?
                 </button>
-              </h5>
+              </h4>
               <div
                 id="collapseTwo4"
                 className="accordion-collapse collapse text-white"

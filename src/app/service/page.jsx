@@ -17,7 +17,7 @@ function WorkCard({ count, title, desc }) {
         {count}
       </div>
       <div className="d-flex flex-column gap-6">
-        <div className="Heading04">{title}</div>
+        <h4 className="Heading04">{title}</h4>
         <div className="Paragraph">{desc}</div>
       </div>
     </div>
@@ -34,66 +34,117 @@ const Features = () => {
         <div className="py-5 text-white container ">
           <div className="row px-2 g-5 flex-wrap-reverse">
             <div className="col-md-6">
-              <div className="gap-41 d-flex flex-column">
-                <div className="Heading01 text-h1">
+              <div className="gap-10 d-flex flex-column">
+                <h1 className="Heading01 text-h1">
                   Buy <Type />
                   with AED within minutes
-                </div>
+                </h1>
                 <div className="d-flex gap-15 align-items-center">
                   <div>
                     <img
-                      alt="DubaiOTC"
+                      alt="Sell USDT for bank transfer in Dubai"
                       src="images/Check.png"
-                      width={"32"}
-                      height={"32"}
+                      width={"25"}
+                      height={"25"}
                     />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Buy as much as you need – we support volumes from 5 AED to
-                    up to 10M AED.
-                  </div>
-                </div>
-                <div className="d-flex gap-15 align-items-center">
-                  <div>
-                    <img
-                      alt="DubaiOTC"
-                      src="images/Check.png"
-                      width={"32"}
-                      height={"32"}
-                    />
-                  </div>
-                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Receive crypto directly in any Metamask, Trust, or other
-                    crypto wallet. As a non-custodial solution Swapin never
-                    holds your funds.
+                    USDT OTC in Dubai
                   </div>
                 </div>
                 <div className="d-flex gap-15 align-items-center">
                   <div>
                     <img
-                      alt="DubaiOTC"
+                      alt="Sell USDT for bank transfer in Dubai"
                       src="images/Check.png"
-                      width={"32"}
-                      height={"32"}
+                      width={"25"}
+                      height={"25"}
                     />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Enjoy the convenience of a Dedicated IBAN issued in your
-                    name for seamless transactions.
+                    USDT Rate in Dubai
                   </div>
                 </div>
-                <div>
-                  <button
-                    className="btn btn-primary rounded-pill"
-                    style={{ padding: "12px 33px" }}
-                  >
-                    Buy Crypto Now
-                  </button>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="Buy USDT in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Buy USDT in Dubai for cash
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="Buy USDT in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Buy USDT in Dubai for bank Transfer
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="Buy USDT in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Sell USDT in Dubai
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="Buy USDT in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Sell USDT for cash in Dubai
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="USDT OTC in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Sell USDT for bank transfer in Dubai
+                  </div>
+                </div>
+                <div className="mt-3">
+                  <a href="https://t.me/DubaiOTCofficial" target="_blank">
+                    <button
+                      className="btn btn-primary rounded-pill"
+                      style={{ padding: "12px 33px" }}
+                    >
+                      Buy Crypto Now
+                      <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                    </button>
+                  </a>
                 </div>
                 <div className="d-flex flex-column gap-6">
                   <div className="Paragraph">Excellent 247 Reviews on</div>
                   <img
-                    alt="DubaiOTC"
+                    alt="USDT OTC in Dubai"
                     src="/images/trust.png"
                     className="img-fluid rounded-3"
                     width={"150"}
@@ -107,15 +158,22 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="py-5 container ">
-        <div className="row px-2 py-5 g-5 justify-content-between">
+      <div className="pt-5 container ">
+        <div className="row px-2 pt-5 g-5 justify-content-between">
           <div className="col-md-5">
-            <img alt="DubaiOTC" src="/images/work.png" className="img-fluid" />
+            <img
+              alt="USDT OTC in Dubai"
+              src="/images/work.png"
+              className="img-fluid"
+            />
           </div>
           <div className="col-md-6">
             <div className="d-flex gap-41 flex-column">
-              <div className="Heading01 text-center text-md-start">
-                How Does it Works?
+              <div>
+                <h6 className="text-center">
+                  Buy and sell USDT in the UAE effortlessly with DubaiOTC.
+                </h6>
+                <h2 className="Heading01 text-center">How Does it Works?</h2>
               </div>
               <WorkCard
                 count={1}
@@ -139,12 +197,15 @@ const Features = () => {
                 }
               />
               <div>
-                <button
-                  className="btn btn-primary rounded-pill"
-                  style={{ padding: "12px 33px" }}
-                >
-                  Get Started
-                </button>
+                <a href="https://t.me/DubaiOTCofficial" target="_blank">
+                  <button
+                    className="btn btn-primary rounded-pill"
+                    style={{ padding: "12px 33px" }}
+                  >
+                    Get Started{" "}
+                    <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -152,14 +213,17 @@ const Features = () => {
       </div>
 
       {/* Content xplanation Section */}
-      <div className="py-5">
+      <div className="pb-5">
         <div style={{ backgroundColor: "#FFFFFF", paddingBlock: "100px" }}>
           <div className="container">
             <div className="row">
               <div className="col-md-6">
                 <div className="gap-17 d-flex flex-column p-3 p-md-5 ps-0">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
-                    Cryptocurrency OTC Services in Dubai
+                  <div>
+                    <h6 className="text-center">USDT Rate in Dubai</h6>
+                    <h2 className="Heading03" style={{ color: "#22246A" }}>
+                      Cryptocurrency OTC Services in Dubai
+                    </h2>
                   </div>
                   <div className="Paragraph">
                     Discover our professional Crypto OTC exchange services in
@@ -173,7 +237,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/f1.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -186,8 +250,11 @@ const Features = () => {
             <div className="row flex-row-reverse">
               <div className="col-md-6">
                 <div className="gap-17 d-flex flex-column p-3 p-md-5 ps-0">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
-                    Cryptocurrency OTC Services in India
+                  <div>
+                    <h6 className="text-center">Buy USDT in Dubai for cash</h6>
+                    <h3 className="Heading03" style={{ color: "#22246A" }}>
+                      Cryptocurrency OTC Services in India
+                    </h3>
                   </div>
                   <div className="Paragraph">
                     Experience our professional Crypto OTC exchange services in
@@ -201,7 +268,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/f2.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -214,8 +281,13 @@ const Features = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="gap-17 d-flex flex-column p-3 p-md-5 ps-0">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
-                    India Bank Transfer
+                  <div>
+                    <h6 className="text-center">
+                      Buy USDT in Dubai for bank Transfer
+                    </h6>
+                    <h2 className="Heading03" style={{ color: "#22246A" }}>
+                      India Bank Transfer
+                    </h2>
                   </div>
                   <div className="Paragraph">
                     For clients in India, we support IMPS/RTGS/NEFT payment
@@ -228,7 +300,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/f3.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -241,8 +313,11 @@ const Features = () => {
             <div className="row flex-row-reverse">
               <div className="col-md-6">
                 <div className="gap-17 d-flex flex-column p-3 p-md-5 ps-0">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
-                    Manager’s Cheque
+                  <div>
+                    <h6 className="text-center">Sell USDT in Dubai</h6>
+                    <h3 className="Heading03" style={{ color: "#22246A" }}>
+                      Manager’s Cheque
+                    </h3>
                   </div>
                   <div className="Paragraph">
                     Manager&apos;s cheques are a trusted and widely accepted
@@ -257,7 +332,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/f4.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -270,8 +345,11 @@ const Features = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="gap-17 d-flex flex-column p-3 p-md-5 ps-0">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
-                    Cryptocurrency OTC Services in India
+                  <div>
+                    <h6 className="text-center">Sell USDT for cash in Dubai</h6>
+                    <h3 className="Heading03" style={{ color: "#22246A" }}>
+                      Cryptocurrency OTC Services in India
+                    </h3>
                   </div>
                   <div className="Paragraph">
                     Experience our professional Crypto OTC exchange services in
@@ -285,7 +363,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/f5.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -298,8 +376,13 @@ const Features = () => {
             <div className="row flex-row-reverse">
               <div className="col-md-6">
                 <div className="gap-17 d-flex flex-column p-3 p-md-5 ps-0">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
-                    SEPA Payments
+                  <div>
+                    <h6 className="text-center">
+                      Sell USDT for bank transfer in Dubai
+                    </h6>
+                    <h3 className="Heading03" style={{ color: "#22246A" }}>
+                      SEPA Payments
+                    </h3>
                   </div>
                   <div className="Paragraph">
                     Our platform provides SEPA transfers for seamless B2B & B2C
@@ -311,7 +394,7 @@ const Features = () => {
               </div>
               <div className="col-md-6">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for cash"
                   src="/images/f6.png"
                   className="img-fluid w-100 rounded-4"
                 />
@@ -324,26 +407,33 @@ const Features = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="gap-17 d-flex flex-column p-3 p-md-5 ps-0">
-                  <div className="Heading03" style={{ color: "#22246A" }}>
+                  <h3 className="Heading03" style={{ color: "#22246A" }}>
                     How To Trade
-                  </div>
+                  </h3>
                   <div className="Paragraph">
                     Unlock exclusive trading benefits with our registered
                     partnerships:
                     <br />
-                    1.Binance Professional Merchant Partner - Check our Profile
                     <br />
-                    2.Kucoin Merchant - Check our Profile
-                    <br />
-                    3.HTX Super Advertiser - Check our Profile
-                    <br />
-                    4.OKX Diamond Merchant - Check our Profile
+                    <div className="fw-bold">
+                      1. Binance Professional Merchant Partner - Check our
+                      Profile
+                      <br />
+                      <br />
+                      2. Kucoin Merchant - Check our Profile
+                      <br />
+                      <br />
+                      3. HTX Super Advertiser - Check our Profile
+                      <br />
+                      <br />
+                      4. OKX Diamond Merchant - Check our Profile
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="col-md-6">
                 <img
-                  alt="DubaiOTC"
+                  alt="Buy USDT in Dubai for bank Transfer"
                   src="/images/f7.png"
                   className="img-fluid w-100 rounded-4"
                 />
