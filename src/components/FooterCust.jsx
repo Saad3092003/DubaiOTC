@@ -103,7 +103,7 @@ export const FooterCust = ({ home }) => {
         <div className="d-flex gap-16 flex-column text-white h-100 align-items-center">
           <div style={{ maxWidth: "1600px" }}>
             <div className="row g-5">
-              <div className="col-md-5">
+              <div className="col-lg-4 col-md-12">
                 <div className="d-flex flex-column gap-33">
                   <div>
                     <img
@@ -117,7 +117,6 @@ export const FooterCust = ({ home }) => {
                     exchange platform based in Dubai, that facilitates the
                     buying and selling of cryptocurrencies in the UAE.
                     <br />
-                    <br />
                     We offer top-class cryptocurrency trading services to
                     individuals, companies and investors of all magnitudes and
                     experiences in the crypto space. At DubaiOTC, we make
@@ -125,9 +124,9 @@ export const FooterCust = ({ home }) => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-lg-2 col-md-6">
                 <div className="d-flex flex-column gap-32">
-                  <div className="Heading03">Explore More</div>
+                  <div className="Heading03">Pages</div>
                   <div className="d-flex text-light flex-column gap-20">
                     <Link className="anot" href="/">
                       <div className="Paragraphmd">Home</div>
@@ -144,7 +143,48 @@ export const FooterCust = ({ home }) => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-lg-3 col-md-6">
+                <div className="d-flex flex-column gap-32">
+                  <div className="Heading03">Explore More</div>
+                  <div className="d-flex flex-wrap gap-40">
+                    <div className="d-flex text-light flex-column gap-20">
+                      <Link className="anot" href="/buy-USDT">
+                        <div className="Paragraphmd">Buy USDT</div>
+                      </Link>
+                      <Link className="anot" href="/sell-ETH">
+                        <div className="Paragraphmd">Sell ETH</div>
+                      </Link>
+                      <Link className="anot" href="/buy-Bitcoin">
+                        <div className="Paragraphmd">Buy Bitcoin</div>
+                      </Link>
+                      <Link className="anot" href="/buy-USDC">
+                        <div className="Paragraphmd">Buy USDC</div>
+                      </Link>
+                      <Link className="anot" href="/buy-TUSD">
+                        <div className="Paragraphmd">Buy TUSD</div>
+                      </Link>
+                    </div>
+                    <div className="d-flex text-light flex-column gap-20">
+                      <Link className="anot" href="/sell-USDT">
+                        <div className="Paragraphmd">Sell USDT</div>
+                      </Link>
+                      <Link className="anot" href="/buy-ETH">
+                        <div className="Paragraphmd">Buy ETH</div>
+                      </Link>
+                      <Link className="anot" href="/sell-Bitcoin">
+                        <div className="Paragraphmd">Sell Bitcoin</div>
+                      </Link>
+                      <Link className="anot" href="/sell-USDC">
+                        <div className="Paragraphmd">Sell USDC</div>
+                      </Link>
+                      <Link className="anot" href="/sell-TUSD">
+                        <div className="Paragraphmd">Sell TUSD</div>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-12">
                 <div className="d-flex mb-4 flex-column gap-50">
                   <div className="Heading01">Get in touch with us now</div>
                 </div>
