@@ -1,6 +1,7 @@
-import { FooterCust } from "../../components/FooterCust";
-import { Header } from "../../components/Header";
 import PartnersSlider from "../../components/PartnersSlider";
+import { Header } from "../../components/Header";
+import { FooterCust } from "../../components/FooterCust";
+import Calculator from "../../components/Calculator";
 
 function WorkCard({ count, title, desc }) {
   return (
@@ -22,24 +23,89 @@ function WorkCard({ count, title, desc }) {
   );
 }
 
-const Company = () => {
+const Features = () => {
   return (
     <>
-      <div className="container mt-3">
-        <Header type="plain" />
-      </div>
-
-      <section className="container mt-5">
-        {/* hero section */}
-        <div
-          className="conpany-section rounded-3 p-4 d-flex flex-column justify-content-center align-items-center"
-          style={{ minHeight: "375px" }}
-        >
-          <div className="h-100 d-flex flex-column justify-content-center align-items-center">
-            <h1 className="hero-text mt-3">Sell ETH</h1>
+      <div className="hero-section pt-3">
+        <div className="container">
+          <Header />
+        </div>
+        <div className="py-5 text-white container ">
+          <div className="row px-2 g-5 flex-wrap-reverse">
+            <div className="col-md-6">
+              <div className="gap-10 d-flex flex-column">
+                <h1 className="Heading01 text-h1">Sell ETH</h1>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="Sell USDT for bank transfer in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Buy as much as you need – we support volumes from 5 AED to
+                    up to 10M AED.
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="Sell USDT for bank transfer in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Receive crypto directly in any Metamask, Trust, or other
+                    crypto wallet. As a non-custodial solution Swapin never
+                    holds your funds.
+                  </div>
+                </div>
+                <div className="d-flex gap-15 align-items-center">
+                  <div>
+                    <img
+                      alt="Buy USDT in Dubai"
+                      src="images/Check.png"
+                      width={"25"}
+                      height={"25"}
+                    />
+                  </div>
+                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
+                    Enjoy the convenience of a Dedicated IBAN issued in your
+                    name for seamless transactions.
+                  </div>
+                </div>
+                <div className="mt-3">
+                  <a href="https://t.me/DubaiOTCofficial" target="_blank">
+                    <button
+                      className="btn btn-primary rounded-pill"
+                      style={{ padding: "12px 33px" }}
+                    >
+                      Buy Crypto Now
+                      <i class="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                    </button>
+                  </a>
+                </div>
+                <div className="d-flex flex-column gap-6">
+                  <div className="Paragraph">Excellent 247 Reviews on</div>
+                  <img
+                    alt="USDT OTC in Dubai"
+                    src="/images/trust.png"
+                    className="img-fluid rounded-3"
+                    width={"150"}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 ">
+              <Calculator />
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <div className="pt-5 container ">
         <div className="row px-2 pt-5 g-5 justify-content-between">
@@ -346,4 +412,4 @@ const Company = () => {
   );
 };
 
-export default Company;
+export default Features;

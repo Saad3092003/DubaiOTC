@@ -2,7 +2,7 @@ import Type from "./Type";
 import PartnersSlider from "../../components/PartnersSlider";
 import { Header } from "../../components/Header";
 import { FooterCust } from "../../components/FooterCust";
-import Calculator from "./Calculator";
+import Calculator from "../../components/Calculator";
 
 function WorkCard({ count, title, desc }) {
   return (

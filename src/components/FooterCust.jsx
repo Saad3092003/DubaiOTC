@@ -151,8 +151,8 @@ export const FooterCust = ({ home }) => {
                       <Link className="anot" href="/buy-USDT">
                         <div className="Paragraphmd">Buy USDT</div>
                       </Link>
-                      <Link className="anot" href="/sell-ETH">
-                        <div className="Paragraphmd">Sell ETH</div>
+                      <Link className="anot" href="/buy-ETH">
+                        <div className="Paragraphmd">Buy ETH</div>
                       </Link>
                       <Link className="anot" href="/buy-Bitcoin">
                         <div className="Paragraphmd">Buy Bitcoin</div>
@@ -168,8 +168,8 @@ export const FooterCust = ({ home }) => {
                       <Link className="anot" href="/sell-USDT">
                         <div className="Paragraphmd">Sell USDT</div>
                       </Link>
-                      <Link className="anot" href="/buy-ETH">
-                        <div className="Paragraphmd">Buy ETH</div>
+                      <Link className="anot" href="/sell-ETH">
+                        <div className="Paragraphmd">Sell ETH</div>
                       </Link>
                       <Link className="anot" href="/sell-Bitcoin">
                         <div className="Paragraphmd">Sell Bitcoin</div>
