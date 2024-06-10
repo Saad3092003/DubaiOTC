@@ -49,7 +49,8 @@ const Features = () => {
                     />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    USDT OTC in Dubai
+                    Buy as much as you need – we support volumes from 5 AED to
+                    up to 10M AED.
                   </div>
                 </div>
                 <div className="d-flex gap-15 align-items-center">
@@ -62,7 +63,9 @@ const Features = () => {
                     />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    USDT Rate in Dubai
+                    Receive crypto directly in any Metamask, Trust, or other
+                    crypto wallet. As a non-custodial solution Swapin never
+                    holds your funds.
                   </div>
                 </div>
                 <div className="d-flex gap-15 align-items-center">
@@ -75,59 +78,8 @@ const Features = () => {
                     />
                   </div>
                   <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Buy USDT in Dubai for cash
-                  </div>
-                </div>
-                <div className="d-flex gap-15 align-items-center">
-                  <div>
-                    <img
-                      alt="Buy USDT in Dubai"
-                      src="images/Check.png"
-                      width={"25"}
-                      height={"25"}
-                    />
-                  </div>
-                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Buy USDT in Dubai for bank Transfer
-                  </div>
-                </div>
-                <div className="d-flex gap-15 align-items-center">
-                  <div>
-                    <img
-                      alt="Buy USDT in Dubai"
-                      src="images/Check.png"
-                      width={"25"}
-                      height={"25"}
-                    />
-                  </div>
-                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Sell USDT in Dubai
-                  </div>
-                </div>
-                <div className="d-flex gap-15 align-items-center">
-                  <div>
-                    <img
-                      alt="Buy USDT in Dubai"
-                      src="images/Check.png"
-                      width={"25"}
-                      height={"25"}
-                    />
-                  </div>
-                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Sell USDT for cash in Dubai
-                  </div>
-                </div>
-                <div className="d-flex gap-15 align-items-center">
-                  <div>
-                    <img
-                      alt="USDT OTC in Dubai"
-                      src="images/Check.png"
-                      width={"25"}
-                      height={"25"}
-                    />
-                  </div>
-                  <div className="Paragraph" style={{ color: "#f7f7f7" }}>
-                    Sell USDT for bank transfer in Dubai
+                    Enjoy the convenience of a Dedicated IBAN issued in your
+                    name for seamless transactions.
                   </div>
                 </div>
                 <div className="mt-3">
