@@ -74,6 +74,7 @@ const KYB = () => {
         ) : (
           <iframe
             className="w-100 "
+            allow="microphone *;camera *;midi *;encrypted-media *;clipboard-read;clipboard-write;"
             style={{ height: "1000px" }}
             src={`https://kyc-forms.amlbot.com/${verId}`}
           ></iframe>
